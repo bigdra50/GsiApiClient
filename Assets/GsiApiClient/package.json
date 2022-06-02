@@ -1,5 +1,5 @@
 {
-  "name": "jp.bigdra.gsi-api-client",
+  "name": "dev.bigdra.gsi-api-client",
   "displayName": "GSI API Client",
   "version": "0.0.1",
   "unity": "2021.3",
@@ -10,6 +10,6 @@
   },
   "keywords": [],
   "dependencies": {
-    
+    "com.cysharp.unitask": "2.3.1"
   }
 }
