@@ -1,0 +1,15 @@
+{
+  "name": "jp.bigdra.gsi-api-client",
+  "displayName": "GSI API Client",
+  "version": "0.0.1",
+  "unity": "2021.3",
+  "description": "API Client for Geospatial Information Authority",
+  "author": {
+    "name": "bigdra",
+    "url": "https://github.com/bigdra50"
+  },
+  "keywords": [],
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  }
+}
