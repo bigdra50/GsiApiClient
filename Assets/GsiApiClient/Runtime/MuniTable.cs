@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GsiApiClient.Runtime.Scripts
+namespace GsiApiClient.Runtime
 {
     /// <summary>
     /// 市町村データの変換テーブル

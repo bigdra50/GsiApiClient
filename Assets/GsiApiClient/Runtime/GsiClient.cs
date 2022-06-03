@@ -1,6 +1,6 @@
 ﻿using System;
+using System.Linq;
 using Cysharp.Threading.Tasks;
-using GsiApiClient.Runtime.DeserializedJson;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -19,13 +19,23 @@ namespace GsiApiClient.Runtime
 
         private static string DistanceBaseUrl() => "https://vldb.gsi.go.jp/sokuchi/surveycalc/surveycalc/bl2st_calc.pl";
 
-        public static async UniTask<(int municd, string lv01Nm)> RequestLonLat2AddressAsync(double latitude, double longitude)
+        public static async UniTask<Address> RequestLonLat2AddressAsync(double latitude, double longitude)
         {
             return await RequestGetAsync(LonLat2AddressUrl(latitude, longitude))
                 .ContinueWith(json =>
                 {
-                    var deserialized = JsonUtility.FromJson<LonLat2Address>(json).results;
-                    return (deserialized.muniCd, deserialized.lv01Nm);
+                    var addressResults = JsonUtility.FromJson<LonLat2Address>(json).results;
+                    var municdJson = Resources.Load<TextAsset>("municd").ToString();
+                    var addressData = JsonUtility
+                        .FromJson<MunicdJson>(municdJson)
+                        .array
+                        .FirstOrDefault(x => addressResults.muniCd == x.muniCd);
+                    return new Address
+                    {
+                        Prefecture = addressData.prefecture,
+                        City = addressData.city,
+                        Lv01Nm = addressResults.lv01Nm
+                    };
                 });
         }
 

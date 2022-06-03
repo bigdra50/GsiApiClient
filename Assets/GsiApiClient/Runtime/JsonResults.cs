@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GsiApiClient.Runtime.DeserializedJson
+namespace GsiApiClient.Runtime
 {
     [Serializable]
     public struct LonLat2Address
@@ -50,4 +50,5 @@ namespace GsiApiClient.Runtime.DeserializedJson
         public double longitude;
         public double geoidHeight;
     }
+
 }

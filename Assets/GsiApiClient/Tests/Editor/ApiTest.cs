@@ -32,7 +32,7 @@ namespace GsiApiClient.Tests.Editor
             UniTask.ToCoroutine(async () =>
             {
                 var result = await GsiClient.RequestLonLat2AddressAsync(value.lat, value.lgt);
-                Debug.Log($"{result.municd},{result.lv01Nm}");
+                Debug.Log($"{result.Prefecture},{result.City},{result.Lv01Nm}");
             });
 
         [UnityTest]
