@@ -17,13 +17,16 @@ namespace GsiApiClient.Runtime
         private static string GeoidHeightUrl(double latitude, double longitude) =>
             $"https://vldb.gsi.go.jp/sokuchi/surveycalc/geoid/calcgh/cgi/geoidcalc.pl?outputType=json&latitude={latitude}&longitude={longitude}";
 
-        private static string DistanceBaseUrl() => "https://vldb.gsi.go.jp/sokuchi/surveycalc/surveycalc/bl2st_calc.pl?";
+        private static string DistanceBaseUrl() => "https://vldb.gsi.go.jp/sokuchi/surveycalc/surveycalc/bl2st_calc.pl";
 
-        public static async UniTask<string> RequestLonLat2AddressAsync(
-            double latitude, double longitude)
+        public static async UniTask<(int municd, string lv01Nm)> RequestLonLat2AddressAsync(double latitude, double longitude)
         {
-            throw new NotImplementedException();
-            return await RequestGetAsync(LonLat2AddressUrl(latitude, longitude));
+            return await RequestGetAsync(LonLat2AddressUrl(latitude, longitude))
+                .ContinueWith(json =>
+                {
+                    var deserialized = JsonUtility.FromJson<LonLat2Address>(json).results;
+                    return (deserialized.muniCd, deserialized.lv01Nm);
+                });
         }
 
         /// <summary>
@@ -33,8 +36,7 @@ namespace GsiApiClient.Runtime
         /// <param name="latitude"></param>
         /// <param name="longitude"></param>
         /// <returns></returns>
-        public static async UniTask<double> RequestGeoidHeight(
-            double latitude, double longitude)
+        public static async UniTask<double> RequestGeoidHeight(double latitude, double longitude)
         {
             return await RequestGetAsync(GeoidHeightUrl(latitude, longitude))
                 .ContinueWith(json =>
@@ -49,15 +51,9 @@ namespace GsiApiClient.Runtime
             double toLat, double toLgt,
             Ellipsoid ellipsoid = Ellipsoid.Grs80)
         {
-            var ellipsoidQuery = ellipsoid switch
-            {
-                Ellipsoid.Grs80 => "GRS80",
-                Ellipsoid.Bessel => "bessel",
-                _ => throw new ArgumentOutOfRangeException(nameof(ellipsoid), ellipsoid, null)
-            };
-            var query =
-                $"outputType=json&ellipsoid={ellipsoidQuery}&latitude1={fromLat}&longitude1={fromLgt}&latitude2={toLat}&longitude2={toLgt}";
-            var json = await RequestGetAsync(DistanceBaseUrl() + query);
+            var reqParams = new RequestDistanceParams(OutputType.Json, ellipsoid, fromLat, fromLgt, toLat, toLgt);
+            var url = $"{DistanceBaseUrl()}{reqParams.ToQuery()}";
+            var json = await RequestGetAsync(url);
             var distance = JsonUtility.FromJson<DistanceJson>(json);
             return distance.OutputData;
         }
@@ -66,17 +62,16 @@ namespace GsiApiClient.Runtime
         public static async UniTask<string> RequestGetAsync(string url)
         {
             var request = UnityWebRequest.Get(url);
-            await request.SendWebRequest();
-            return request.error ?? request.downloadHandler.text;
-        }
-
-        /// <summary>
-        /// 楕円体
-        /// </summary>
-        public enum Ellipsoid
-        {
-            Grs80,
-            Bessel,
+            try
+            {
+                var result = await request.SendWebRequest();
+                return result.downloadHandler.text;
+            }
+            catch (Exception e)
+            {
+                Debug.LogError($"{e}");
+                return request.error;
+            }
         }
     }
 }

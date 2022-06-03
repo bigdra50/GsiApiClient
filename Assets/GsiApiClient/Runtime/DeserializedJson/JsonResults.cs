@@ -19,18 +19,22 @@ namespace GsiApiClient.Runtime.DeserializedJson
     public struct DistanceOutputData
     {
         /// <summary>
+        /// meter
         /// 距離が0の場合(出発点と到着点が一致する場合)､ 空の文字列となる
         /// </summary>
-        public string geoLength { get; set; }
+        public string geoLength;
 
-        public string azimuth1 { get; set; }
-        public string azimuth2 { get; set; }
+        /// <summary>
+        /// 方位角
+        /// </summary>
+        public string azimuth1;
+        public string azimuth2;
     }
 
     [Serializable]
     public struct DistanceJson
     {
-        public DistanceOutputData OutputData { get; set; }
+        public DistanceOutputData OutputData;
     }
 
     [Serializable]

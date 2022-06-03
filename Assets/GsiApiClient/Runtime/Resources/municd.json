@@ -1,0 +1,8974 @@
+{
+  "array": [
+    {
+      "MuniCd": "010006",
+      "Prefecture": "北海道",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "011002",
+      "Prefecture": "北海道",
+      "Municipality": "札幌市"
+    },
+    {
+      "MuniCd": "012025",
+      "Prefecture": "北海道",
+      "Municipality": "函館市"
+    },
+    {
+      "MuniCd": "012033",
+      "Prefecture": "北海道",
+      "Municipality": "小樽市"
+    },
+    {
+      "MuniCd": "012041",
+      "Prefecture": "北海道",
+      "Municipality": "旭川市"
+    },
+    {
+      "MuniCd": "012050",
+      "Prefecture": "北海道",
+      "Municipality": "室蘭市"
+    },
+    {
+      "MuniCd": "012068",
+      "Prefecture": "北海道",
+      "Municipality": "釧路市"
+    },
+    {
+      "MuniCd": "012076",
+      "Prefecture": "北海道",
+      "Municipality": "帯広市"
+    },
+    {
+      "MuniCd": "012084",
+      "Prefecture": "北海道",
+      "Municipality": "北見市"
+    },
+    {
+      "MuniCd": "012092",
+      "Prefecture": "北海道",
+      "Municipality": "夕張市"
+    },
+    {
+      "MuniCd": "012106",
+      "Prefecture": "北海道",
+      "Municipality": "岩見沢市"
+    },
+    {
+      "MuniCd": "012114",
+      "Prefecture": "北海道",
+      "Municipality": "網走市"
+    },
+    {
+      "MuniCd": "012122",
+      "Prefecture": "北海道",
+      "Municipality": "留萌市"
+    },
+    {
+      "MuniCd": "012131",
+      "Prefecture": "北海道",
+      "Municipality": "苫小牧市"
+    },
+    {
+      "MuniCd": "012149",
+      "Prefecture": "北海道",
+      "Municipality": "稚内市"
+    },
+    {
+      "MuniCd": "012157",
+      "Prefecture": "北海道",
+      "Municipality": "美唄市"
+    },
+    {
+      "MuniCd": "012165",
+      "Prefecture": "北海道",
+      "Municipality": "芦別市"
+    },
+    {
+      "MuniCd": "012173",
+      "Prefecture": "北海道",
+      "Municipality": "江別市"
+    },
+    {
+      "MuniCd": "012181",
+      "Prefecture": "北海道",
+      "Municipality": "赤平市"
+    },
+    {
+      "MuniCd": "012190",
+      "Prefecture": "北海道",
+      "Municipality": "紋別市"
+    },
+    {
+      "MuniCd": "012203",
+      "Prefecture": "北海道",
+      "Municipality": "士別市"
+    },
+    {
+      "MuniCd": "012211",
+      "Prefecture": "北海道",
+      "Municipality": "名寄市"
+    },
+    {
+      "MuniCd": "012220",
+      "Prefecture": "北海道",
+      "Municipality": "三笠市"
+    },
+    {
+      "MuniCd": "012238",
+      "Prefecture": "北海道",
+      "Municipality": "根室市"
+    },
+    {
+      "MuniCd": "012246",
+      "Prefecture": "北海道",
+      "Municipality": "千歳市"
+    },
+    {
+      "MuniCd": "012254",
+      "Prefecture": "北海道",
+      "Municipality": "滝川市"
+    },
+    {
+      "MuniCd": "012262",
+      "Prefecture": "北海道",
+      "Municipality": "砂川市"
+    },
+    {
+      "MuniCd": "012271",
+      "Prefecture": "北海道",
+      "Municipality": "歌志内市"
+    },
+    {
+      "MuniCd": "012289",
+      "Prefecture": "北海道",
+      "Municipality": "深川市"
+    },
+    {
+      "MuniCd": "012297",
+      "Prefecture": "北海道",
+      "Municipality": "富良野市"
+    },
+    {
+      "MuniCd": "012301",
+      "Prefecture": "北海道",
+      "Municipality": "登別市"
+    },
+    {
+      "MuniCd": "012319",
+      "Prefecture": "北海道",
+      "Municipality": "恵庭市"
+    },
+    {
+      "MuniCd": "012335",
+      "Prefecture": "北海道",
+      "Municipality": "伊達市"
+    },
+    {
+      "MuniCd": "012343",
+      "Prefecture": "北海道",
+      "Municipality": "北広島市"
+    },
+    {
+      "MuniCd": "012351",
+      "Prefecture": "北海道",
+      "Municipality": "石狩市"
+    },
+    {
+      "MuniCd": "012360",
+      "Prefecture": "北海道",
+      "Municipality": "北斗市"
+    },
+    {
+      "MuniCd": "013030",
+      "Prefecture": "北海道",
+      "Municipality": "当別町"
+    },
+    {
+      "MuniCd": "013048",
+      "Prefecture": "北海道",
+      "Municipality": "新篠津村"
+    },
+    {
+      "MuniCd": "013315",
+      "Prefecture": "北海道",
+      "Municipality": "松前町"
+    },
+    {
+      "MuniCd": "013323",
+      "Prefecture": "北海道",
+      "Municipality": "福島町"
+    },
+    {
+      "MuniCd": "013331",
+      "Prefecture": "北海道",
+      "Municipality": "知内町"
+    },
+    {
+      "MuniCd": "013340",
+      "Prefecture": "北海道",
+      "Municipality": "木古内町"
+    },
+    {
+      "MuniCd": "013374",
+      "Prefecture": "北海道",
+      "Municipality": "七飯町"
+    },
+    {
+      "MuniCd": "013439",
+      "Prefecture": "北海道",
+      "Municipality": "鹿部町"
+    },
+    {
+      "MuniCd": "013455",
+      "Prefecture": "北海道",
+      "Municipality": "森町"
+    },
+    {
+      "MuniCd": "013463",
+      "Prefecture": "北海道",
+      "Municipality": "八雲町"
+    },
+    {
+      "MuniCd": "013471",
+      "Prefecture": "北海道",
+      "Municipality": "長万部町"
+    },
+    {
+      "MuniCd": "013617",
+      "Prefecture": "北海道",
+      "Municipality": "江差町"
+    },
+    {
+      "MuniCd": "013625",
+      "Prefecture": "北海道",
+      "Municipality": "上ノ国町"
+    },
+    {
+      "MuniCd": "013633",
+      "Prefecture": "北海道",
+      "Municipality": "厚沢部町"
+    },
+    {
+      "MuniCd": "013641",
+      "Prefecture": "北海道",
+      "Municipality": "乙部町"
+    },
+    {
+      "MuniCd": "013676",
+      "Prefecture": "北海道",
+      "Municipality": "奥尻町"
+    },
+    {
+      "MuniCd": "013706",
+      "Prefecture": "北海道",
+      "Municipality": "今金町"
+    },
+    {
+      "MuniCd": "013714",
+      "Prefecture": "北海道",
+      "Municipality": "せたな町"
+    },
+    {
+      "MuniCd": "013919",
+      "Prefecture": "北海道",
+      "Municipality": "島牧村"
+    },
+    {
+      "MuniCd": "013927",
+      "Prefecture": "北海道",
+      "Municipality": "寿都町"
+    },
+    {
+      "MuniCd": "013935",
+      "Prefecture": "北海道",
+      "Municipality": "黒松内町"
+    },
+    {
+      "MuniCd": "013943",
+      "Prefecture": "北海道",
+      "Municipality": "蘭越町"
+    },
+    {
+      "MuniCd": "013951",
+      "Prefecture": "北海道",
+      "Municipality": "ニセコ町"
+    },
+    {
+      "MuniCd": "013960",
+      "Prefecture": "北海道",
+      "Municipality": "真狩村"
+    },
+    {
+      "MuniCd": "013978",
+      "Prefecture": "北海道",
+      "Municipality": "留寿都村"
+    },
+    {
+      "MuniCd": "013986",
+      "Prefecture": "北海道",
+      "Municipality": "喜茂別町"
+    },
+    {
+      "MuniCd": "013994",
+      "Prefecture": "北海道",
+      "Municipality": "京極町"
+    },
+    {
+      "MuniCd": "014001",
+      "Prefecture": "北海道",
+      "Municipality": "倶知安町"
+    },
+    {
+      "MuniCd": "014010",
+      "Prefecture": "北海道",
+      "Municipality": "共和町"
+    },
+    {
+      "MuniCd": "014028",
+      "Prefecture": "北海道",
+      "Municipality": "岩内町"
+    },
+    {
+      "MuniCd": "014036",
+      "Prefecture": "北海道",
+      "Municipality": "泊村"
+    },
+    {
+      "MuniCd": "014044",
+      "Prefecture": "北海道",
+      "Municipality": "神恵内村"
+    },
+    {
+      "MuniCd": "014052",
+      "Prefecture": "北海道",
+      "Municipality": "積丹町"
+    },
+    {
+      "MuniCd": "014061",
+      "Prefecture": "北海道",
+      "Municipality": "古平町"
+    },
+    {
+      "MuniCd": "014079",
+      "Prefecture": "北海道",
+      "Municipality": "仁木町"
+    },
+    {
+      "MuniCd": "014087",
+      "Prefecture": "北海道",
+      "Municipality": "余市町"
+    },
+    {
+      "MuniCd": "014095",
+      "Prefecture": "北海道",
+      "Municipality": "赤井川村"
+    },
+    {
+      "MuniCd": "014231",
+      "Prefecture": "北海道",
+      "Municipality": "南幌町"
+    },
+    {
+      "MuniCd": "014249",
+      "Prefecture": "北海道",
+      "Municipality": "奈井江町"
+    },
+    {
+      "MuniCd": "014257",
+      "Prefecture": "北海道",
+      "Municipality": "上砂川町"
+    },
+    {
+      "MuniCd": "014273",
+      "Prefecture": "北海道",
+      "Municipality": "由仁町"
+    },
+    {
+      "MuniCd": "014281",
+      "Prefecture": "北海道",
+      "Municipality": "長沼町"
+    },
+    {
+      "MuniCd": "014290",
+      "Prefecture": "北海道",
+      "Municipality": "栗山町"
+    },
+    {
+      "MuniCd": "014303",
+      "Prefecture": "北海道",
+      "Municipality": "月形町"
+    },
+    {
+      "MuniCd": "014311",
+      "Prefecture": "北海道",
+      "Municipality": "浦臼町"
+    },
+    {
+      "MuniCd": "014320",
+      "Prefecture": "北海道",
+      "Municipality": "新十津川町"
+    },
+    {
+      "MuniCd": "014338",
+      "Prefecture": "北海道",
+      "Municipality": "妹背牛町"
+    },
+    {
+      "MuniCd": "014346",
+      "Prefecture": "北海道",
+      "Municipality": "秩父別町"
+    },
+    {
+      "MuniCd": "014362",
+      "Prefecture": "北海道",
+      "Municipality": "雨竜町"
+    },
+    {
+      "MuniCd": "014371",
+      "Prefecture": "北海道",
+      "Municipality": "北竜町"
+    },
+    {
+      "MuniCd": "014389",
+      "Prefecture": "北海道",
+      "Municipality": "沼田町"
+    },
+    {
+      "MuniCd": "014524",
+      "Prefecture": "北海道",
+      "Municipality": "鷹栖町"
+    },
+    {
+      "MuniCd": "014532",
+      "Prefecture": "北海道",
+      "Municipality": "東神楽町"
+    },
+    {
+      "MuniCd": "014541",
+      "Prefecture": "北海道",
+      "Municipality": "当麻町"
+    },
+    {
+      "MuniCd": "014559",
+      "Prefecture": "北海道",
+      "Municipality": "比布町"
+    },
+    {
+      "MuniCd": "014567",
+      "Prefecture": "北海道",
+      "Municipality": "愛別町"
+    },
+    {
+      "MuniCd": "014575",
+      "Prefecture": "北海道",
+      "Municipality": "上川町"
+    },
+    {
+      "MuniCd": "014583",
+      "Prefecture": "北海道",
+      "Municipality": "東川町"
+    },
+    {
+      "MuniCd": "014591",
+      "Prefecture": "北海道",
+      "Municipality": "美瑛町"
+    },
+    {
+      "MuniCd": "014605",
+      "Prefecture": "北海道",
+      "Municipality": "上富良野町"
+    },
+    {
+      "MuniCd": "014613",
+      "Prefecture": "北海道",
+      "Municipality": "中富良野町"
+    },
+    {
+      "MuniCd": "014621",
+      "Prefecture": "北海道",
+      "Municipality": "南富良野町"
+    },
+    {
+      "MuniCd": "014630",
+      "Prefecture": "北海道",
+      "Municipality": "占冠村"
+    },
+    {
+      "MuniCd": "014648",
+      "Prefecture": "北海道",
+      "Municipality": "和寒町"
+    },
+    {
+      "MuniCd": "014656",
+      "Prefecture": "北海道",
+      "Municipality": "剣淵町"
+    },
+    {
+      "MuniCd": "014681",
+      "Prefecture": "北海道",
+      "Municipality": "下川町"
+    },
+    {
+      "MuniCd": "014699",
+      "Prefecture": "北海道",
+      "Municipality": "美深町"
+    },
+    {
+      "MuniCd": "014702",
+      "Prefecture": "北海道",
+      "Municipality": "音威子府村"
+    },
+    {
+      "MuniCd": "014711",
+      "Prefecture": "北海道",
+      "Municipality": "中川町"
+    },
+    {
+      "MuniCd": "014729",
+      "Prefecture": "北海道",
+      "Municipality": "幌加内町"
+    },
+    {
+      "MuniCd": "014818",
+      "Prefecture": "北海道",
+      "Municipality": "増毛町"
+    },
+    {
+      "MuniCd": "014826",
+      "Prefecture": "北海道",
+      "Municipality": "小平町"
+    },
+    {
+      "MuniCd": "014834",
+      "Prefecture": "北海道",
+      "Municipality": "苫前町"
+    },
+    {
+      "MuniCd": "014842",
+      "Prefecture": "北海道",
+      "Municipality": "羽幌町"
+    },
+    {
+      "MuniCd": "014851",
+      "Prefecture": "北海道",
+      "Municipality": "初山別村"
+    },
+    {
+      "MuniCd": "014869",
+      "Prefecture": "北海道",
+      "Municipality": "遠別町"
+    },
+    {
+      "MuniCd": "014877",
+      "Prefecture": "北海道",
+      "Municipality": "天塩町"
+    },
+    {
+      "MuniCd": "015113",
+      "Prefecture": "北海道",
+      "Municipality": "猿払村"
+    },
+    {
+      "MuniCd": "015121",
+      "Prefecture": "北海道",
+      "Municipality": "浜頓別町"
+    },
+    {
+      "MuniCd": "015130",
+      "Prefecture": "北海道",
+      "Municipality": "中頓別町"
+    },
+    {
+      "MuniCd": "015148",
+      "Prefecture": "北海道",
+      "Municipality": "枝幸町"
+    },
+    {
+      "MuniCd": "015164",
+      "Prefecture": "北海道",
+      "Municipality": "豊富町"
+    },
+    {
+      "MuniCd": "015172",
+      "Prefecture": "北海道",
+      "Municipality": "礼文町"
+    },
+    {
+      "MuniCd": "015181",
+      "Prefecture": "北海道",
+      "Municipality": "利尻町"
+    },
+    {
+      "MuniCd": "015199",
+      "Prefecture": "北海道",
+      "Municipality": "利尻富士町"
+    },
+    {
+      "MuniCd": "015202",
+      "Prefecture": "北海道",
+      "Municipality": "幌延町"
+    },
+    {
+      "MuniCd": "015431",
+      "Prefecture": "北海道",
+      "Municipality": "美幌町"
+    },
+    {
+      "MuniCd": "015440",
+      "Prefecture": "北海道",
+      "Municipality": "津別町"
+    },
+    {
+      "MuniCd": "015458",
+      "Prefecture": "北海道",
+      "Municipality": "斜里町"
+    },
+    {
+      "MuniCd": "015466",
+      "Prefecture": "北海道",
+      "Municipality": "清里町"
+    },
+    {
+      "MuniCd": "015474",
+      "Prefecture": "北海道",
+      "Municipality": "小清水町"
+    },
+    {
+      "MuniCd": "015491",
+      "Prefecture": "北海道",
+      "Municipality": "訓子府町"
+    },
+    {
+      "MuniCd": "015504",
+      "Prefecture": "北海道",
+      "Municipality": "置戸町"
+    },
+    {
+      "MuniCd": "015521",
+      "Prefecture": "北海道",
+      "Municipality": "佐呂間町"
+    },
+    {
+      "MuniCd": "015555",
+      "Prefecture": "北海道",
+      "Municipality": "遠軽町"
+    },
+    {
+      "MuniCd": "015598",
+      "Prefecture": "北海道",
+      "Municipality": "湧別町"
+    },
+    {
+      "MuniCd": "015601",
+      "Prefecture": "北海道",
+      "Municipality": "滝上町"
+    },
+    {
+      "MuniCd": "015610",
+      "Prefecture": "北海道",
+      "Municipality": "興部町"
+    },
+    {
+      "MuniCd": "015628",
+      "Prefecture": "北海道",
+      "Municipality": "西興部村"
+    },
+    {
+      "MuniCd": "015636",
+      "Prefecture": "北海道",
+      "Municipality": "雄武町"
+    },
+    {
+      "MuniCd": "015644",
+      "Prefecture": "北海道",
+      "Municipality": "大空町"
+    },
+    {
+      "MuniCd": "015717",
+      "Prefecture": "北海道",
+      "Municipality": "豊浦町"
+    },
+    {
+      "MuniCd": "015750",
+      "Prefecture": "北海道",
+      "Municipality": "壮瞥町"
+    },
+    {
+      "MuniCd": "015784",
+      "Prefecture": "北海道",
+      "Municipality": "白老町"
+    },
+    {
+      "MuniCd": "015814",
+      "Prefecture": "北海道",
+      "Municipality": "厚真町"
+    },
+    {
+      "MuniCd": "015849",
+      "Prefecture": "北海道",
+      "Municipality": "洞爺湖町"
+    },
+    {
+      "MuniCd": "015857",
+      "Prefecture": "北海道",
+      "Municipality": "安平町"
+    },
+    {
+      "MuniCd": "015865",
+      "Prefecture": "北海道",
+      "Municipality": "むかわ町"
+    },
+    {
+      "MuniCd": "016012",
+      "Prefecture": "北海道",
+      "Municipality": "日高町"
+    },
+    {
+      "MuniCd": "016021",
+      "Prefecture": "北海道",
+      "Municipality": "平取町"
+    },
+    {
+      "MuniCd": "016047",
+      "Prefecture": "北海道",
+      "Municipality": "新冠町"
+    },
+    {
+      "MuniCd": "016071",
+      "Prefecture": "北海道",
+      "Municipality": "浦河町"
+    },
+    {
+      "MuniCd": "016080",
+      "Prefecture": "北海道",
+      "Municipality": "様似町"
+    },
+    {
+      "MuniCd": "016098",
+      "Prefecture": "北海道",
+      "Municipality": "えりも町"
+    },
+    {
+      "MuniCd": "016101",
+      "Prefecture": "北海道",
+      "Municipality": "新ひだか町"
+    },
+    {
+      "MuniCd": "016314",
+      "Prefecture": "北海道",
+      "Municipality": "音更町"
+    },
+    {
+      "MuniCd": "016322",
+      "Prefecture": "北海道",
+      "Municipality": "士幌町"
+    },
+    {
+      "MuniCd": "016331",
+      "Prefecture": "北海道",
+      "Municipality": "上士幌町"
+    },
+    {
+      "MuniCd": "016349",
+      "Prefecture": "北海道",
+      "Municipality": "鹿追町"
+    },
+    {
+      "MuniCd": "016357",
+      "Prefecture": "北海道",
+      "Municipality": "新得町"
+    },
+    {
+      "MuniCd": "016365",
+      "Prefecture": "北海道",
+      "Municipality": "清水町"
+    },
+    {
+      "MuniCd": "016373",
+      "Prefecture": "北海道",
+      "Municipality": "芽室町"
+    },
+    {
+      "MuniCd": "016381",
+      "Prefecture": "北海道",
+      "Municipality": "中札内村"
+    },
+    {
+      "MuniCd": "016390",
+      "Prefecture": "北海道",
+      "Municipality": "更別村"
+    },
+    {
+      "MuniCd": "016411",
+      "Prefecture": "北海道",
+      "Municipality": "大樹町"
+    },
+    {
+      "MuniCd": "016420",
+      "Prefecture": "北海道",
+      "Municipality": "広尾町"
+    },
+    {
+      "MuniCd": "016438",
+      "Prefecture": "北海道",
+      "Municipality": "幕別町"
+    },
+    {
+      "MuniCd": "016446",
+      "Prefecture": "北海道",
+      "Municipality": "池田町"
+    },
+    {
+      "MuniCd": "016454",
+      "Prefecture": "北海道",
+      "Municipality": "豊頃町"
+    },
+    {
+      "MuniCd": "016462",
+      "Prefecture": "北海道",
+      "Municipality": "本別町"
+    },
+    {
+      "MuniCd": "016471",
+      "Prefecture": "北海道",
+      "Municipality": "足寄町"
+    },
+    {
+      "MuniCd": "016489",
+      "Prefecture": "北海道",
+      "Municipality": "陸別町"
+    },
+    {
+      "MuniCd": "016497",
+      "Prefecture": "北海道",
+      "Municipality": "浦幌町"
+    },
+    {
+      "MuniCd": "016616",
+      "Prefecture": "北海道",
+      "Municipality": "釧路町"
+    },
+    {
+      "MuniCd": "016624",
+      "Prefecture": "北海道",
+      "Municipality": "厚岸町"
+    },
+    {
+      "MuniCd": "016632",
+      "Prefecture": "北海道",
+      "Municipality": "浜中町"
+    },
+    {
+      "MuniCd": "016641",
+      "Prefecture": "北海道",
+      "Municipality": "標茶町"
+    },
+    {
+      "MuniCd": "016659",
+      "Prefecture": "北海道",
+      "Municipality": "弟子屈町"
+    },
+    {
+      "MuniCd": "016675",
+      "Prefecture": "北海道",
+      "Municipality": "鶴居村"
+    },
+    {
+      "MuniCd": "016683",
+      "Prefecture": "北海道",
+      "Municipality": "白糠町"
+    },
+    {
+      "MuniCd": "016918",
+      "Prefecture": "北海道",
+      "Municipality": "別海町"
+    },
+    {
+      "MuniCd": "016926",
+      "Prefecture": "北海道",
+      "Municipality": "中標津町"
+    },
+    {
+      "MuniCd": "016934",
+      "Prefecture": "北海道",
+      "Municipality": "標津町"
+    },
+    {
+      "MuniCd": "016942",
+      "Prefecture": "北海道",
+      "Municipality": "羅臼町"
+    },
+    {
+      "MuniCd": "016951",
+      "Prefecture": "北海道",
+      "Municipality": "色丹村"
+    },
+    {
+      "MuniCd": "016969",
+      "Prefecture": "北海道",
+      "Municipality": "泊村"
+    },
+    {
+      "MuniCd": "016977",
+      "Prefecture": "北海道",
+      "Municipality": "留夜別村"
+    },
+    {
+      "MuniCd": "016985",
+      "Prefecture": "北海道",
+      "Municipality": "留別村"
+    },
+    {
+      "MuniCd": "016993",
+      "Prefecture": "北海道",
+      "Municipality": "紗那村"
+    },
+    {
+      "MuniCd": "017001",
+      "Prefecture": "北海道",
+      "Municipality": "蘂取村"
+    },
+    {
+      "MuniCd": "020001",
+      "Prefecture": "青森県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "022012",
+      "Prefecture": "青森県",
+      "Municipality": "青森市"
+    },
+    {
+      "MuniCd": "022021",
+      "Prefecture": "青森県",
+      "Municipality": "弘前市"
+    },
+    {
+      "MuniCd": "022039",
+      "Prefecture": "青森県",
+      "Municipality": "八戸市"
+    },
+    {
+      "MuniCd": "022047",
+      "Prefecture": "青森県",
+      "Municipality": "黒石市"
+    },
+    {
+      "MuniCd": "022055",
+      "Prefecture": "青森県",
+      "Municipality": "五所川原市"
+    },
+    {
+      "MuniCd": "022063",
+      "Prefecture": "青森県",
+      "Municipality": "十和田市"
+    },
+    {
+      "MuniCd": "022071",
+      "Prefecture": "青森県",
+      "Municipality": "三沢市"
+    },
+    {
+      "MuniCd": "022080",
+      "Prefecture": "青森県",
+      "Municipality": "むつ市"
+    },
+    {
+      "MuniCd": "022098",
+      "Prefecture": "青森県",
+      "Municipality": "つがる市"
+    },
+    {
+      "MuniCd": "022101",
+      "Prefecture": "青森県",
+      "Municipality": "平川市"
+    },
+    {
+      "MuniCd": "023019",
+      "Prefecture": "青森県",
+      "Municipality": "平内町"
+    },
+    {
+      "MuniCd": "023035",
+      "Prefecture": "青森県",
+      "Municipality": "今別町"
+    },
+    {
+      "MuniCd": "023043",
+      "Prefecture": "青森県",
+      "Municipality": "蓬田村"
+    },
+    {
+      "MuniCd": "023078",
+      "Prefecture": "青森県",
+      "Municipality": "外ヶ浜町"
+    },
+    {
+      "MuniCd": "023213",
+      "Prefecture": "青森県",
+      "Municipality": "鰺ヶ沢町"
+    },
+    {
+      "MuniCd": "023230",
+      "Prefecture": "青森県",
+      "Municipality": "深浦町"
+    },
+    {
+      "MuniCd": "023434",
+      "Prefecture": "青森県",
+      "Municipality": "西目屋村"
+    },
+    {
+      "MuniCd": "023612",
+      "Prefecture": "青森県",
+      "Municipality": "藤崎町"
+    },
+    {
+      "MuniCd": "023621",
+      "Prefecture": "青森県",
+      "Municipality": "大鰐町"
+    },
+    {
+      "MuniCd": "023671",
+      "Prefecture": "青森県",
+      "Municipality": "田舎館村"
+    },
+    {
+      "MuniCd": "023817",
+      "Prefecture": "青森県",
+      "Municipality": "板柳町"
+    },
+    {
+      "MuniCd": "023841",
+      "Prefecture": "青森県",
+      "Municipality": "鶴田町"
+    },
+    {
+      "MuniCd": "023876",
+      "Prefecture": "青森県",
+      "Municipality": "中泊町"
+    },
+    {
+      "MuniCd": "024015",
+      "Prefecture": "青森県",
+      "Municipality": "野辺地町"
+    },
+    {
+      "MuniCd": "024023",
+      "Prefecture": "青森県",
+      "Municipality": "七戸町"
+    },
+    {
+      "MuniCd": "024058",
+      "Prefecture": "青森県",
+      "Municipality": "六戸町"
+    },
+    {
+      "MuniCd": "024066",
+      "Prefecture": "青森県",
+      "Municipality": "横浜町"
+    },
+    {
+      "MuniCd": "024082",
+      "Prefecture": "青森県",
+      "Municipality": "東北町"
+    },
+    {
+      "MuniCd": "024112",
+      "Prefecture": "青森県",
+      "Municipality": "六ヶ所村"
+    },
+    {
+      "MuniCd": "024121",
+      "Prefecture": "青森県",
+      "Municipality": "おいらせ町"
+    },
+    {
+      "MuniCd": "024236",
+      "Prefecture": "青森県",
+      "Municipality": "大間町"
+    },
+    {
+      "MuniCd": "024244",
+      "Prefecture": "青森県",
+      "Municipality": "東通村"
+    },
+    {
+      "MuniCd": "024252",
+      "Prefecture": "青森県",
+      "Municipality": "風間浦村"
+    },
+    {
+      "MuniCd": "024261",
+      "Prefecture": "青森県",
+      "Municipality": "佐井村"
+    },
+    {
+      "MuniCd": "024414",
+      "Prefecture": "青森県",
+      "Municipality": "三戸町"
+    },
+    {
+      "MuniCd": "024422",
+      "Prefecture": "青森県",
+      "Municipality": "五戸町"
+    },
+    {
+      "MuniCd": "024431",
+      "Prefecture": "青森県",
+      "Municipality": "田子町"
+    },
+    {
+      "MuniCd": "024457",
+      "Prefecture": "青森県",
+      "Municipality": "南部町"
+    },
+    {
+      "MuniCd": "024465",
+      "Prefecture": "青森県",
+      "Municipality": "階上町"
+    },
+    {
+      "MuniCd": "024503",
+      "Prefecture": "青森県",
+      "Municipality": "新郷村"
+    },
+    {
+      "MuniCd": "030007",
+      "Prefecture": "岩手県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "032018",
+      "Prefecture": "岩手県",
+      "Municipality": "盛岡市"
+    },
+    {
+      "MuniCd": "032026",
+      "Prefecture": "岩手県",
+      "Municipality": "宮古市"
+    },
+    {
+      "MuniCd": "032034",
+      "Prefecture": "岩手県",
+      "Municipality": "大船渡市"
+    },
+    {
+      "MuniCd": "032051",
+      "Prefecture": "岩手県",
+      "Municipality": "花巻市"
+    },
+    {
+      "MuniCd": "032069",
+      "Prefecture": "岩手県",
+      "Municipality": "北上市"
+    },
+    {
+      "MuniCd": "032077",
+      "Prefecture": "岩手県",
+      "Municipality": "久慈市"
+    },
+    {
+      "MuniCd": "032085",
+      "Prefecture": "岩手県",
+      "Municipality": "遠野市"
+    },
+    {
+      "MuniCd": "032093",
+      "Prefecture": "岩手県",
+      "Municipality": "一関市"
+    },
+    {
+      "MuniCd": "032107",
+      "Prefecture": "岩手県",
+      "Municipality": "陸前高田市"
+    },
+    {
+      "MuniCd": "032115",
+      "Prefecture": "岩手県",
+      "Municipality": "釜石市"
+    },
+    {
+      "MuniCd": "032131",
+      "Prefecture": "岩手県",
+      "Municipality": "二戸市"
+    },
+    {
+      "MuniCd": "032140",
+      "Prefecture": "岩手県",
+      "Municipality": "八幡平市"
+    },
+    {
+      "MuniCd": "032158",
+      "Prefecture": "岩手県",
+      "Municipality": "奥州市"
+    },
+    {
+      "MuniCd": "032166",
+      "Prefecture": "岩手県",
+      "Municipality": "滝沢市"
+    },
+    {
+      "MuniCd": "033014",
+      "Prefecture": "岩手県",
+      "Municipality": "雫石町"
+    },
+    {
+      "MuniCd": "033022",
+      "Prefecture": "岩手県",
+      "Municipality": "葛巻町"
+    },
+    {
+      "MuniCd": "033031",
+      "Prefecture": "岩手県",
+      "Municipality": "岩手町"
+    },
+    {
+      "MuniCd": "033219",
+      "Prefecture": "岩手県",
+      "Municipality": "紫波町"
+    },
+    {
+      "MuniCd": "033227",
+      "Prefecture": "岩手県",
+      "Municipality": "矢巾町"
+    },
+    {
+      "MuniCd": "033669",
+      "Prefecture": "岩手県",
+      "Municipality": "西和賀町"
+    },
+    {
+      "MuniCd": "033812",
+      "Prefecture": "岩手県",
+      "Municipality": "金ケ崎町"
+    },
+    {
+      "MuniCd": "034029",
+      "Prefecture": "岩手県",
+      "Municipality": "平泉町"
+    },
+    {
+      "MuniCd": "034410",
+      "Prefecture": "岩手県",
+      "Municipality": "住田町"
+    },
+    {
+      "MuniCd": "034614",
+      "Prefecture": "岩手県",
+      "Municipality": "大槌町"
+    },
+    {
+      "MuniCd": "034827",
+      "Prefecture": "岩手県",
+      "Municipality": "山田町"
+    },
+    {
+      "MuniCd": "034835",
+      "Prefecture": "岩手県",
+      "Municipality": "岩泉町"
+    },
+    {
+      "MuniCd": "034843",
+      "Prefecture": "岩手県",
+      "Municipality": "田野畑村"
+    },
+    {
+      "MuniCd": "034851",
+      "Prefecture": "岩手県",
+      "Municipality": "普代村"
+    },
+    {
+      "MuniCd": "035017",
+      "Prefecture": "岩手県",
+      "Municipality": "軽米町"
+    },
+    {
+      "MuniCd": "035033",
+      "Prefecture": "岩手県",
+      "Municipality": "野田村"
+    },
+    {
+      "MuniCd": "035068",
+      "Prefecture": "岩手県",
+      "Municipality": "九戸村"
+    },
+    {
+      "MuniCd": "035076",
+      "Prefecture": "岩手県",
+      "Municipality": "洋野町"
+    },
+    {
+      "MuniCd": "035246",
+      "Prefecture": "岩手県",
+      "Municipality": "一戸町"
+    },
+    {
+      "MuniCd": "040002",
+      "Prefecture": "宮城県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "041009",
+      "Prefecture": "宮城県",
+      "Municipality": "仙台市"
+    },
+    {
+      "MuniCd": "042021",
+      "Prefecture": "宮城県",
+      "Municipality": "石巻市"
+    },
+    {
+      "MuniCd": "042030",
+      "Prefecture": "宮城県",
+      "Municipality": "塩竈市"
+    },
+    {
+      "MuniCd": "042056",
+      "Prefecture": "宮城県",
+      "Municipality": "気仙沼市"
+    },
+    {
+      "MuniCd": "042064",
+      "Prefecture": "宮城県",
+      "Municipality": "白石市"
+    },
+    {
+      "MuniCd": "042072",
+      "Prefecture": "宮城県",
+      "Municipality": "名取市"
+    },
+    {
+      "MuniCd": "042081",
+      "Prefecture": "宮城県",
+      "Municipality": "角田市"
+    },
+    {
+      "MuniCd": "042099",
+      "Prefecture": "宮城県",
+      "Municipality": "多賀城市"
+    },
+    {
+      "MuniCd": "042111",
+      "Prefecture": "宮城県",
+      "Municipality": "岩沼市"
+    },
+    {
+      "MuniCd": "042129",
+      "Prefecture": "宮城県",
+      "Municipality": "登米市"
+    },
+    {
+      "MuniCd": "042137",
+      "Prefecture": "宮城県",
+      "Municipality": "栗原市"
+    },
+    {
+      "MuniCd": "042145",
+      "Prefecture": "宮城県",
+      "Municipality": "東松島市"
+    },
+    {
+      "MuniCd": "042153",
+      "Prefecture": "宮城県",
+      "Municipality": "大崎市"
+    },
+    {
+      "MuniCd": "042161",
+      "Prefecture": "宮城県",
+      "Municipality": "富谷市"
+    },
+    {
+      "MuniCd": "043010",
+      "Prefecture": "宮城県",
+      "Municipality": "蔵王町"
+    },
+    {
+      "MuniCd": "043028",
+      "Prefecture": "宮城県",
+      "Municipality": "七ヶ宿町"
+    },
+    {
+      "MuniCd": "043214",
+      "Prefecture": "宮城県",
+      "Municipality": "大河原町"
+    },
+    {
+      "MuniCd": "043222",
+      "Prefecture": "宮城県",
+      "Municipality": "村田町"
+    },
+    {
+      "MuniCd": "043231",
+      "Prefecture": "宮城県",
+      "Municipality": "柴田町"
+    },
+    {
+      "MuniCd": "043249",
+      "Prefecture": "宮城県",
+      "Municipality": "川崎町"
+    },
+    {
+      "MuniCd": "043419",
+      "Prefecture": "宮城県",
+      "Municipality": "丸森町"
+    },
+    {
+      "MuniCd": "043613",
+      "Prefecture": "宮城県",
+      "Municipality": "亘理町"
+    },
+    {
+      "MuniCd": "043621",
+      "Prefecture": "宮城県",
+      "Municipality": "山元町"
+    },
+    {
+      "MuniCd": "044016",
+      "Prefecture": "宮城県",
+      "Municipality": "松島町"
+    },
+    {
+      "MuniCd": "044041",
+      "Prefecture": "宮城県",
+      "Municipality": "七ヶ浜町"
+    },
+    {
+      "MuniCd": "044067",
+      "Prefecture": "宮城県",
+      "Municipality": "利府町"
+    },
+    {
+      "MuniCd": "044211",
+      "Prefecture": "宮城県",
+      "Municipality": "大和町"
+    },
+    {
+      "MuniCd": "044229",
+      "Prefecture": "宮城県",
+      "Municipality": "大郷町"
+    },
+    {
+      "MuniCd": "044245",
+      "Prefecture": "宮城県",
+      "Municipality": "大衡村"
+    },
+    {
+      "MuniCd": "044440",
+      "Prefecture": "宮城県",
+      "Municipality": "色麻町"
+    },
+    {
+      "MuniCd": "044458",
+      "Prefecture": "宮城県",
+      "Municipality": "加美町"
+    },
+    {
+      "MuniCd": "045012",
+      "Prefecture": "宮城県",
+      "Municipality": "涌谷町"
+    },
+    {
+      "MuniCd": "045055",
+      "Prefecture": "宮城県",
+      "Municipality": "美里町"
+    },
+    {
+      "MuniCd": "045811",
+      "Prefecture": "宮城県",
+      "Municipality": "女川町"
+    },
+    {
+      "MuniCd": "046060",
+      "Prefecture": "宮城県",
+      "Municipality": "南三陸町"
+    },
+    {
+      "MuniCd": "050008",
+      "Prefecture": "秋田県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "052019",
+      "Prefecture": "秋田県",
+      "Municipality": "秋田市"
+    },
+    {
+      "MuniCd": "052027",
+      "Prefecture": "秋田県",
+      "Municipality": "能代市"
+    },
+    {
+      "MuniCd": "052035",
+      "Prefecture": "秋田県",
+      "Municipality": "横手市"
+    },
+    {
+      "MuniCd": "052043",
+      "Prefecture": "秋田県",
+      "Municipality": "大館市"
+    },
+    {
+      "MuniCd": "052060",
+      "Prefecture": "秋田県",
+      "Municipality": "男鹿市"
+    },
+    {
+      "MuniCd": "052078",
+      "Prefecture": "秋田県",
+      "Municipality": "湯沢市"
+    },
+    {
+      "MuniCd": "052094",
+      "Prefecture": "秋田県",
+      "Municipality": "鹿角市"
+    },
+    {
+      "MuniCd": "052108",
+      "Prefecture": "秋田県",
+      "Municipality": "由利本荘市"
+    },
+    {
+      "MuniCd": "052116",
+      "Prefecture": "秋田県",
+      "Municipality": "潟上市"
+    },
+    {
+      "MuniCd": "052124",
+      "Prefecture": "秋田県",
+      "Municipality": "大仙市"
+    },
+    {
+      "MuniCd": "052132",
+      "Prefecture": "秋田県",
+      "Municipality": "北秋田市"
+    },
+    {
+      "MuniCd": "052141",
+      "Prefecture": "秋田県",
+      "Municipality": "にかほ市"
+    },
+    {
+      "MuniCd": "052159",
+      "Prefecture": "秋田県",
+      "Municipality": "仙北市"
+    },
+    {
+      "MuniCd": "053031",
+      "Prefecture": "秋田県",
+      "Municipality": "小坂町"
+    },
+    {
+      "MuniCd": "053279",
+      "Prefecture": "秋田県",
+      "Municipality": "上小阿仁村"
+    },
+    {
+      "MuniCd": "053465",
+      "Prefecture": "秋田県",
+      "Municipality": "藤里町"
+    },
+    {
+      "MuniCd": "053481",
+      "Prefecture": "秋田県",
+      "Municipality": "三種町"
+    },
+    {
+      "MuniCd": "053490",
+      "Prefecture": "秋田県",
+      "Municipality": "八峰町"
+    },
+    {
+      "MuniCd": "053619",
+      "Prefecture": "秋田県",
+      "Municipality": "五城目町"
+    },
+    {
+      "MuniCd": "053635",
+      "Prefecture": "秋田県",
+      "Municipality": "八郎潟町"
+    },
+    {
+      "MuniCd": "053660",
+      "Prefecture": "秋田県",
+      "Municipality": "井川町"
+    },
+    {
+      "MuniCd": "053686",
+      "Prefecture": "秋田県",
+      "Municipality": "大潟村"
+    },
+    {
+      "MuniCd": "054348",
+      "Prefecture": "秋田県",
+      "Municipality": "美郷町"
+    },
+    {
+      "MuniCd": "054631",
+      "Prefecture": "秋田県",
+      "Municipality": "羽後町"
+    },
+    {
+      "MuniCd": "054640",
+      "Prefecture": "秋田県",
+      "Municipality": "東成瀬村"
+    },
+    {
+      "MuniCd": "060003",
+      "Prefecture": "山形県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "062014",
+      "Prefecture": "山形県",
+      "Municipality": "山形市"
+    },
+    {
+      "MuniCd": "062022",
+      "Prefecture": "山形県",
+      "Municipality": "米沢市"
+    },
+    {
+      "MuniCd": "062031",
+      "Prefecture": "山形県",
+      "Municipality": "鶴岡市"
+    },
+    {
+      "MuniCd": "062049",
+      "Prefecture": "山形県",
+      "Municipality": "酒田市"
+    },
+    {
+      "MuniCd": "062057",
+      "Prefecture": "山形県",
+      "Municipality": "新庄市"
+    },
+    {
+      "MuniCd": "062065",
+      "Prefecture": "山形県",
+      "Municipality": "寒河江市"
+    },
+    {
+      "MuniCd": "062073",
+      "Prefecture": "山形県",
+      "Municipality": "上山市"
+    },
+    {
+      "MuniCd": "062081",
+      "Prefecture": "山形県",
+      "Municipality": "村山市"
+    },
+    {
+      "MuniCd": "062090",
+      "Prefecture": "山形県",
+      "Municipality": "長井市"
+    },
+    {
+      "MuniCd": "062103",
+      "Prefecture": "山形県",
+      "Municipality": "天童市"
+    },
+    {
+      "MuniCd": "062111",
+      "Prefecture": "山形県",
+      "Municipality": "東根市"
+    },
+    {
+      "MuniCd": "062120",
+      "Prefecture": "山形県",
+      "Municipality": "尾花沢市"
+    },
+    {
+      "MuniCd": "062138",
+      "Prefecture": "山形県",
+      "Municipality": "南陽市"
+    },
+    {
+      "MuniCd": "063011",
+      "Prefecture": "山形県",
+      "Municipality": "山辺町"
+    },
+    {
+      "MuniCd": "063029",
+      "Prefecture": "山形県",
+      "Municipality": "中山町"
+    },
+    {
+      "MuniCd": "063215",
+      "Prefecture": "山形県",
+      "Municipality": "河北町"
+    },
+    {
+      "MuniCd": "063223",
+      "Prefecture": "山形県",
+      "Municipality": "西川町"
+    },
+    {
+      "MuniCd": "063231",
+      "Prefecture": "山形県",
+      "Municipality": "朝日町"
+    },
+    {
+      "MuniCd": "063240",
+      "Prefecture": "山形県",
+      "Municipality": "大江町"
+    },
+    {
+      "MuniCd": "063410",
+      "Prefecture": "山形県",
+      "Municipality": "大石田町"
+    },
+    {
+      "MuniCd": "063614",
+      "Prefecture": "山形県",
+      "Municipality": "金山町"
+    },
+    {
+      "MuniCd": "063622",
+      "Prefecture": "山形県",
+      "Municipality": "最上町"
+    },
+    {
+      "MuniCd": "063631",
+      "Prefecture": "山形県",
+      "Municipality": "舟形町"
+    },
+    {
+      "MuniCd": "063649",
+      "Prefecture": "山形県",
+      "Municipality": "真室川町"
+    },
+    {
+      "MuniCd": "063657",
+      "Prefecture": "山形県",
+      "Municipality": "大蔵村"
+    },
+    {
+      "MuniCd": "063665",
+      "Prefecture": "山形県",
+      "Municipality": "鮭川村"
+    },
+    {
+      "MuniCd": "063673",
+      "Prefecture": "山形県",
+      "Municipality": "戸沢村"
+    },
+    {
+      "MuniCd": "063819",
+      "Prefecture": "山形県",
+      "Municipality": "高畠町"
+    },
+    {
+      "MuniCd": "063827",
+      "Prefecture": "山形県",
+      "Municipality": "川西町"
+    },
+    {
+      "MuniCd": "064017",
+      "Prefecture": "山形県",
+      "Municipality": "小国町"
+    },
+    {
+      "MuniCd": "064025",
+      "Prefecture": "山形県",
+      "Municipality": "白鷹町"
+    },
+    {
+      "MuniCd": "064033",
+      "Prefecture": "山形県",
+      "Municipality": "飯豊町"
+    },
+    {
+      "MuniCd": "064262",
+      "Prefecture": "山形県",
+      "Municipality": "三川町"
+    },
+    {
+      "MuniCd": "064289",
+      "Prefecture": "山形県",
+      "Municipality": "庄内町"
+    },
+    {
+      "MuniCd": "064611",
+      "Prefecture": "山形県",
+      "Municipality": "遊佐町"
+    },
+    {
+      "MuniCd": "070009",
+      "Prefecture": "福島県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "072010",
+      "Prefecture": "福島県",
+      "Municipality": "福島市"
+    },
+    {
+      "MuniCd": "072028",
+      "Prefecture": "福島県",
+      "Municipality": "会津若松市"
+    },
+    {
+      "MuniCd": "072036",
+      "Prefecture": "福島県",
+      "Municipality": "郡山市"
+    },
+    {
+      "MuniCd": "072044",
+      "Prefecture": "福島県",
+      "Municipality": "いわき市"
+    },
+    {
+      "MuniCd": "072052",
+      "Prefecture": "福島県",
+      "Municipality": "白河市"
+    },
+    {
+      "MuniCd": "072079",
+      "Prefecture": "福島県",
+      "Municipality": "須賀川市"
+    },
+    {
+      "MuniCd": "072087",
+      "Prefecture": "福島県",
+      "Municipality": "喜多方市"
+    },
+    {
+      "MuniCd": "072095",
+      "Prefecture": "福島県",
+      "Municipality": "相馬市"
+    },
+    {
+      "MuniCd": "072109",
+      "Prefecture": "福島県",
+      "Municipality": "二本松市"
+    },
+    {
+      "MuniCd": "072117",
+      "Prefecture": "福島県",
+      "Municipality": "田村市"
+    },
+    {
+      "MuniCd": "072125",
+      "Prefecture": "福島県",
+      "Municipality": "南相馬市"
+    },
+    {
+      "MuniCd": "072133",
+      "Prefecture": "福島県",
+      "Municipality": "伊達市"
+    },
+    {
+      "MuniCd": "072141",
+      "Prefecture": "福島県",
+      "Municipality": "本宮市"
+    },
+    {
+      "MuniCd": "073016",
+      "Prefecture": "福島県",
+      "Municipality": "桑折町"
+    },
+    {
+      "MuniCd": "073032",
+      "Prefecture": "福島県",
+      "Municipality": "国見町"
+    },
+    {
+      "MuniCd": "073083",
+      "Prefecture": "福島県",
+      "Municipality": "川俣町"
+    },
+    {
+      "MuniCd": "073229",
+      "Prefecture": "福島県",
+      "Municipality": "大玉村"
+    },
+    {
+      "MuniCd": "073423",
+      "Prefecture": "福島県",
+      "Municipality": "鏡石町"
+    },
+    {
+      "MuniCd": "073440",
+      "Prefecture": "福島県",
+      "Municipality": "天栄村"
+    },
+    {
+      "MuniCd": "073628",
+      "Prefecture": "福島県",
+      "Municipality": "下郷町"
+    },
+    {
+      "MuniCd": "073644",
+      "Prefecture": "福島県",
+      "Municipality": "檜枝岐村"
+    },
+    {
+      "MuniCd": "073679",
+      "Prefecture": "福島県",
+      "Municipality": "只見町"
+    },
+    {
+      "MuniCd": "073687",
+      "Prefecture": "福島県",
+      "Municipality": "南会津町"
+    },
+    {
+      "MuniCd": "074021",
+      "Prefecture": "福島県",
+      "Municipality": "北塩原村"
+    },
+    {
+      "MuniCd": "074055",
+      "Prefecture": "福島県",
+      "Municipality": "西会津町"
+    },
+    {
+      "MuniCd": "074071",
+      "Prefecture": "福島県",
+      "Municipality": "磐梯町"
+    },
+    {
+      "MuniCd": "074080",
+      "Prefecture": "福島県",
+      "Municipality": "猪苗代町"
+    },
+    {
+      "MuniCd": "074217",
+      "Prefecture": "福島県",
+      "Municipality": "会津坂下町"
+    },
+    {
+      "MuniCd": "074225",
+      "Prefecture": "福島県",
+      "Municipality": "湯川村"
+    },
+    {
+      "MuniCd": "074233",
+      "Prefecture": "福島県",
+      "Municipality": "柳津町"
+    },
+    {
+      "MuniCd": "074446",
+      "Prefecture": "福島県",
+      "Municipality": "三島町"
+    },
+    {
+      "MuniCd": "074454",
+      "Prefecture": "福島県",
+      "Municipality": "金山町"
+    },
+    {
+      "MuniCd": "074462",
+      "Prefecture": "福島県",
+      "Municipality": "昭和村"
+    },
+    {
+      "MuniCd": "074471",
+      "Prefecture": "福島県",
+      "Municipality": "会津美里町"
+    },
+    {
+      "MuniCd": "074616",
+      "Prefecture": "福島県",
+      "Municipality": "西郷村"
+    },
+    {
+      "MuniCd": "074641",
+      "Prefecture": "福島県",
+      "Municipality": "泉崎村"
+    },
+    {
+      "MuniCd": "074659",
+      "Prefecture": "福島県",
+      "Municipality": "中島村"
+    },
+    {
+      "MuniCd": "074667",
+      "Prefecture": "福島県",
+      "Municipality": "矢吹町"
+    },
+    {
+      "MuniCd": "074811",
+      "Prefecture": "福島県",
+      "Municipality": "棚倉町"
+    },
+    {
+      "MuniCd": "074829",
+      "Prefecture": "福島県",
+      "Municipality": "矢祭町"
+    },
+    {
+      "MuniCd": "074837",
+      "Prefecture": "福島県",
+      "Municipality": "塙町"
+    },
+    {
+      "MuniCd": "074845",
+      "Prefecture": "福島県",
+      "Municipality": "鮫川村"
+    },
+    {
+      "MuniCd": "075019",
+      "Prefecture": "福島県",
+      "Municipality": "石川町"
+    },
+    {
+      "MuniCd": "075027",
+      "Prefecture": "福島県",
+      "Municipality": "玉川村"
+    },
+    {
+      "MuniCd": "075035",
+      "Prefecture": "福島県",
+      "Municipality": "平田村"
+    },
+    {
+      "MuniCd": "075043",
+      "Prefecture": "福島県",
+      "Municipality": "浅川町"
+    },
+    {
+      "MuniCd": "075051",
+      "Prefecture": "福島県",
+      "Municipality": "古殿町"
+    },
+    {
+      "MuniCd": "075213",
+      "Prefecture": "福島県",
+      "Municipality": "三春町"
+    },
+    {
+      "MuniCd": "075221",
+      "Prefecture": "福島県",
+      "Municipality": "小野町"
+    },
+    {
+      "MuniCd": "075418",
+      "Prefecture": "福島県",
+      "Municipality": "広野町"
+    },
+    {
+      "MuniCd": "075426",
+      "Prefecture": "福島県",
+      "Municipality": "楢葉町"
+    },
+    {
+      "MuniCd": "075434",
+      "Prefecture": "福島県",
+      "Municipality": "富岡町"
+    },
+    {
+      "MuniCd": "075442",
+      "Prefecture": "福島県",
+      "Municipality": "川内村"
+    },
+    {
+      "MuniCd": "075451",
+      "Prefecture": "福島県",
+      "Municipality": "大熊町"
+    },
+    {
+      "MuniCd": "075469",
+      "Prefecture": "福島県",
+      "Municipality": "双葉町"
+    },
+    {
+      "MuniCd": "075477",
+      "Prefecture": "福島県",
+      "Municipality": "浪江町"
+    },
+    {
+      "MuniCd": "075485",
+      "Prefecture": "福島県",
+      "Municipality": "葛尾村"
+    },
+    {
+      "MuniCd": "075612",
+      "Prefecture": "福島県",
+      "Municipality": "新地町"
+    },
+    {
+      "MuniCd": "075647",
+      "Prefecture": "福島県",
+      "Municipality": "飯舘村"
+    },
+    {
+      "MuniCd": "080004",
+      "Prefecture": "茨城県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "082015",
+      "Prefecture": "茨城県",
+      "Municipality": "水戸市"
+    },
+    {
+      "MuniCd": "082023",
+      "Prefecture": "茨城県",
+      "Municipality": "日立市"
+    },
+    {
+      "MuniCd": "082031",
+      "Prefecture": "茨城県",
+      "Municipality": "土浦市"
+    },
+    {
+      "MuniCd": "082040",
+      "Prefecture": "茨城県",
+      "Municipality": "古河市"
+    },
+    {
+      "MuniCd": "082058",
+      "Prefecture": "茨城県",
+      "Municipality": "石岡市"
+    },
+    {
+      "MuniCd": "082074",
+      "Prefecture": "茨城県",
+      "Municipality": "結城市"
+    },
+    {
+      "MuniCd": "082082",
+      "Prefecture": "茨城県",
+      "Municipality": "龍ケ崎市"
+    },
+    {
+      "MuniCd": "082104",
+      "Prefecture": "茨城県",
+      "Municipality": "下妻市"
+    },
+    {
+      "MuniCd": "082112",
+      "Prefecture": "茨城県",
+      "Municipality": "常総市"
+    },
+    {
+      "MuniCd": "082121",
+      "Prefecture": "茨城県",
+      "Municipality": "常陸太田市"
+    },
+    {
+      "MuniCd": "082147",
+      "Prefecture": "茨城県",
+      "Municipality": "高萩市"
+    },
+    {
+      "MuniCd": "082155",
+      "Prefecture": "茨城県",
+      "Municipality": "北茨城市"
+    },
+    {
+      "MuniCd": "082163",
+      "Prefecture": "茨城県",
+      "Municipality": "笠間市"
+    },
+    {
+      "MuniCd": "082171",
+      "Prefecture": "茨城県",
+      "Municipality": "取手市"
+    },
+    {
+      "MuniCd": "082198",
+      "Prefecture": "茨城県",
+      "Municipality": "牛久市"
+    },
+    {
+      "MuniCd": "082201",
+      "Prefecture": "茨城県",
+      "Municipality": "つくば市"
+    },
+    {
+      "MuniCd": "082210",
+      "Prefecture": "茨城県",
+      "Municipality": "ひたちなか市"
+    },
+    {
+      "MuniCd": "082228",
+      "Prefecture": "茨城県",
+      "Municipality": "鹿嶋市"
+    },
+    {
+      "MuniCd": "082236",
+      "Prefecture": "茨城県",
+      "Municipality": "潮来市"
+    },
+    {
+      "MuniCd": "082244",
+      "Prefecture": "茨城県",
+      "Municipality": "守谷市"
+    },
+    {
+      "MuniCd": "082252",
+      "Prefecture": "茨城県",
+      "Municipality": "常陸大宮市"
+    },
+    {
+      "MuniCd": "082261",
+      "Prefecture": "茨城県",
+      "Municipality": "那珂市"
+    },
+    {
+      "MuniCd": "082279",
+      "Prefecture": "茨城県",
+      "Municipality": "筑西市"
+    },
+    {
+      "MuniCd": "082287",
+      "Prefecture": "茨城県",
+      "Municipality": "坂東市"
+    },
+    {
+      "MuniCd": "082295",
+      "Prefecture": "茨城県",
+      "Municipality": "稲敷市"
+    },
+    {
+      "MuniCd": "082309",
+      "Prefecture": "茨城県",
+      "Municipality": "かすみがうら市"
+    },
+    {
+      "MuniCd": "082317",
+      "Prefecture": "茨城県",
+      "Municipality": "桜川市"
+    },
+    {
+      "MuniCd": "082325",
+      "Prefecture": "茨城県",
+      "Municipality": "神栖市"
+    },
+    {
+      "MuniCd": "082333",
+      "Prefecture": "茨城県",
+      "Municipality": "行方市"
+    },
+    {
+      "MuniCd": "082341",
+      "Prefecture": "茨城県",
+      "Municipality": "鉾田市"
+    },
+    {
+      "MuniCd": "082350",
+      "Prefecture": "茨城県",
+      "Municipality": "つくばみらい市"
+    },
+    {
+      "MuniCd": "082368",
+      "Prefecture": "茨城県",
+      "Municipality": "小美玉市"
+    },
+    {
+      "MuniCd": "083020",
+      "Prefecture": "茨城県",
+      "Municipality": "茨城町"
+    },
+    {
+      "MuniCd": "083097",
+      "Prefecture": "茨城県",
+      "Municipality": "大洗町"
+    },
+    {
+      "MuniCd": "083101",
+      "Prefecture": "茨城県",
+      "Municipality": "城里町"
+    },
+    {
+      "MuniCd": "083411",
+      "Prefecture": "茨城県",
+      "Municipality": "東海村"
+    },
+    {
+      "MuniCd": "083640",
+      "Prefecture": "茨城県",
+      "Municipality": "大子町"
+    },
+    {
+      "MuniCd": "084425",
+      "Prefecture": "茨城県",
+      "Municipality": "美浦村"
+    },
+    {
+      "MuniCd": "084433",
+      "Prefecture": "茨城県",
+      "Municipality": "阿見町"
+    },
+    {
+      "MuniCd": "084476",
+      "Prefecture": "茨城県",
+      "Municipality": "河内町"
+    },
+    {
+      "MuniCd": "085219",
+      "Prefecture": "茨城県",
+      "Municipality": "八千代町"
+    },
+    {
+      "MuniCd": "085421",
+      "Prefecture": "茨城県",
+      "Municipality": "五霞町"
+    },
+    {
+      "MuniCd": "085464",
+      "Prefecture": "茨城県",
+      "Municipality": "境町"
+    },
+    {
+      "MuniCd": "085642",
+      "Prefecture": "茨城県",
+      "Municipality": "利根町"
+    },
+    {
+      "MuniCd": "090000",
+      "Prefecture": "栃木県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "092011",
+      "Prefecture": "栃木県",
+      "Municipality": "宇都宮市"
+    },
+    {
+      "MuniCd": "092029",
+      "Prefecture": "栃木県",
+      "Municipality": "足利市"
+    },
+    {
+      "MuniCd": "092037",
+      "Prefecture": "栃木県",
+      "Municipality": "栃木市"
+    },
+    {
+      "MuniCd": "092045",
+      "Prefecture": "栃木県",
+      "Municipality": "佐野市"
+    },
+    {
+      "MuniCd": "092053",
+      "Prefecture": "栃木県",
+      "Municipality": "鹿沼市"
+    },
+    {
+      "MuniCd": "092061",
+      "Prefecture": "栃木県",
+      "Municipality": "日光市"
+    },
+    {
+      "MuniCd": "092088",
+      "Prefecture": "栃木県",
+      "Municipality": "小山市"
+    },
+    {
+      "MuniCd": "092096",
+      "Prefecture": "栃木県",
+      "Municipality": "真岡市"
+    },
+    {
+      "MuniCd": "092100",
+      "Prefecture": "栃木県",
+      "Municipality": "大田原市"
+    },
+    {
+      "MuniCd": "092118",
+      "Prefecture": "栃木県",
+      "Municipality": "矢板市"
+    },
+    {
+      "MuniCd": "092134",
+      "Prefecture": "栃木県",
+      "Municipality": "那須塩原市"
+    },
+    {
+      "MuniCd": "092142",
+      "Prefecture": "栃木県",
+      "Municipality": "さくら市"
+    },
+    {
+      "MuniCd": "092151",
+      "Prefecture": "栃木県",
+      "Municipality": "那須烏山市"
+    },
+    {
+      "MuniCd": "092169",
+      "Prefecture": "栃木県",
+      "Municipality": "下野市"
+    },
+    {
+      "MuniCd": "093017",
+      "Prefecture": "栃木県",
+      "Municipality": "上三川町"
+    },
+    {
+      "MuniCd": "093424",
+      "Prefecture": "栃木県",
+      "Municipality": "益子町"
+    },
+    {
+      "MuniCd": "093432",
+      "Prefecture": "栃木県",
+      "Municipality": "茂木町"
+    },
+    {
+      "MuniCd": "093441",
+      "Prefecture": "栃木県",
+      "Municipality": "市貝町"
+    },
+    {
+      "MuniCd": "093459",
+      "Prefecture": "栃木県",
+      "Municipality": "芳賀町"
+    },
+    {
+      "MuniCd": "093611",
+      "Prefecture": "栃木県",
+      "Municipality": "壬生町"
+    },
+    {
+      "MuniCd": "093645",
+      "Prefecture": "栃木県",
+      "Municipality": "野木町"
+    },
+    {
+      "MuniCd": "093840",
+      "Prefecture": "栃木県",
+      "Municipality": "塩谷町"
+    },
+    {
+      "MuniCd": "093866",
+      "Prefecture": "栃木県",
+      "Municipality": "高根沢町"
+    },
+    {
+      "MuniCd": "094072",
+      "Prefecture": "栃木県",
+      "Municipality": "那須町"
+    },
+    {
+      "MuniCd": "094111",
+      "Prefecture": "栃木県",
+      "Municipality": "那珂川町"
+    },
+    {
+      "MuniCd": "100005",
+      "Prefecture": "群馬県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "102016",
+      "Prefecture": "群馬県",
+      "Municipality": "前橋市"
+    },
+    {
+      "MuniCd": "102024",
+      "Prefecture": "群馬県",
+      "Municipality": "高崎市"
+    },
+    {
+      "MuniCd": "102032",
+      "Prefecture": "群馬県",
+      "Municipality": "桐生市"
+    },
+    {
+      "MuniCd": "102041",
+      "Prefecture": "群馬県",
+      "Municipality": "伊勢崎市"
+    },
+    {
+      "MuniCd": "102059",
+      "Prefecture": "群馬県",
+      "Municipality": "太田市"
+    },
+    {
+      "MuniCd": "102067",
+      "Prefecture": "群馬県",
+      "Municipality": "沼田市"
+    },
+    {
+      "MuniCd": "102075",
+      "Prefecture": "群馬県",
+      "Municipality": "館林市"
+    },
+    {
+      "MuniCd": "102083",
+      "Prefecture": "群馬県",
+      "Municipality": "渋川市"
+    },
+    {
+      "MuniCd": "102091",
+      "Prefecture": "群馬県",
+      "Municipality": "藤岡市"
+    },
+    {
+      "MuniCd": "102105",
+      "Prefecture": "群馬県",
+      "Municipality": "富岡市"
+    },
+    {
+      "MuniCd": "102113",
+      "Prefecture": "群馬県",
+      "Municipality": "安中市"
+    },
+    {
+      "MuniCd": "102121",
+      "Prefecture": "群馬県",
+      "Municipality": "みどり市"
+    },
+    {
+      "MuniCd": "103446",
+      "Prefecture": "群馬県",
+      "Municipality": "榛東村"
+    },
+    {
+      "MuniCd": "103454",
+      "Prefecture": "群馬県",
+      "Municipality": "吉岡町"
+    },
+    {
+      "MuniCd": "103667",
+      "Prefecture": "群馬県",
+      "Municipality": "上野村"
+    },
+    {
+      "MuniCd": "103675",
+      "Prefecture": "群馬県",
+      "Municipality": "神流町"
+    },
+    {
+      "MuniCd": "103829",
+      "Prefecture": "群馬県",
+      "Municipality": "下仁田町"
+    },
+    {
+      "MuniCd": "103837",
+      "Prefecture": "群馬県",
+      "Municipality": "南牧村"
+    },
+    {
+      "MuniCd": "103845",
+      "Prefecture": "群馬県",
+      "Municipality": "甘楽町"
+    },
+    {
+      "MuniCd": "104213",
+      "Prefecture": "群馬県",
+      "Municipality": "中之条町"
+    },
+    {
+      "MuniCd": "104248",
+      "Prefecture": "群馬県",
+      "Municipality": "長野原町"
+    },
+    {
+      "MuniCd": "104256",
+      "Prefecture": "群馬県",
+      "Municipality": "嬬恋村"
+    },
+    {
+      "MuniCd": "104264",
+      "Prefecture": "群馬県",
+      "Municipality": "草津町"
+    },
+    {
+      "MuniCd": "104281",
+      "Prefecture": "群馬県",
+      "Municipality": "高山村"
+    },
+    {
+      "MuniCd": "104299",
+      "Prefecture": "群馬県",
+      "Municipality": "東吾妻町"
+    },
+    {
+      "MuniCd": "104434",
+      "Prefecture": "群馬県",
+      "Municipality": "片品村"
+    },
+    {
+      "MuniCd": "104442",
+      "Prefecture": "群馬県",
+      "Municipality": "川場村"
+    },
+    {
+      "MuniCd": "104485",
+      "Prefecture": "群馬県",
+      "Municipality": "昭和村"
+    },
+    {
+      "MuniCd": "104493",
+      "Prefecture": "群馬県",
+      "Municipality": "みなかみ町"
+    },
+    {
+      "MuniCd": "104647",
+      "Prefecture": "群馬県",
+      "Municipality": "玉村町"
+    },
+    {
+      "MuniCd": "105210",
+      "Prefecture": "群馬県",
+      "Municipality": "板倉町"
+    },
+    {
+      "MuniCd": "105228",
+      "Prefecture": "群馬県",
+      "Municipality": "明和町"
+    },
+    {
+      "MuniCd": "105236",
+      "Prefecture": "群馬県",
+      "Municipality": "千代田町"
+    },
+    {
+      "MuniCd": "105244",
+      "Prefecture": "群馬県",
+      "Municipality": "大泉町"
+    },
+    {
+      "MuniCd": "105252",
+      "Prefecture": "群馬県",
+      "Municipality": "邑楽町"
+    },
+    {
+      "MuniCd": "110001",
+      "Prefecture": "埼玉県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "111007",
+      "Prefecture": "埼玉県",
+      "Municipality": "さいたま市"
+    },
+    {
+      "MuniCd": "112011",
+      "Prefecture": "埼玉県",
+      "Municipality": "川越市"
+    },
+    {
+      "MuniCd": "112020",
+      "Prefecture": "埼玉県",
+      "Municipality": "熊谷市"
+    },
+    {
+      "MuniCd": "112038",
+      "Prefecture": "埼玉県",
+      "Municipality": "川口市"
+    },
+    {
+      "MuniCd": "112062",
+      "Prefecture": "埼玉県",
+      "Municipality": "行田市"
+    },
+    {
+      "MuniCd": "112071",
+      "Prefecture": "埼玉県",
+      "Municipality": "秩父市"
+    },
+    {
+      "MuniCd": "112089",
+      "Prefecture": "埼玉県",
+      "Municipality": "所沢市"
+    },
+    {
+      "MuniCd": "112097",
+      "Prefecture": "埼玉県",
+      "Municipality": "飯能市"
+    },
+    {
+      "MuniCd": "112101",
+      "Prefecture": "埼玉県",
+      "Municipality": "加須市"
+    },
+    {
+      "MuniCd": "112119",
+      "Prefecture": "埼玉県",
+      "Municipality": "本庄市"
+    },
+    {
+      "MuniCd": "112127",
+      "Prefecture": "埼玉県",
+      "Municipality": "東松山市"
+    },
+    {
+      "MuniCd": "112143",
+      "Prefecture": "埼玉県",
+      "Municipality": "春日部市"
+    },
+    {
+      "MuniCd": "112151",
+      "Prefecture": "埼玉県",
+      "Municipality": "狭山市"
+    },
+    {
+      "MuniCd": "112160",
+      "Prefecture": "埼玉県",
+      "Municipality": "羽生市"
+    },
+    {
+      "MuniCd": "112178",
+      "Prefecture": "埼玉県",
+      "Municipality": "鴻巣市"
+    },
+    {
+      "MuniCd": "112186",
+      "Prefecture": "埼玉県",
+      "Municipality": "深谷市"
+    },
+    {
+      "MuniCd": "112194",
+      "Prefecture": "埼玉県",
+      "Municipality": "上尾市"
+    },
+    {
+      "MuniCd": "112216",
+      "Prefecture": "埼玉県",
+      "Municipality": "草加市"
+    },
+    {
+      "MuniCd": "112224",
+      "Prefecture": "埼玉県",
+      "Municipality": "越谷市"
+    },
+    {
+      "MuniCd": "112232",
+      "Prefecture": "埼玉県",
+      "Municipality": "蕨市"
+    },
+    {
+      "MuniCd": "112241",
+      "Prefecture": "埼玉県",
+      "Municipality": "戸田市"
+    },
+    {
+      "MuniCd": "112259",
+      "Prefecture": "埼玉県",
+      "Municipality": "入間市"
+    },
+    {
+      "MuniCd": "112275",
+      "Prefecture": "埼玉県",
+      "Municipality": "朝霞市"
+    },
+    {
+      "MuniCd": "112283",
+      "Prefecture": "埼玉県",
+      "Municipality": "志木市"
+    },
+    {
+      "MuniCd": "112291",
+      "Prefecture": "埼玉県",
+      "Municipality": "和光市"
+    },
+    {
+      "MuniCd": "112305",
+      "Prefecture": "埼玉県",
+      "Municipality": "新座市"
+    },
+    {
+      "MuniCd": "112313",
+      "Prefecture": "埼玉県",
+      "Municipality": "桶川市"
+    },
+    {
+      "MuniCd": "112321",
+      "Prefecture": "埼玉県",
+      "Municipality": "久喜市"
+    },
+    {
+      "MuniCd": "112330",
+      "Prefecture": "埼玉県",
+      "Municipality": "北本市"
+    },
+    {
+      "MuniCd": "112348",
+      "Prefecture": "埼玉県",
+      "Municipality": "八潮市"
+    },
+    {
+      "MuniCd": "112356",
+      "Prefecture": "埼玉県",
+      "Municipality": "富士見市"
+    },
+    {
+      "MuniCd": "112372",
+      "Prefecture": "埼玉県",
+      "Municipality": "三郷市"
+    },
+    {
+      "MuniCd": "112381",
+      "Prefecture": "埼玉県",
+      "Municipality": "蓮田市"
+    },
+    {
+      "MuniCd": "112399",
+      "Prefecture": "埼玉県",
+      "Municipality": "坂戸市"
+    },
+    {
+      "MuniCd": "112402",
+      "Prefecture": "埼玉県",
+      "Municipality": "幸手市"
+    },
+    {
+      "MuniCd": "112411",
+      "Prefecture": "埼玉県",
+      "Municipality": "鶴ヶ島市"
+    },
+    {
+      "MuniCd": "112429",
+      "Prefecture": "埼玉県",
+      "Municipality": "日高市"
+    },
+    {
+      "MuniCd": "112437",
+      "Prefecture": "埼玉県",
+      "Municipality": "吉川市"
+    },
+    {
+      "MuniCd": "112453",
+      "Prefecture": "埼玉県",
+      "Municipality": "ふじみ野市"
+    },
+    {
+      "MuniCd": "112461",
+      "Prefecture": "埼玉県",
+      "Municipality": "白岡市"
+    },
+    {
+      "MuniCd": "113018",
+      "Prefecture": "埼玉県",
+      "Municipality": "伊奈町"
+    },
+    {
+      "MuniCd": "113247",
+      "Prefecture": "埼玉県",
+      "Municipality": "三芳町"
+    },
+    {
+      "MuniCd": "113263",
+      "Prefecture": "埼玉県",
+      "Municipality": "毛呂山町"
+    },
+    {
+      "MuniCd": "113271",
+      "Prefecture": "埼玉県",
+      "Municipality": "越生町"
+    },
+    {
+      "MuniCd": "113417",
+      "Prefecture": "埼玉県",
+      "Municipality": "滑川町"
+    },
+    {
+      "MuniCd": "113425",
+      "Prefecture": "埼玉県",
+      "Municipality": "嵐山町"
+    },
+    {
+      "MuniCd": "113433",
+      "Prefecture": "埼玉県",
+      "Municipality": "小川町"
+    },
+    {
+      "MuniCd": "113468",
+      "Prefecture": "埼玉県",
+      "Municipality": "川島町"
+    },
+    {
+      "MuniCd": "113476",
+      "Prefecture": "埼玉県",
+      "Municipality": "吉見町"
+    },
+    {
+      "MuniCd": "113484",
+      "Prefecture": "埼玉県",
+      "Municipality": "鳩山町"
+    },
+    {
+      "MuniCd": "113492",
+      "Prefecture": "埼玉県",
+      "Municipality": "ときがわ町"
+    },
+    {
+      "MuniCd": "113611",
+      "Prefecture": "埼玉県",
+      "Municipality": "横瀬町"
+    },
+    {
+      "MuniCd": "113620",
+      "Prefecture": "埼玉県",
+      "Municipality": "皆野町"
+    },
+    {
+      "MuniCd": "113638",
+      "Prefecture": "埼玉県",
+      "Municipality": "長瀞町"
+    },
+    {
+      "MuniCd": "113654",
+      "Prefecture": "埼玉県",
+      "Municipality": "小鹿野町"
+    },
+    {
+      "MuniCd": "113697",
+      "Prefecture": "埼玉県",
+      "Municipality": "東秩父村"
+    },
+    {
+      "MuniCd": "113816",
+      "Prefecture": "埼玉県",
+      "Municipality": "美里町"
+    },
+    {
+      "MuniCd": "113832",
+      "Prefecture": "埼玉県",
+      "Municipality": "神川町"
+    },
+    {
+      "MuniCd": "113859",
+      "Prefecture": "埼玉県",
+      "Municipality": "上里町"
+    },
+    {
+      "MuniCd": "114081",
+      "Prefecture": "埼玉県",
+      "Municipality": "寄居町"
+    },
+    {
+      "MuniCd": "114421",
+      "Prefecture": "埼玉県",
+      "Municipality": "宮代町"
+    },
+    {
+      "MuniCd": "114642",
+      "Prefecture": "埼玉県",
+      "Municipality": "杉戸町"
+    },
+    {
+      "MuniCd": "114651",
+      "Prefecture": "埼玉県",
+      "Municipality": "松伏町"
+    },
+    {
+      "MuniCd": "120006",
+      "Prefecture": "千葉県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "121002",
+      "Prefecture": "千葉県",
+      "Municipality": "千葉市"
+    },
+    {
+      "MuniCd": "122025",
+      "Prefecture": "千葉県",
+      "Municipality": "銚子市"
+    },
+    {
+      "MuniCd": "122033",
+      "Prefecture": "千葉県",
+      "Municipality": "市川市"
+    },
+    {
+      "MuniCd": "122041",
+      "Prefecture": "千葉県",
+      "Municipality": "船橋市"
+    },
+    {
+      "MuniCd": "122050",
+      "Prefecture": "千葉県",
+      "Municipality": "館山市"
+    },
+    {
+      "MuniCd": "122068",
+      "Prefecture": "千葉県",
+      "Municipality": "木更津市"
+    },
+    {
+      "MuniCd": "122076",
+      "Prefecture": "千葉県",
+      "Municipality": "松戸市"
+    },
+    {
+      "MuniCd": "122084",
+      "Prefecture": "千葉県",
+      "Municipality": "野田市"
+    },
+    {
+      "MuniCd": "122106",
+      "Prefecture": "千葉県",
+      "Municipality": "茂原市"
+    },
+    {
+      "MuniCd": "122114",
+      "Prefecture": "千葉県",
+      "Municipality": "成田市"
+    },
+    {
+      "MuniCd": "122122",
+      "Prefecture": "千葉県",
+      "Municipality": "佐倉市"
+    },
+    {
+      "MuniCd": "122131",
+      "Prefecture": "千葉県",
+      "Municipality": "東金市"
+    },
+    {
+      "MuniCd": "122157",
+      "Prefecture": "千葉県",
+      "Municipality": "旭市"
+    },
+    {
+      "MuniCd": "122165",
+      "Prefecture": "千葉県",
+      "Municipality": "習志野市"
+    },
+    {
+      "MuniCd": "122173",
+      "Prefecture": "千葉県",
+      "Municipality": "柏市"
+    },
+    {
+      "MuniCd": "122181",
+      "Prefecture": "千葉県",
+      "Municipality": "勝浦市"
+    },
+    {
+      "MuniCd": "122190",
+      "Prefecture": "千葉県",
+      "Municipality": "市原市"
+    },
+    {
+      "MuniCd": "122203",
+      "Prefecture": "千葉県",
+      "Municipality": "流山市"
+    },
+    {
+      "MuniCd": "122211",
+      "Prefecture": "千葉県",
+      "Municipality": "八千代市"
+    },
+    {
+      "MuniCd": "122220",
+      "Prefecture": "千葉県",
+      "Municipality": "我孫子市"
+    },
+    {
+      "MuniCd": "122238",
+      "Prefecture": "千葉県",
+      "Municipality": "鴨川市"
+    },
+    {
+      "MuniCd": "122246",
+      "Prefecture": "千葉県",
+      "Municipality": "鎌ケ谷市"
+    },
+    {
+      "MuniCd": "122254",
+      "Prefecture": "千葉県",
+      "Municipality": "君津市"
+    },
+    {
+      "MuniCd": "122262",
+      "Prefecture": "千葉県",
+      "Municipality": "富津市"
+    },
+    {
+      "MuniCd": "122271",
+      "Prefecture": "千葉県",
+      "Municipality": "浦安市"
+    },
+    {
+      "MuniCd": "122289",
+      "Prefecture": "千葉県",
+      "Municipality": "四街道市"
+    },
+    {
+      "MuniCd": "122297",
+      "Prefecture": "千葉県",
+      "Municipality": "袖ケ浦市"
+    },
+    {
+      "MuniCd": "122301",
+      "Prefecture": "千葉県",
+      "Municipality": "八街市"
+    },
+    {
+      "MuniCd": "122319",
+      "Prefecture": "千葉県",
+      "Municipality": "印西市"
+    },
+    {
+      "MuniCd": "122327",
+      "Prefecture": "千葉県",
+      "Municipality": "白井市"
+    },
+    {
+      "MuniCd": "122335",
+      "Prefecture": "千葉県",
+      "Municipality": "富里市"
+    },
+    {
+      "MuniCd": "122343",
+      "Prefecture": "千葉県",
+      "Municipality": "南房総市"
+    },
+    {
+      "MuniCd": "122351",
+      "Prefecture": "千葉県",
+      "Municipality": "匝瑳市"
+    },
+    {
+      "MuniCd": "122360",
+      "Prefecture": "千葉県",
+      "Municipality": "香取市"
+    },
+    {
+      "MuniCd": "122378",
+      "Prefecture": "千葉県",
+      "Municipality": "山武市"
+    },
+    {
+      "MuniCd": "122386",
+      "Prefecture": "千葉県",
+      "Municipality": "いすみ市"
+    },
+    {
+      "MuniCd": "122394",
+      "Prefecture": "千葉県",
+      "Municipality": "大網白里市"
+    },
+    {
+      "MuniCd": "123226",
+      "Prefecture": "千葉県",
+      "Municipality": "酒々井町"
+    },
+    {
+      "MuniCd": "123293",
+      "Prefecture": "千葉県",
+      "Municipality": "栄町"
+    },
+    {
+      "MuniCd": "123421",
+      "Prefecture": "千葉県",
+      "Municipality": "神崎町"
+    },
+    {
+      "MuniCd": "123471",
+      "Prefecture": "千葉県",
+      "Municipality": "多古町"
+    },
+    {
+      "MuniCd": "123498",
+      "Prefecture": "千葉県",
+      "Municipality": "東庄町"
+    },
+    {
+      "MuniCd": "124036",
+      "Prefecture": "千葉県",
+      "Municipality": "九十九里町"
+    },
+    {
+      "MuniCd": "124095",
+      "Prefecture": "千葉県",
+      "Municipality": "芝山町"
+    },
+    {
+      "MuniCd": "124109",
+      "Prefecture": "千葉県",
+      "Municipality": "横芝光町"
+    },
+    {
+      "MuniCd": "124214",
+      "Prefecture": "千葉県",
+      "Municipality": "一宮町"
+    },
+    {
+      "MuniCd": "124222",
+      "Prefecture": "千葉県",
+      "Municipality": "睦沢町"
+    },
+    {
+      "MuniCd": "124231",
+      "Prefecture": "千葉県",
+      "Municipality": "長生村"
+    },
+    {
+      "MuniCd": "124249",
+      "Prefecture": "千葉県",
+      "Municipality": "白子町"
+    },
+    {
+      "MuniCd": "124265",
+      "Prefecture": "千葉県",
+      "Municipality": "長柄町"
+    },
+    {
+      "MuniCd": "124273",
+      "Prefecture": "千葉県",
+      "Municipality": "長南町"
+    },
+    {
+      "MuniCd": "124419",
+      "Prefecture": "千葉県",
+      "Municipality": "大多喜町"
+    },
+    {
+      "MuniCd": "124435",
+      "Prefecture": "千葉県",
+      "Municipality": "御宿町"
+    },
+    {
+      "MuniCd": "124630",
+      "Prefecture": "千葉県",
+      "Municipality": "鋸南町"
+    },
+    {
+      "MuniCd": "130001",
+      "Prefecture": "東京都",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "131016",
+      "Prefecture": "東京都",
+      "Municipality": "千代田区"
+    },
+    {
+      "MuniCd": "131024",
+      "Prefecture": "東京都",
+      "Municipality": "中央区"
+    },
+    {
+      "MuniCd": "131032",
+      "Prefecture": "東京都",
+      "Municipality": "港区"
+    },
+    {
+      "MuniCd": "131041",
+      "Prefecture": "東京都",
+      "Municipality": "新宿区"
+    },
+    {
+      "MuniCd": "131059",
+      "Prefecture": "東京都",
+      "Municipality": "文京区"
+    },
+    {
+      "MuniCd": "131067",
+      "Prefecture": "東京都",
+      "Municipality": "台東区"
+    },
+    {
+      "MuniCd": "131075",
+      "Prefecture": "東京都",
+      "Municipality": "墨田区"
+    },
+    {
+      "MuniCd": "131083",
+      "Prefecture": "東京都",
+      "Municipality": "江東区"
+    },
+    {
+      "MuniCd": "131091",
+      "Prefecture": "東京都",
+      "Municipality": "品川区"
+    },
+    {
+      "MuniCd": "131105",
+      "Prefecture": "東京都",
+      "Municipality": "目黒区"
+    },
+    {
+      "MuniCd": "131113",
+      "Prefecture": "東京都",
+      "Municipality": "大田区"
+    },
+    {
+      "MuniCd": "131121",
+      "Prefecture": "東京都",
+      "Municipality": "世田谷区"
+    },
+    {
+      "MuniCd": "131130",
+      "Prefecture": "東京都",
+      "Municipality": "渋谷区"
+    },
+    {
+      "MuniCd": "131148",
+      "Prefecture": "東京都",
+      "Municipality": "中野区"
+    },
+    {
+      "MuniCd": "131156",
+      "Prefecture": "東京都",
+      "Municipality": "杉並区"
+    },
+    {
+      "MuniCd": "131164",
+      "Prefecture": "東京都",
+      "Municipality": "豊島区"
+    },
+    {
+      "MuniCd": "131172",
+      "Prefecture": "東京都",
+      "Municipality": "北区"
+    },
+    {
+      "MuniCd": "131181",
+      "Prefecture": "東京都",
+      "Municipality": "荒川区"
+    },
+    {
+      "MuniCd": "131199",
+      "Prefecture": "東京都",
+      "Municipality": "板橋区"
+    },
+    {
+      "MuniCd": "131202",
+      "Prefecture": "東京都",
+      "Municipality": "練馬区"
+    },
+    {
+      "MuniCd": "131211",
+      "Prefecture": "東京都",
+      "Municipality": "足立区"
+    },
+    {
+      "MuniCd": "131229",
+      "Prefecture": "東京都",
+      "Municipality": "葛飾区"
+    },
+    {
+      "MuniCd": "131237",
+      "Prefecture": "東京都",
+      "Municipality": "江戸川区"
+    },
+    {
+      "MuniCd": "132012",
+      "Prefecture": "東京都",
+      "Municipality": "八王子市"
+    },
+    {
+      "MuniCd": "132021",
+      "Prefecture": "東京都",
+      "Municipality": "立川市"
+    },
+    {
+      "MuniCd": "132039",
+      "Prefecture": "東京都",
+      "Municipality": "武蔵野市"
+    },
+    {
+      "MuniCd": "132047",
+      "Prefecture": "東京都",
+      "Municipality": "三鷹市"
+    },
+    {
+      "MuniCd": "132055",
+      "Prefecture": "東京都",
+      "Municipality": "青梅市"
+    },
+    {
+      "MuniCd": "132063",
+      "Prefecture": "東京都",
+      "Municipality": "府中市"
+    },
+    {
+      "MuniCd": "132071",
+      "Prefecture": "東京都",
+      "Municipality": "昭島市"
+    },
+    {
+      "MuniCd": "132080",
+      "Prefecture": "東京都",
+      "Municipality": "調布市"
+    },
+    {
+      "MuniCd": "132098",
+      "Prefecture": "東京都",
+      "Municipality": "町田市"
+    },
+    {
+      "MuniCd": "132101",
+      "Prefecture": "東京都",
+      "Municipality": "小金井市"
+    },
+    {
+      "MuniCd": "132110",
+      "Prefecture": "東京都",
+      "Municipality": "小平市"
+    },
+    {
+      "MuniCd": "132128",
+      "Prefecture": "東京都",
+      "Municipality": "日野市"
+    },
+    {
+      "MuniCd": "132136",
+      "Prefecture": "東京都",
+      "Municipality": "東村山市"
+    },
+    {
+      "MuniCd": "132144",
+      "Prefecture": "東京都",
+      "Municipality": "国分寺市"
+    },
+    {
+      "MuniCd": "132152",
+      "Prefecture": "東京都",
+      "Municipality": "国立市"
+    },
+    {
+      "MuniCd": "132187",
+      "Prefecture": "東京都",
+      "Municipality": "福生市"
+    },
+    {
+      "MuniCd": "132195",
+      "Prefecture": "東京都",
+      "Municipality": "狛江市"
+    },
+    {
+      "MuniCd": "132209",
+      "Prefecture": "東京都",
+      "Municipality": "東大和市"
+    },
+    {
+      "MuniCd": "132217",
+      "Prefecture": "東京都",
+      "Municipality": "清瀬市"
+    },
+    {
+      "MuniCd": "132225",
+      "Prefecture": "東京都",
+      "Municipality": "東久留米市"
+    },
+    {
+      "MuniCd": "132233",
+      "Prefecture": "東京都",
+      "Municipality": "武蔵村山市"
+    },
+    {
+      "MuniCd": "132241",
+      "Prefecture": "東京都",
+      "Municipality": "多摩市"
+    },
+    {
+      "MuniCd": "132250",
+      "Prefecture": "東京都",
+      "Municipality": "稲城市"
+    },
+    {
+      "MuniCd": "132276",
+      "Prefecture": "東京都",
+      "Municipality": "羽村市"
+    },
+    {
+      "MuniCd": "132284",
+      "Prefecture": "東京都",
+      "Municipality": "あきる野市"
+    },
+    {
+      "MuniCd": "132292",
+      "Prefecture": "東京都",
+      "Municipality": "西東京市"
+    },
+    {
+      "MuniCd": "133035",
+      "Prefecture": "東京都",
+      "Municipality": "瑞穂町"
+    },
+    {
+      "MuniCd": "133051",
+      "Prefecture": "東京都",
+      "Municipality": "日の出町"
+    },
+    {
+      "MuniCd": "133078",
+      "Prefecture": "東京都",
+      "Municipality": "檜原村"
+    },
+    {
+      "MuniCd": "133086",
+      "Prefecture": "東京都",
+      "Municipality": "奥多摩町"
+    },
+    {
+      "MuniCd": "133612",
+      "Prefecture": "東京都",
+      "Municipality": "大島町"
+    },
+    {
+      "MuniCd": "133621",
+      "Prefecture": "東京都",
+      "Municipality": "利島村"
+    },
+    {
+      "MuniCd": "133639",
+      "Prefecture": "東京都",
+      "Municipality": "新島村"
+    },
+    {
+      "MuniCd": "133647",
+      "Prefecture": "東京都",
+      "Municipality": "神津島村"
+    },
+    {
+      "MuniCd": "133817",
+      "Prefecture": "東京都",
+      "Municipality": "三宅村"
+    },
+    {
+      "MuniCd": "133825",
+      "Prefecture": "東京都",
+      "Municipality": "御蔵島村"
+    },
+    {
+      "MuniCd": "134015",
+      "Prefecture": "東京都",
+      "Municipality": "八丈町"
+    },
+    {
+      "MuniCd": "134023",
+      "Prefecture": "東京都",
+      "Municipality": "青ヶ島村"
+    },
+    {
+      "MuniCd": "134210",
+      "Prefecture": "東京都",
+      "Municipality": "小笠原村"
+    },
+    {
+      "MuniCd": "140007",
+      "Prefecture": "神奈川県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "141003",
+      "Prefecture": "神奈川県",
+      "Municipality": "横浜市"
+    },
+    {
+      "MuniCd": "141305",
+      "Prefecture": "神奈川県",
+      "Municipality": "川崎市"
+    },
+    {
+      "MuniCd": "141500",
+      "Prefecture": "神奈川県",
+      "Municipality": "相模原市"
+    },
+    {
+      "MuniCd": "142018",
+      "Prefecture": "神奈川県",
+      "Municipality": "横須賀市"
+    },
+    {
+      "MuniCd": "142034",
+      "Prefecture": "神奈川県",
+      "Municipality": "平塚市"
+    },
+    {
+      "MuniCd": "142042",
+      "Prefecture": "神奈川県",
+      "Municipality": "鎌倉市"
+    },
+    {
+      "MuniCd": "142051",
+      "Prefecture": "神奈川県",
+      "Municipality": "藤沢市"
+    },
+    {
+      "MuniCd": "142069",
+      "Prefecture": "神奈川県",
+      "Municipality": "小田原市"
+    },
+    {
+      "MuniCd": "142077",
+      "Prefecture": "神奈川県",
+      "Municipality": "茅ヶ崎市"
+    },
+    {
+      "MuniCd": "142085",
+      "Prefecture": "神奈川県",
+      "Municipality": "逗子市"
+    },
+    {
+      "MuniCd": "142107",
+      "Prefecture": "神奈川県",
+      "Municipality": "三浦市"
+    },
+    {
+      "MuniCd": "142115",
+      "Prefecture": "神奈川県",
+      "Municipality": "秦野市"
+    },
+    {
+      "MuniCd": "142123",
+      "Prefecture": "神奈川県",
+      "Municipality": "厚木市"
+    },
+    {
+      "MuniCd": "142131",
+      "Prefecture": "神奈川県",
+      "Municipality": "大和市"
+    },
+    {
+      "MuniCd": "142140",
+      "Prefecture": "神奈川県",
+      "Municipality": "伊勢原市"
+    },
+    {
+      "MuniCd": "142158",
+      "Prefecture": "神奈川県",
+      "Municipality": "海老名市"
+    },
+    {
+      "MuniCd": "142166",
+      "Prefecture": "神奈川県",
+      "Municipality": "座間市"
+    },
+    {
+      "MuniCd": "142174",
+      "Prefecture": "神奈川県",
+      "Municipality": "南足柄市"
+    },
+    {
+      "MuniCd": "142182",
+      "Prefecture": "神奈川県",
+      "Municipality": "綾瀬市"
+    },
+    {
+      "MuniCd": "143014",
+      "Prefecture": "神奈川県",
+      "Municipality": "葉山町"
+    },
+    {
+      "MuniCd": "143219",
+      "Prefecture": "神奈川県",
+      "Municipality": "寒川町"
+    },
+    {
+      "MuniCd": "143413",
+      "Prefecture": "神奈川県",
+      "Municipality": "大磯町"
+    },
+    {
+      "MuniCd": "143421",
+      "Prefecture": "神奈川県",
+      "Municipality": "二宮町"
+    },
+    {
+      "MuniCd": "143618",
+      "Prefecture": "神奈川県",
+      "Municipality": "中井町"
+    },
+    {
+      "MuniCd": "143626",
+      "Prefecture": "神奈川県",
+      "Municipality": "大井町"
+    },
+    {
+      "MuniCd": "143634",
+      "Prefecture": "神奈川県",
+      "Municipality": "松田町"
+    },
+    {
+      "MuniCd": "143642",
+      "Prefecture": "神奈川県",
+      "Municipality": "山北町"
+    },
+    {
+      "MuniCd": "143669",
+      "Prefecture": "神奈川県",
+      "Municipality": "開成町"
+    },
+    {
+      "MuniCd": "143821",
+      "Prefecture": "神奈川県",
+      "Municipality": "箱根町"
+    },
+    {
+      "MuniCd": "143839",
+      "Prefecture": "神奈川県",
+      "Municipality": "真鶴町"
+    },
+    {
+      "MuniCd": "143847",
+      "Prefecture": "神奈川県",
+      "Municipality": "湯河原町"
+    },
+    {
+      "MuniCd": "144011",
+      "Prefecture": "神奈川県",
+      "Municipality": "愛川町"
+    },
+    {
+      "MuniCd": "144029",
+      "Prefecture": "神奈川県",
+      "Municipality": "清川村"
+    },
+    {
+      "MuniCd": "150002",
+      "Prefecture": "新潟県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "151009",
+      "Prefecture": "新潟県",
+      "Municipality": "新潟市"
+    },
+    {
+      "MuniCd": "152021",
+      "Prefecture": "新潟県",
+      "Municipality": "長岡市"
+    },
+    {
+      "MuniCd": "152048",
+      "Prefecture": "新潟県",
+      "Municipality": "三条市"
+    },
+    {
+      "MuniCd": "152056",
+      "Prefecture": "新潟県",
+      "Municipality": "柏崎市"
+    },
+    {
+      "MuniCd": "152064",
+      "Prefecture": "新潟県",
+      "Municipality": "新発田市"
+    },
+    {
+      "MuniCd": "152081",
+      "Prefecture": "新潟県",
+      "Municipality": "小千谷市"
+    },
+    {
+      "MuniCd": "152099",
+      "Prefecture": "新潟県",
+      "Municipality": "加茂市"
+    },
+    {
+      "MuniCd": "152102",
+      "Prefecture": "新潟県",
+      "Municipality": "十日町市"
+    },
+    {
+      "MuniCd": "152111",
+      "Prefecture": "新潟県",
+      "Municipality": "見附市"
+    },
+    {
+      "MuniCd": "152129",
+      "Prefecture": "新潟県",
+      "Municipality": "村上市"
+    },
+    {
+      "MuniCd": "152137",
+      "Prefecture": "新潟県",
+      "Municipality": "燕市"
+    },
+    {
+      "MuniCd": "152161",
+      "Prefecture": "新潟県",
+      "Municipality": "糸魚川市"
+    },
+    {
+      "MuniCd": "152170",
+      "Prefecture": "新潟県",
+      "Municipality": "妙高市"
+    },
+    {
+      "MuniCd": "152188",
+      "Prefecture": "新潟県",
+      "Municipality": "五泉市"
+    },
+    {
+      "MuniCd": "152226",
+      "Prefecture": "新潟県",
+      "Municipality": "上越市"
+    },
+    {
+      "MuniCd": "152234",
+      "Prefecture": "新潟県",
+      "Municipality": "阿賀野市"
+    },
+    {
+      "MuniCd": "152242",
+      "Prefecture": "新潟県",
+      "Municipality": "佐渡市"
+    },
+    {
+      "MuniCd": "152251",
+      "Prefecture": "新潟県",
+      "Municipality": "魚沼市"
+    },
+    {
+      "MuniCd": "152269",
+      "Prefecture": "新潟県",
+      "Municipality": "南魚沼市"
+    },
+    {
+      "MuniCd": "152277",
+      "Prefecture": "新潟県",
+      "Municipality": "胎内市"
+    },
+    {
+      "MuniCd": "153079",
+      "Prefecture": "新潟県",
+      "Municipality": "聖籠町"
+    },
+    {
+      "MuniCd": "153427",
+      "Prefecture": "新潟県",
+      "Municipality": "弥彦村"
+    },
+    {
+      "MuniCd": "153613",
+      "Prefecture": "新潟県",
+      "Municipality": "田上町"
+    },
+    {
+      "MuniCd": "153851",
+      "Prefecture": "新潟県",
+      "Municipality": "阿賀町"
+    },
+    {
+      "MuniCd": "154059",
+      "Prefecture": "新潟県",
+      "Municipality": "出雲崎町"
+    },
+    {
+      "MuniCd": "154610",
+      "Prefecture": "新潟県",
+      "Municipality": "湯沢町"
+    },
+    {
+      "MuniCd": "154822",
+      "Prefecture": "新潟県",
+      "Municipality": "津南町"
+    },
+    {
+      "MuniCd": "155047",
+      "Prefecture": "新潟県",
+      "Municipality": "刈羽村"
+    },
+    {
+      "MuniCd": "155811",
+      "Prefecture": "新潟県",
+      "Municipality": "関川村"
+    },
+    {
+      "MuniCd": "155861",
+      "Prefecture": "新潟県",
+      "Municipality": "粟島浦村"
+    },
+    {
+      "MuniCd": "160008",
+      "Prefecture": "富山県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "162019",
+      "Prefecture": "富山県",
+      "Municipality": "富山市"
+    },
+    {
+      "MuniCd": "162027",
+      "Prefecture": "富山県",
+      "Municipality": "高岡市"
+    },
+    {
+      "MuniCd": "162043",
+      "Prefecture": "富山県",
+      "Municipality": "魚津市"
+    },
+    {
+      "MuniCd": "162051",
+      "Prefecture": "富山県",
+      "Municipality": "氷見市"
+    },
+    {
+      "MuniCd": "162060",
+      "Prefecture": "富山県",
+      "Municipality": "滑川市"
+    },
+    {
+      "MuniCd": "162078",
+      "Prefecture": "富山県",
+      "Municipality": "黒部市"
+    },
+    {
+      "MuniCd": "162086",
+      "Prefecture": "富山県",
+      "Municipality": "砺波市"
+    },
+    {
+      "MuniCd": "162094",
+      "Prefecture": "富山県",
+      "Municipality": "小矢部市"
+    },
+    {
+      "MuniCd": "162108",
+      "Prefecture": "富山県",
+      "Municipality": "南砺市"
+    },
+    {
+      "MuniCd": "162116",
+      "Prefecture": "富山県",
+      "Municipality": "射水市"
+    },
+    {
+      "MuniCd": "163210",
+      "Prefecture": "富山県",
+      "Municipality": "舟橋村"
+    },
+    {
+      "MuniCd": "163228",
+      "Prefecture": "富山県",
+      "Municipality": "上市町"
+    },
+    {
+      "MuniCd": "163236",
+      "Prefecture": "富山県",
+      "Municipality": "立山町"
+    },
+    {
+      "MuniCd": "163422",
+      "Prefecture": "富山県",
+      "Municipality": "入善町"
+    },
+    {
+      "MuniCd": "163431",
+      "Prefecture": "富山県",
+      "Municipality": "朝日町"
+    },
+    {
+      "MuniCd": "170003",
+      "Prefecture": "石川県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "172014",
+      "Prefecture": "石川県",
+      "Municipality": "金沢市"
+    },
+    {
+      "MuniCd": "172022",
+      "Prefecture": "石川県",
+      "Municipality": "七尾市"
+    },
+    {
+      "MuniCd": "172031",
+      "Prefecture": "石川県",
+      "Municipality": "小松市"
+    },
+    {
+      "MuniCd": "172049",
+      "Prefecture": "石川県",
+      "Municipality": "輪島市"
+    },
+    {
+      "MuniCd": "172057",
+      "Prefecture": "石川県",
+      "Municipality": "珠洲市"
+    },
+    {
+      "MuniCd": "172065",
+      "Prefecture": "石川県",
+      "Municipality": "加賀市"
+    },
+    {
+      "MuniCd": "172073",
+      "Prefecture": "石川県",
+      "Municipality": "羽咋市"
+    },
+    {
+      "MuniCd": "172090",
+      "Prefecture": "石川県",
+      "Municipality": "かほく市"
+    },
+    {
+      "MuniCd": "172103",
+      "Prefecture": "石川県",
+      "Municipality": "白山市"
+    },
+    {
+      "MuniCd": "172111",
+      "Prefecture": "石川県",
+      "Municipality": "能美市"
+    },
+    {
+      "MuniCd": "172120",
+      "Prefecture": "石川県",
+      "Municipality": "野々市市"
+    },
+    {
+      "MuniCd": "173240",
+      "Prefecture": "石川県",
+      "Municipality": "川北町"
+    },
+    {
+      "MuniCd": "173614",
+      "Prefecture": "石川県",
+      "Municipality": "津幡町"
+    },
+    {
+      "MuniCd": "173657",
+      "Prefecture": "石川県",
+      "Municipality": "内灘町"
+    },
+    {
+      "MuniCd": "173843",
+      "Prefecture": "石川県",
+      "Municipality": "志賀町"
+    },
+    {
+      "MuniCd": "173860",
+      "Prefecture": "石川県",
+      "Municipality": "宝達志水町"
+    },
+    {
+      "MuniCd": "174076",
+      "Prefecture": "石川県",
+      "Municipality": "中能登町"
+    },
+    {
+      "MuniCd": "174611",
+      "Prefecture": "石川県",
+      "Municipality": "穴水町"
+    },
+    {
+      "MuniCd": "174637",
+      "Prefecture": "石川県",
+      "Municipality": "能登町"
+    },
+    {
+      "MuniCd": "180009",
+      "Prefecture": "福井県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "182010",
+      "Prefecture": "福井県",
+      "Municipality": "福井市"
+    },
+    {
+      "MuniCd": "182028",
+      "Prefecture": "福井県",
+      "Municipality": "敦賀市"
+    },
+    {
+      "MuniCd": "182044",
+      "Prefecture": "福井県",
+      "Municipality": "小浜市"
+    },
+    {
+      "MuniCd": "182052",
+      "Prefecture": "福井県",
+      "Municipality": "大野市"
+    },
+    {
+      "MuniCd": "182061",
+      "Prefecture": "福井県",
+      "Municipality": "勝山市"
+    },
+    {
+      "MuniCd": "182079",
+      "Prefecture": "福井県",
+      "Municipality": "鯖江市"
+    },
+    {
+      "MuniCd": "182087",
+      "Prefecture": "福井県",
+      "Municipality": "あわら市"
+    },
+    {
+      "MuniCd": "182095",
+      "Prefecture": "福井県",
+      "Municipality": "越前市"
+    },
+    {
+      "MuniCd": "182109",
+      "Prefecture": "福井県",
+      "Municipality": "坂井市"
+    },
+    {
+      "MuniCd": "183229",
+      "Prefecture": "福井県",
+      "Municipality": "永平寺町"
+    },
+    {
+      "MuniCd": "183822",
+      "Prefecture": "福井県",
+      "Municipality": "池田町"
+    },
+    {
+      "MuniCd": "184047",
+      "Prefecture": "福井県",
+      "Municipality": "南越前町"
+    },
+    {
+      "MuniCd": "184233",
+      "Prefecture": "福井県",
+      "Municipality": "越前町"
+    },
+    {
+      "MuniCd": "184420",
+      "Prefecture": "福井県",
+      "Municipality": "美浜町"
+    },
+    {
+      "MuniCd": "184811",
+      "Prefecture": "福井県",
+      "Municipality": "高浜町"
+    },
+    {
+      "MuniCd": "184837",
+      "Prefecture": "福井県",
+      "Municipality": "おおい町"
+    },
+    {
+      "MuniCd": "185019",
+      "Prefecture": "福井県",
+      "Municipality": "若狭町"
+    },
+    {
+      "MuniCd": "190004",
+      "Prefecture": "山梨県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "192015",
+      "Prefecture": "山梨県",
+      "Municipality": "甲府市"
+    },
+    {
+      "MuniCd": "192023",
+      "Prefecture": "山梨県",
+      "Municipality": "富士吉田市"
+    },
+    {
+      "MuniCd": "192040",
+      "Prefecture": "山梨県",
+      "Municipality": "都留市"
+    },
+    {
+      "MuniCd": "192058",
+      "Prefecture": "山梨県",
+      "Municipality": "山梨市"
+    },
+    {
+      "MuniCd": "192066",
+      "Prefecture": "山梨県",
+      "Municipality": "大月市"
+    },
+    {
+      "MuniCd": "192074",
+      "Prefecture": "山梨県",
+      "Municipality": "韮崎市"
+    },
+    {
+      "MuniCd": "192082",
+      "Prefecture": "山梨県",
+      "Municipality": "南アルプス市"
+    },
+    {
+      "MuniCd": "192091",
+      "Prefecture": "山梨県",
+      "Municipality": "北杜市"
+    },
+    {
+      "MuniCd": "192104",
+      "Prefecture": "山梨県",
+      "Municipality": "甲斐市"
+    },
+    {
+      "MuniCd": "192112",
+      "Prefecture": "山梨県",
+      "Municipality": "笛吹市"
+    },
+    {
+      "MuniCd": "192121",
+      "Prefecture": "山梨県",
+      "Municipality": "上野原市"
+    },
+    {
+      "MuniCd": "192139",
+      "Prefecture": "山梨県",
+      "Municipality": "甲州市"
+    },
+    {
+      "MuniCd": "192147",
+      "Prefecture": "山梨県",
+      "Municipality": "中央市"
+    },
+    {
+      "MuniCd": "193461",
+      "Prefecture": "山梨県",
+      "Municipality": "市川三郷町"
+    },
+    {
+      "MuniCd": "193640",
+      "Prefecture": "山梨県",
+      "Municipality": "早川町"
+    },
+    {
+      "MuniCd": "193658",
+      "Prefecture": "山梨県",
+      "Municipality": "身延町"
+    },
+    {
+      "MuniCd": "193666",
+      "Prefecture": "山梨県",
+      "Municipality": "南部町"
+    },
+    {
+      "MuniCd": "193682",
+      "Prefecture": "山梨県",
+      "Municipality": "富士川町"
+    },
+    {
+      "MuniCd": "193844",
+      "Prefecture": "山梨県",
+      "Municipality": "昭和町"
+    },
+    {
+      "MuniCd": "194221",
+      "Prefecture": "山梨県",
+      "Municipality": "道志村"
+    },
+    {
+      "MuniCd": "194239",
+      "Prefecture": "山梨県",
+      "Municipality": "西桂町"
+    },
+    {
+      "MuniCd": "194247",
+      "Prefecture": "山梨県",
+      "Municipality": "忍野村"
+    },
+    {
+      "MuniCd": "194255",
+      "Prefecture": "山梨県",
+      "Municipality": "山中湖村"
+    },
+    {
+      "MuniCd": "194298",
+      "Prefecture": "山梨県",
+      "Municipality": "鳴沢村"
+    },
+    {
+      "MuniCd": "194301",
+      "Prefecture": "山梨県",
+      "Municipality": "富士河口湖町"
+    },
+    {
+      "MuniCd": "194425",
+      "Prefecture": "山梨県",
+      "Municipality": "小菅村"
+    },
+    {
+      "MuniCd": "194433",
+      "Prefecture": "山梨県",
+      "Municipality": "丹波山村"
+    },
+    {
+      "MuniCd": "200000",
+      "Prefecture": "長野県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "202011",
+      "Prefecture": "長野県",
+      "Municipality": "長野市"
+    },
+    {
+      "MuniCd": "202029",
+      "Prefecture": "長野県",
+      "Municipality": "松本市"
+    },
+    {
+      "MuniCd": "202037",
+      "Prefecture": "長野県",
+      "Municipality": "上田市"
+    },
+    {
+      "MuniCd": "202045",
+      "Prefecture": "長野県",
+      "Municipality": "岡谷市"
+    },
+    {
+      "MuniCd": "202053",
+      "Prefecture": "長野県",
+      "Municipality": "飯田市"
+    },
+    {
+      "MuniCd": "202061",
+      "Prefecture": "長野県",
+      "Municipality": "諏訪市"
+    },
+    {
+      "MuniCd": "202070",
+      "Prefecture": "長野県",
+      "Municipality": "須坂市"
+    },
+    {
+      "MuniCd": "202088",
+      "Prefecture": "長野県",
+      "Municipality": "小諸市"
+    },
+    {
+      "MuniCd": "202096",
+      "Prefecture": "長野県",
+      "Municipality": "伊那市"
+    },
+    {
+      "MuniCd": "202100",
+      "Prefecture": "長野県",
+      "Municipality": "駒ヶ根市"
+    },
+    {
+      "MuniCd": "202118",
+      "Prefecture": "長野県",
+      "Municipality": "中野市"
+    },
+    {
+      "MuniCd": "202126",
+      "Prefecture": "長野県",
+      "Municipality": "大町市"
+    },
+    {
+      "MuniCd": "202134",
+      "Prefecture": "長野県",
+      "Municipality": "飯山市"
+    },
+    {
+      "MuniCd": "202142",
+      "Prefecture": "長野県",
+      "Municipality": "茅野市"
+    },
+    {
+      "MuniCd": "202151",
+      "Prefecture": "長野県",
+      "Municipality": "塩尻市"
+    },
+    {
+      "MuniCd": "202177",
+      "Prefecture": "長野県",
+      "Municipality": "佐久市"
+    },
+    {
+      "MuniCd": "202185",
+      "Prefecture": "長野県",
+      "Municipality": "千曲市"
+    },
+    {
+      "MuniCd": "202193",
+      "Prefecture": "長野県",
+      "Municipality": "東御市"
+    },
+    {
+      "MuniCd": "202207",
+      "Prefecture": "長野県",
+      "Municipality": "安曇野市"
+    },
+    {
+      "MuniCd": "203033",
+      "Prefecture": "長野県",
+      "Municipality": "小海町"
+    },
+    {
+      "MuniCd": "203041",
+      "Prefecture": "長野県",
+      "Municipality": "川上村"
+    },
+    {
+      "MuniCd": "203050",
+      "Prefecture": "長野県",
+      "Municipality": "南牧村"
+    },
+    {
+      "MuniCd": "203068",
+      "Prefecture": "長野県",
+      "Municipality": "南相木村"
+    },
+    {
+      "MuniCd": "203076",
+      "Prefecture": "長野県",
+      "Municipality": "北相木村"
+    },
+    {
+      "MuniCd": "203092",
+      "Prefecture": "長野県",
+      "Municipality": "佐久穂町"
+    },
+    {
+      "MuniCd": "203211",
+      "Prefecture": "長野県",
+      "Municipality": "軽井沢町"
+    },
+    {
+      "MuniCd": "203238",
+      "Prefecture": "長野県",
+      "Municipality": "御代田町"
+    },
+    {
+      "MuniCd": "203246",
+      "Prefecture": "長野県",
+      "Municipality": "立科町"
+    },
+    {
+      "MuniCd": "203491",
+      "Prefecture": "長野県",
+      "Municipality": "青木村"
+    },
+    {
+      "MuniCd": "203505",
+      "Prefecture": "長野県",
+      "Municipality": "長和町"
+    },
+    {
+      "MuniCd": "203611",
+      "Prefecture": "長野県",
+      "Municipality": "下諏訪町"
+    },
+    {
+      "MuniCd": "203629",
+      "Prefecture": "長野県",
+      "Municipality": "富士見町"
+    },
+    {
+      "MuniCd": "203637",
+      "Prefecture": "長野県",
+      "Municipality": "原村"
+    },
+    {
+      "MuniCd": "203823",
+      "Prefecture": "長野県",
+      "Municipality": "辰野町"
+    },
+    {
+      "MuniCd": "203831",
+      "Prefecture": "長野県",
+      "Municipality": "箕輪町"
+    },
+    {
+      "MuniCd": "203840",
+      "Prefecture": "長野県",
+      "Municipality": "飯島町"
+    },
+    {
+      "MuniCd": "203858",
+      "Prefecture": "長野県",
+      "Municipality": "南箕輪村"
+    },
+    {
+      "MuniCd": "203866",
+      "Prefecture": "長野県",
+      "Municipality": "中川村"
+    },
+    {
+      "MuniCd": "203882",
+      "Prefecture": "長野県",
+      "Municipality": "宮田村"
+    },
+    {
+      "MuniCd": "204021",
+      "Prefecture": "長野県",
+      "Municipality": "松川町"
+    },
+    {
+      "MuniCd": "204030",
+      "Prefecture": "長野県",
+      "Municipality": "高森町"
+    },
+    {
+      "MuniCd": "204048",
+      "Prefecture": "長野県",
+      "Municipality": "阿南町"
+    },
+    {
+      "MuniCd": "204072",
+      "Prefecture": "長野県",
+      "Municipality": "阿智村"
+    },
+    {
+      "MuniCd": "204099",
+      "Prefecture": "長野県",
+      "Municipality": "平谷村"
+    },
+    {
+      "MuniCd": "204102",
+      "Prefecture": "長野県",
+      "Municipality": "根羽村"
+    },
+    {
+      "MuniCd": "204111",
+      "Prefecture": "長野県",
+      "Municipality": "下條村"
+    },
+    {
+      "MuniCd": "204129",
+      "Prefecture": "長野県",
+      "Municipality": "売木村"
+    },
+    {
+      "MuniCd": "204137",
+      "Prefecture": "長野県",
+      "Municipality": "天龍村"
+    },
+    {
+      "MuniCd": "204145",
+      "Prefecture": "長野県",
+      "Municipality": "泰阜村"
+    },
+    {
+      "MuniCd": "204153",
+      "Prefecture": "長野県",
+      "Municipality": "喬木村"
+    },
+    {
+      "MuniCd": "204161",
+      "Prefecture": "長野県",
+      "Municipality": "豊丘村"
+    },
+    {
+      "MuniCd": "204170",
+      "Prefecture": "長野県",
+      "Municipality": "大鹿村"
+    },
+    {
+      "MuniCd": "204226",
+      "Prefecture": "長野県",
+      "Municipality": "上松町"
+    },
+    {
+      "MuniCd": "204234",
+      "Prefecture": "長野県",
+      "Municipality": "南木曽町"
+    },
+    {
+      "MuniCd": "204251",
+      "Prefecture": "長野県",
+      "Municipality": "木祖村"
+    },
+    {
+      "MuniCd": "204293",
+      "Prefecture": "長野県",
+      "Municipality": "王滝村"
+    },
+    {
+      "MuniCd": "204307",
+      "Prefecture": "長野県",
+      "Municipality": "大桑村"
+    },
+    {
+      "MuniCd": "204323",
+      "Prefecture": "長野県",
+      "Municipality": "木曽町"
+    },
+    {
+      "MuniCd": "204463",
+      "Prefecture": "長野県",
+      "Municipality": "麻績村"
+    },
+    {
+      "MuniCd": "204480",
+      "Prefecture": "長野県",
+      "Municipality": "生坂村"
+    },
+    {
+      "MuniCd": "204501",
+      "Prefecture": "長野県",
+      "Municipality": "山形村"
+    },
+    {
+      "MuniCd": "204510",
+      "Prefecture": "長野県",
+      "Municipality": "朝日村"
+    },
+    {
+      "MuniCd": "204528",
+      "Prefecture": "長野県",
+      "Municipality": "筑北村"
+    },
+    {
+      "MuniCd": "204811",
+      "Prefecture": "長野県",
+      "Municipality": "池田町"
+    },
+    {
+      "MuniCd": "204820",
+      "Prefecture": "長野県",
+      "Municipality": "松川村"
+    },
+    {
+      "MuniCd": "204854",
+      "Prefecture": "長野県",
+      "Municipality": "白馬村"
+    },
+    {
+      "MuniCd": "204862",
+      "Prefecture": "長野県",
+      "Municipality": "小谷村"
+    },
+    {
+      "MuniCd": "205214",
+      "Prefecture": "長野県",
+      "Municipality": "坂城町"
+    },
+    {
+      "MuniCd": "205419",
+      "Prefecture": "長野県",
+      "Municipality": "小布施町"
+    },
+    {
+      "MuniCd": "205435",
+      "Prefecture": "長野県",
+      "Municipality": "高山村"
+    },
+    {
+      "MuniCd": "205613",
+      "Prefecture": "長野県",
+      "Municipality": "山ノ内町"
+    },
+    {
+      "MuniCd": "205621",
+      "Prefecture": "長野県",
+      "Municipality": "木島平村"
+    },
+    {
+      "MuniCd": "205630",
+      "Prefecture": "長野県",
+      "Municipality": "野沢温泉村"
+    },
+    {
+      "MuniCd": "205834",
+      "Prefecture": "長野県",
+      "Municipality": "信濃町"
+    },
+    {
+      "MuniCd": "205885",
+      "Prefecture": "長野県",
+      "Municipality": "小川村"
+    },
+    {
+      "MuniCd": "205907",
+      "Prefecture": "長野県",
+      "Municipality": "飯綱町"
+    },
+    {
+      "MuniCd": "206024",
+      "Prefecture": "長野県",
+      "Municipality": "栄村"
+    },
+    {
+      "MuniCd": "210005",
+      "Prefecture": "岐阜県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "212016",
+      "Prefecture": "岐阜県",
+      "Municipality": "岐阜市"
+    },
+    {
+      "MuniCd": "212024",
+      "Prefecture": "岐阜県",
+      "Municipality": "大垣市"
+    },
+    {
+      "MuniCd": "212032",
+      "Prefecture": "岐阜県",
+      "Municipality": "高山市"
+    },
+    {
+      "MuniCd": "212041",
+      "Prefecture": "岐阜県",
+      "Municipality": "多治見市"
+    },
+    {
+      "MuniCd": "212059",
+      "Prefecture": "岐阜県",
+      "Municipality": "関市"
+    },
+    {
+      "MuniCd": "212067",
+      "Prefecture": "岐阜県",
+      "Municipality": "中津川市"
+    },
+    {
+      "MuniCd": "212075",
+      "Prefecture": "岐阜県",
+      "Municipality": "美濃市"
+    },
+    {
+      "MuniCd": "212083",
+      "Prefecture": "岐阜県",
+      "Municipality": "瑞浪市"
+    },
+    {
+      "MuniCd": "212091",
+      "Prefecture": "岐阜県",
+      "Municipality": "羽島市"
+    },
+    {
+      "MuniCd": "212105",
+      "Prefecture": "岐阜県",
+      "Municipality": "恵那市"
+    },
+    {
+      "MuniCd": "212113",
+      "Prefecture": "岐阜県",
+      "Municipality": "美濃加茂市"
+    },
+    {
+      "MuniCd": "212121",
+      "Prefecture": "岐阜県",
+      "Municipality": "土岐市"
+    },
+    {
+      "MuniCd": "212130",
+      "Prefecture": "岐阜県",
+      "Municipality": "各務原市"
+    },
+    {
+      "MuniCd": "212148",
+      "Prefecture": "岐阜県",
+      "Municipality": "可児市"
+    },
+    {
+      "MuniCd": "212156",
+      "Prefecture": "岐阜県",
+      "Municipality": "山県市"
+    },
+    {
+      "MuniCd": "212164",
+      "Prefecture": "岐阜県",
+      "Municipality": "瑞穂市"
+    },
+    {
+      "MuniCd": "212172",
+      "Prefecture": "岐阜県",
+      "Municipality": "飛騨市"
+    },
+    {
+      "MuniCd": "212181",
+      "Prefecture": "岐阜県",
+      "Municipality": "本巣市"
+    },
+    {
+      "MuniCd": "212199",
+      "Prefecture": "岐阜県",
+      "Municipality": "郡上市"
+    },
+    {
+      "MuniCd": "212202",
+      "Prefecture": "岐阜県",
+      "Municipality": "下呂市"
+    },
+    {
+      "MuniCd": "212211",
+      "Prefecture": "岐阜県",
+      "Municipality": "海津市"
+    },
+    {
+      "MuniCd": "213021",
+      "Prefecture": "岐阜県",
+      "Municipality": "岐南町"
+    },
+    {
+      "MuniCd": "213039",
+      "Prefecture": "岐阜県",
+      "Municipality": "笠松町"
+    },
+    {
+      "MuniCd": "213411",
+      "Prefecture": "岐阜県",
+      "Municipality": "養老町"
+    },
+    {
+      "MuniCd": "213616",
+      "Prefecture": "岐阜県",
+      "Municipality": "垂井町"
+    },
+    {
+      "MuniCd": "213624",
+      "Prefecture": "岐阜県",
+      "Municipality": "関ケ原町"
+    },
+    {
+      "MuniCd": "213811",
+      "Prefecture": "岐阜県",
+      "Municipality": "神戸町"
+    },
+    {
+      "MuniCd": "213829",
+      "Prefecture": "岐阜県",
+      "Municipality": "輪之内町"
+    },
+    {
+      "MuniCd": "213837",
+      "Prefecture": "岐阜県",
+      "Municipality": "安八町"
+    },
+    {
+      "MuniCd": "214019",
+      "Prefecture": "岐阜県",
+      "Municipality": "揖斐川町"
+    },
+    {
+      "MuniCd": "214035",
+      "Prefecture": "岐阜県",
+      "Municipality": "大野町"
+    },
+    {
+      "MuniCd": "214043",
+      "Prefecture": "岐阜県",
+      "Municipality": "池田町"
+    },
+    {
+      "MuniCd": "214213",
+      "Prefecture": "岐阜県",
+      "Municipality": "北方町"
+    },
+    {
+      "MuniCd": "215015",
+      "Prefecture": "岐阜県",
+      "Municipality": "坂祝町"
+    },
+    {
+      "MuniCd": "215023",
+      "Prefecture": "岐阜県",
+      "Municipality": "富加町"
+    },
+    {
+      "MuniCd": "215031",
+      "Prefecture": "岐阜県",
+      "Municipality": "川辺町"
+    },
+    {
+      "MuniCd": "215040",
+      "Prefecture": "岐阜県",
+      "Municipality": "七宗町"
+    },
+    {
+      "MuniCd": "215058",
+      "Prefecture": "岐阜県",
+      "Municipality": "八百津町"
+    },
+    {
+      "MuniCd": "215066",
+      "Prefecture": "岐阜県",
+      "Municipality": "白川町"
+    },
+    {
+      "MuniCd": "215074",
+      "Prefecture": "岐阜県",
+      "Municipality": "東白川村"
+    },
+    {
+      "MuniCd": "215210",
+      "Prefecture": "岐阜県",
+      "Municipality": "御嵩町"
+    },
+    {
+      "MuniCd": "216046",
+      "Prefecture": "岐阜県",
+      "Municipality": "白川村"
+    },
+    {
+      "MuniCd": "220001",
+      "Prefecture": "静岡県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "221007",
+      "Prefecture": "静岡県",
+      "Municipality": "静岡市"
+    },
+    {
+      "MuniCd": "221309",
+      "Prefecture": "静岡県",
+      "Municipality": "浜松市"
+    },
+    {
+      "MuniCd": "222038",
+      "Prefecture": "静岡県",
+      "Municipality": "沼津市"
+    },
+    {
+      "MuniCd": "222054",
+      "Prefecture": "静岡県",
+      "Municipality": "熱海市"
+    },
+    {
+      "MuniCd": "222062",
+      "Prefecture": "静岡県",
+      "Municipality": "三島市"
+    },
+    {
+      "MuniCd": "222071",
+      "Prefecture": "静岡県",
+      "Municipality": "富士宮市"
+    },
+    {
+      "MuniCd": "222089",
+      "Prefecture": "静岡県",
+      "Municipality": "伊東市"
+    },
+    {
+      "MuniCd": "222097",
+      "Prefecture": "静岡県",
+      "Municipality": "島田市"
+    },
+    {
+      "MuniCd": "222101",
+      "Prefecture": "静岡県",
+      "Municipality": "富士市"
+    },
+    {
+      "MuniCd": "222119",
+      "Prefecture": "静岡県",
+      "Municipality": "磐田市"
+    },
+    {
+      "MuniCd": "222127",
+      "Prefecture": "静岡県",
+      "Municipality": "焼津市"
+    },
+    {
+      "MuniCd": "222135",
+      "Prefecture": "静岡県",
+      "Municipality": "掛川市"
+    },
+    {
+      "MuniCd": "222143",
+      "Prefecture": "静岡県",
+      "Municipality": "藤枝市"
+    },
+    {
+      "MuniCd": "222151",
+      "Prefecture": "静岡県",
+      "Municipality": "御殿場市"
+    },
+    {
+      "MuniCd": "222160",
+      "Prefecture": "静岡県",
+      "Municipality": "袋井市"
+    },
+    {
+      "MuniCd": "222194",
+      "Prefecture": "静岡県",
+      "Municipality": "下田市"
+    },
+    {
+      "MuniCd": "222208",
+      "Prefecture": "静岡県",
+      "Municipality": "裾野市"
+    },
+    {
+      "MuniCd": "222216",
+      "Prefecture": "静岡県",
+      "Municipality": "湖西市"
+    },
+    {
+      "MuniCd": "222224",
+      "Prefecture": "静岡県",
+      "Municipality": "伊豆市"
+    },
+    {
+      "MuniCd": "222232",
+      "Prefecture": "静岡県",
+      "Municipality": "御前崎市"
+    },
+    {
+      "MuniCd": "222241",
+      "Prefecture": "静岡県",
+      "Municipality": "菊川市"
+    },
+    {
+      "MuniCd": "222259",
+      "Prefecture": "静岡県",
+      "Municipality": "伊豆の国市"
+    },
+    {
+      "MuniCd": "222267",
+      "Prefecture": "静岡県",
+      "Municipality": "牧之原市"
+    },
+    {
+      "MuniCd": "223018",
+      "Prefecture": "静岡県",
+      "Municipality": "東伊豆町"
+    },
+    {
+      "MuniCd": "223026",
+      "Prefecture": "静岡県",
+      "Municipality": "河津町"
+    },
+    {
+      "MuniCd": "223042",
+      "Prefecture": "静岡県",
+      "Municipality": "南伊豆町"
+    },
+    {
+      "MuniCd": "223051",
+      "Prefecture": "静岡県",
+      "Municipality": "松崎町"
+    },
+    {
+      "MuniCd": "223069",
+      "Prefecture": "静岡県",
+      "Municipality": "西伊豆町"
+    },
+    {
+      "MuniCd": "223255",
+      "Prefecture": "静岡県",
+      "Municipality": "函南町"
+    },
+    {
+      "MuniCd": "223417",
+      "Prefecture": "静岡県",
+      "Municipality": "清水町"
+    },
+    {
+      "MuniCd": "223425",
+      "Prefecture": "静岡県",
+      "Municipality": "長泉町"
+    },
+    {
+      "MuniCd": "223441",
+      "Prefecture": "静岡県",
+      "Municipality": "小山町"
+    },
+    {
+      "MuniCd": "224243",
+      "Prefecture": "静岡県",
+      "Municipality": "吉田町"
+    },
+    {
+      "MuniCd": "224294",
+      "Prefecture": "静岡県",
+      "Municipality": "川根本町"
+    },
+    {
+      "MuniCd": "224618",
+      "Prefecture": "静岡県",
+      "Municipality": "森町"
+    },
+    {
+      "MuniCd": "230006",
+      "Prefecture": "愛知県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "231002",
+      "Prefecture": "愛知県",
+      "Municipality": "名古屋市"
+    },
+    {
+      "MuniCd": "232017",
+      "Prefecture": "愛知県",
+      "Municipality": "豊橋市"
+    },
+    {
+      "MuniCd": "232025",
+      "Prefecture": "愛知県",
+      "Municipality": "岡崎市"
+    },
+    {
+      "MuniCd": "232033",
+      "Prefecture": "愛知県",
+      "Municipality": "一宮市"
+    },
+    {
+      "MuniCd": "232041",
+      "Prefecture": "愛知県",
+      "Municipality": "瀬戸市"
+    },
+    {
+      "MuniCd": "232050",
+      "Prefecture": "愛知県",
+      "Municipality": "半田市"
+    },
+    {
+      "MuniCd": "232068",
+      "Prefecture": "愛知県",
+      "Municipality": "春日井市"
+    },
+    {
+      "MuniCd": "232076",
+      "Prefecture": "愛知県",
+      "Municipality": "豊川市"
+    },
+    {
+      "MuniCd": "232084",
+      "Prefecture": "愛知県",
+      "Municipality": "津島市"
+    },
+    {
+      "MuniCd": "232092",
+      "Prefecture": "愛知県",
+      "Municipality": "碧南市"
+    },
+    {
+      "MuniCd": "232106",
+      "Prefecture": "愛知県",
+      "Municipality": "刈谷市"
+    },
+    {
+      "MuniCd": "232114",
+      "Prefecture": "愛知県",
+      "Municipality": "豊田市"
+    },
+    {
+      "MuniCd": "232122",
+      "Prefecture": "愛知県",
+      "Municipality": "安城市"
+    },
+    {
+      "MuniCd": "232131",
+      "Prefecture": "愛知県",
+      "Municipality": "西尾市"
+    },
+    {
+      "MuniCd": "232149",
+      "Prefecture": "愛知県",
+      "Municipality": "蒲郡市"
+    },
+    {
+      "MuniCd": "232157",
+      "Prefecture": "愛知県",
+      "Municipality": "犬山市"
+    },
+    {
+      "MuniCd": "232165",
+      "Prefecture": "愛知県",
+      "Municipality": "常滑市"
+    },
+    {
+      "MuniCd": "232173",
+      "Prefecture": "愛知県",
+      "Municipality": "江南市"
+    },
+    {
+      "MuniCd": "232190",
+      "Prefecture": "愛知県",
+      "Municipality": "小牧市"
+    },
+    {
+      "MuniCd": "232203",
+      "Prefecture": "愛知県",
+      "Municipality": "稲沢市"
+    },
+    {
+      "MuniCd": "232211",
+      "Prefecture": "愛知県",
+      "Municipality": "新城市"
+    },
+    {
+      "MuniCd": "232220",
+      "Prefecture": "愛知県",
+      "Municipality": "東海市"
+    },
+    {
+      "MuniCd": "232238",
+      "Prefecture": "愛知県",
+      "Municipality": "大府市"
+    },
+    {
+      "MuniCd": "232246",
+      "Prefecture": "愛知県",
+      "Municipality": "知多市"
+    },
+    {
+      "MuniCd": "232254",
+      "Prefecture": "愛知県",
+      "Municipality": "知立市"
+    },
+    {
+      "MuniCd": "232262",
+      "Prefecture": "愛知県",
+      "Municipality": "尾張旭市"
+    },
+    {
+      "MuniCd": "232271",
+      "Prefecture": "愛知県",
+      "Municipality": "高浜市"
+    },
+    {
+      "MuniCd": "232289",
+      "Prefecture": "愛知県",
+      "Municipality": "岩倉市"
+    },
+    {
+      "MuniCd": "232297",
+      "Prefecture": "愛知県",
+      "Municipality": "豊明市"
+    },
+    {
+      "MuniCd": "232301",
+      "Prefecture": "愛知県",
+      "Municipality": "日進市"
+    },
+    {
+      "MuniCd": "232319",
+      "Prefecture": "愛知県",
+      "Municipality": "田原市"
+    },
+    {
+      "MuniCd": "232327",
+      "Prefecture": "愛知県",
+      "Municipality": "愛西市"
+    },
+    {
+      "MuniCd": "232335",
+      "Prefecture": "愛知県",
+      "Municipality": "清須市"
+    },
+    {
+      "MuniCd": "232343",
+      "Prefecture": "愛知県",
+      "Municipality": "北名古屋市"
+    },
+    {
+      "MuniCd": "232351",
+      "Prefecture": "愛知県",
+      "Municipality": "弥富市"
+    },
+    {
+      "MuniCd": "232360",
+      "Prefecture": "愛知県",
+      "Municipality": "みよし市"
+    },
+    {
+      "MuniCd": "232378",
+      "Prefecture": "愛知県",
+      "Municipality": "あま市"
+    },
+    {
+      "MuniCd": "232386",
+      "Prefecture": "愛知県",
+      "Municipality": "長久手市"
+    },
+    {
+      "MuniCd": "233021",
+      "Prefecture": "愛知県",
+      "Municipality": "東郷町"
+    },
+    {
+      "MuniCd": "233421",
+      "Prefecture": "愛知県",
+      "Municipality": "豊山町"
+    },
+    {
+      "MuniCd": "233617",
+      "Prefecture": "愛知県",
+      "Municipality": "大口町"
+    },
+    {
+      "MuniCd": "233625",
+      "Prefecture": "愛知県",
+      "Municipality": "扶桑町"
+    },
+    {
+      "MuniCd": "234249",
+      "Prefecture": "愛知県",
+      "Municipality": "大治町"
+    },
+    {
+      "MuniCd": "234257",
+      "Prefecture": "愛知県",
+      "Municipality": "蟹江町"
+    },
+    {
+      "MuniCd": "234273",
+      "Prefecture": "愛知県",
+      "Municipality": "飛島村"
+    },
+    {
+      "MuniCd": "234419",
+      "Prefecture": "愛知県",
+      "Municipality": "阿久比町"
+    },
+    {
+      "MuniCd": "234427",
+      "Prefecture": "愛知県",
+      "Municipality": "東浦町"
+    },
+    {
+      "MuniCd": "234451",
+      "Prefecture": "愛知県",
+      "Municipality": "南知多町"
+    },
+    {
+      "MuniCd": "234460",
+      "Prefecture": "愛知県",
+      "Municipality": "美浜町"
+    },
+    {
+      "MuniCd": "234478",
+      "Prefecture": "愛知県",
+      "Municipality": "武豊町"
+    },
+    {
+      "MuniCd": "235016",
+      "Prefecture": "愛知県",
+      "Municipality": "幸田町"
+    },
+    {
+      "MuniCd": "235610",
+      "Prefecture": "愛知県",
+      "Municipality": "設楽町"
+    },
+    {
+      "MuniCd": "235628",
+      "Prefecture": "愛知県",
+      "Municipality": "東栄町"
+    },
+    {
+      "MuniCd": "235636",
+      "Prefecture": "愛知県",
+      "Municipality": "豊根村"
+    },
+    {
+      "MuniCd": "240001",
+      "Prefecture": "三重県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "242012",
+      "Prefecture": "三重県",
+      "Municipality": "津市"
+    },
+    {
+      "MuniCd": "242021",
+      "Prefecture": "三重県",
+      "Municipality": "四日市市"
+    },
+    {
+      "MuniCd": "242039",
+      "Prefecture": "三重県",
+      "Municipality": "伊勢市"
+    },
+    {
+      "MuniCd": "242047",
+      "Prefecture": "三重県",
+      "Municipality": "松阪市"
+    },
+    {
+      "MuniCd": "242055",
+      "Prefecture": "三重県",
+      "Municipality": "桑名市"
+    },
+    {
+      "MuniCd": "242071",
+      "Prefecture": "三重県",
+      "Municipality": "鈴鹿市"
+    },
+    {
+      "MuniCd": "242080",
+      "Prefecture": "三重県",
+      "Municipality": "名張市"
+    },
+    {
+      "MuniCd": "242098",
+      "Prefecture": "三重県",
+      "Municipality": "尾鷲市"
+    },
+    {
+      "MuniCd": "242101",
+      "Prefecture": "三重県",
+      "Municipality": "亀山市"
+    },
+    {
+      "MuniCd": "242110",
+      "Prefecture": "三重県",
+      "Municipality": "鳥羽市"
+    },
+    {
+      "MuniCd": "242128",
+      "Prefecture": "三重県",
+      "Municipality": "熊野市"
+    },
+    {
+      "MuniCd": "242144",
+      "Prefecture": "三重県",
+      "Municipality": "いなべ市"
+    },
+    {
+      "MuniCd": "242152",
+      "Prefecture": "三重県",
+      "Municipality": "志摩市"
+    },
+    {
+      "MuniCd": "242161",
+      "Prefecture": "三重県",
+      "Municipality": "伊賀市"
+    },
+    {
+      "MuniCd": "243035",
+      "Prefecture": "三重県",
+      "Municipality": "木曽岬町"
+    },
+    {
+      "MuniCd": "243248",
+      "Prefecture": "三重県",
+      "Municipality": "東員町"
+    },
+    {
+      "MuniCd": "243418",
+      "Prefecture": "三重県",
+      "Municipality": "菰野町"
+    },
+    {
+      "MuniCd": "243434",
+      "Prefecture": "三重県",
+      "Municipality": "朝日町"
+    },
+    {
+      "MuniCd": "243442",
+      "Prefecture": "三重県",
+      "Municipality": "川越町"
+    },
+    {
+      "MuniCd": "244414",
+      "Prefecture": "三重県",
+      "Municipality": "多気町"
+    },
+    {
+      "MuniCd": "244422",
+      "Prefecture": "三重県",
+      "Municipality": "明和町"
+    },
+    {
+      "MuniCd": "244431",
+      "Prefecture": "三重県",
+      "Municipality": "大台町"
+    },
+    {
+      "MuniCd": "244619",
+      "Prefecture": "三重県",
+      "Municipality": "玉城町"
+    },
+    {
+      "MuniCd": "244708",
+      "Prefecture": "三重県",
+      "Municipality": "度会町"
+    },
+    {
+      "MuniCd": "244716",
+      "Prefecture": "三重県",
+      "Municipality": "大紀町"
+    },
+    {
+      "MuniCd": "244724",
+      "Prefecture": "三重県",
+      "Municipality": "南伊勢町"
+    },
+    {
+      "MuniCd": "245437",
+      "Prefecture": "三重県",
+      "Municipality": "紀北町"
+    },
+    {
+      "MuniCd": "245615",
+      "Prefecture": "三重県",
+      "Municipality": "御浜町"
+    },
+    {
+      "MuniCd": "245623",
+      "Prefecture": "三重県",
+      "Municipality": "紀宝町"
+    },
+    {
+      "MuniCd": "250007",
+      "Prefecture": "滋賀県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "252018",
+      "Prefecture": "滋賀県",
+      "Municipality": "大津市"
+    },
+    {
+      "MuniCd": "252026",
+      "Prefecture": "滋賀県",
+      "Municipality": "彦根市"
+    },
+    {
+      "MuniCd": "252034",
+      "Prefecture": "滋賀県",
+      "Municipality": "長浜市"
+    },
+    {
+      "MuniCd": "252042",
+      "Prefecture": "滋賀県",
+      "Municipality": "近江八幡市"
+    },
+    {
+      "MuniCd": "252069",
+      "Prefecture": "滋賀県",
+      "Municipality": "草津市"
+    },
+    {
+      "MuniCd": "252077",
+      "Prefecture": "滋賀県",
+      "Municipality": "守山市"
+    },
+    {
+      "MuniCd": "252085",
+      "Prefecture": "滋賀県",
+      "Municipality": "栗東市"
+    },
+    {
+      "MuniCd": "252093",
+      "Prefecture": "滋賀県",
+      "Municipality": "甲賀市"
+    },
+    {
+      "MuniCd": "252107",
+      "Prefecture": "滋賀県",
+      "Municipality": "野洲市"
+    },
+    {
+      "MuniCd": "252115",
+      "Prefecture": "滋賀県",
+      "Municipality": "湖南市"
+    },
+    {
+      "MuniCd": "252123",
+      "Prefecture": "滋賀県",
+      "Municipality": "高島市"
+    },
+    {
+      "MuniCd": "252131",
+      "Prefecture": "滋賀県",
+      "Municipality": "東近江市"
+    },
+    {
+      "MuniCd": "252140",
+      "Prefecture": "滋賀県",
+      "Municipality": "米原市"
+    },
+    {
+      "MuniCd": "253839",
+      "Prefecture": "滋賀県",
+      "Municipality": "日野町"
+    },
+    {
+      "MuniCd": "253847",
+      "Prefecture": "滋賀県",
+      "Municipality": "竜王町"
+    },
+    {
+      "MuniCd": "254258",
+      "Prefecture": "滋賀県",
+      "Municipality": "愛荘町"
+    },
+    {
+      "MuniCd": "254410",
+      "Prefecture": "滋賀県",
+      "Municipality": "豊郷町"
+    },
+    {
+      "MuniCd": "254428",
+      "Prefecture": "滋賀県",
+      "Municipality": "甲良町"
+    },
+    {
+      "MuniCd": "254436",
+      "Prefecture": "滋賀県",
+      "Municipality": "多賀町"
+    },
+    {
+      "MuniCd": "260002",
+      "Prefecture": "京都府",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "261009",
+      "Prefecture": "京都府",
+      "Municipality": "京都市"
+    },
+    {
+      "MuniCd": "262013",
+      "Prefecture": "京都府",
+      "Municipality": "福知山市"
+    },
+    {
+      "MuniCd": "262021",
+      "Prefecture": "京都府",
+      "Municipality": "舞鶴市"
+    },
+    {
+      "MuniCd": "262030",
+      "Prefecture": "京都府",
+      "Municipality": "綾部市"
+    },
+    {
+      "MuniCd": "262048",
+      "Prefecture": "京都府",
+      "Municipality": "宇治市"
+    },
+    {
+      "MuniCd": "262056",
+      "Prefecture": "京都府",
+      "Municipality": "宮津市"
+    },
+    {
+      "MuniCd": "262064",
+      "Prefecture": "京都府",
+      "Municipality": "亀岡市"
+    },
+    {
+      "MuniCd": "262072",
+      "Prefecture": "京都府",
+      "Municipality": "城陽市"
+    },
+    {
+      "MuniCd": "262081",
+      "Prefecture": "京都府",
+      "Municipality": "向日市"
+    },
+    {
+      "MuniCd": "262099",
+      "Prefecture": "京都府",
+      "Municipality": "長岡京市"
+    },
+    {
+      "MuniCd": "262102",
+      "Prefecture": "京都府",
+      "Municipality": "八幡市"
+    },
+    {
+      "MuniCd": "262111",
+      "Prefecture": "京都府",
+      "Municipality": "京田辺市"
+    },
+    {
+      "MuniCd": "262129",
+      "Prefecture": "京都府",
+      "Municipality": "京丹後市"
+    },
+    {
+      "MuniCd": "262137",
+      "Prefecture": "京都府",
+      "Municipality": "南丹市"
+    },
+    {
+      "MuniCd": "262145",
+      "Prefecture": "京都府",
+      "Municipality": "木津川市"
+    },
+    {
+      "MuniCd": "263036",
+      "Prefecture": "京都府",
+      "Municipality": "大山崎町"
+    },
+    {
+      "MuniCd": "263222",
+      "Prefecture": "京都府",
+      "Municipality": "久御山町"
+    },
+    {
+      "MuniCd": "263435",
+      "Prefecture": "京都府",
+      "Municipality": "井手町"
+    },
+    {
+      "MuniCd": "263443",
+      "Prefecture": "京都府",
+      "Municipality": "宇治田原町"
+    },
+    {
+      "MuniCd": "263648",
+      "Prefecture": "京都府",
+      "Municipality": "笠置町"
+    },
+    {
+      "MuniCd": "263656",
+      "Prefecture": "京都府",
+      "Municipality": "和束町"
+    },
+    {
+      "MuniCd": "263664",
+      "Prefecture": "京都府",
+      "Municipality": "精華町"
+    },
+    {
+      "MuniCd": "263672",
+      "Prefecture": "京都府",
+      "Municipality": "南山城村"
+    },
+    {
+      "MuniCd": "264075",
+      "Prefecture": "京都府",
+      "Municipality": "京丹波町"
+    },
+    {
+      "MuniCd": "264636",
+      "Prefecture": "京都府",
+      "Municipality": "伊根町"
+    },
+    {
+      "MuniCd": "264652",
+      "Prefecture": "京都府",
+      "Municipality": "与謝野町"
+    },
+    {
+      "MuniCd": "270008",
+      "Prefecture": "大阪府",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "271004",
+      "Prefecture": "大阪府",
+      "Municipality": "大阪市"
+    },
+    {
+      "MuniCd": "271403",
+      "Prefecture": "大阪府",
+      "Municipality": "堺市"
+    },
+    {
+      "MuniCd": "272027",
+      "Prefecture": "大阪府",
+      "Municipality": "岸和田市"
+    },
+    {
+      "MuniCd": "272035",
+      "Prefecture": "大阪府",
+      "Municipality": "豊中市"
+    },
+    {
+      "MuniCd": "272043",
+      "Prefecture": "大阪府",
+      "Municipality": "池田市"
+    },
+    {
+      "MuniCd": "272051",
+      "Prefecture": "大阪府",
+      "Municipality": "吹田市"
+    },
+    {
+      "MuniCd": "272060",
+      "Prefecture": "大阪府",
+      "Municipality": "泉大津市"
+    },
+    {
+      "MuniCd": "272078",
+      "Prefecture": "大阪府",
+      "Municipality": "高槻市"
+    },
+    {
+      "MuniCd": "272086",
+      "Prefecture": "大阪府",
+      "Municipality": "貝塚市"
+    },
+    {
+      "MuniCd": "272094",
+      "Prefecture": "大阪府",
+      "Municipality": "守口市"
+    },
+    {
+      "MuniCd": "272108",
+      "Prefecture": "大阪府",
+      "Municipality": "枚方市"
+    },
+    {
+      "MuniCd": "272116",
+      "Prefecture": "大阪府",
+      "Municipality": "茨木市"
+    },
+    {
+      "MuniCd": "272124",
+      "Prefecture": "大阪府",
+      "Municipality": "八尾市"
+    },
+    {
+      "MuniCd": "272132",
+      "Prefecture": "大阪府",
+      "Municipality": "泉佐野市"
+    },
+    {
+      "MuniCd": "272141",
+      "Prefecture": "大阪府",
+      "Municipality": "富田林市"
+    },
+    {
+      "MuniCd": "272159",
+      "Prefecture": "大阪府",
+      "Municipality": "寝屋川市"
+    },
+    {
+      "MuniCd": "272167",
+      "Prefecture": "大阪府",
+      "Municipality": "河内長野市"
+    },
+    {
+      "MuniCd": "272175",
+      "Prefecture": "大阪府",
+      "Municipality": "松原市"
+    },
+    {
+      "MuniCd": "272183",
+      "Prefecture": "大阪府",
+      "Municipality": "大東市"
+    },
+    {
+      "MuniCd": "272191",
+      "Prefecture": "大阪府",
+      "Municipality": "和泉市"
+    },
+    {
+      "MuniCd": "272205",
+      "Prefecture": "大阪府",
+      "Municipality": "箕面市"
+    },
+    {
+      "MuniCd": "272213",
+      "Prefecture": "大阪府",
+      "Municipality": "柏原市"
+    },
+    {
+      "MuniCd": "272221",
+      "Prefecture": "大阪府",
+      "Municipality": "羽曳野市"
+    },
+    {
+      "MuniCd": "272230",
+      "Prefecture": "大阪府",
+      "Municipality": "門真市"
+    },
+    {
+      "MuniCd": "272248",
+      "Prefecture": "大阪府",
+      "Municipality": "摂津市"
+    },
+    {
+      "MuniCd": "272256",
+      "Prefecture": "大阪府",
+      "Municipality": "高石市"
+    },
+    {
+      "MuniCd": "272264",
+      "Prefecture": "大阪府",
+      "Municipality": "藤井寺市"
+    },
+    {
+      "MuniCd": "272272",
+      "Prefecture": "大阪府",
+      "Municipality": "東大阪市"
+    },
+    {
+      "MuniCd": "272281",
+      "Prefecture": "大阪府",
+      "Municipality": "泉南市"
+    },
+    {
+      "MuniCd": "272299",
+      "Prefecture": "大阪府",
+      "Municipality": "四條畷市"
+    },
+    {
+      "MuniCd": "272302",
+      "Prefecture": "大阪府",
+      "Municipality": "交野市"
+    },
+    {
+      "MuniCd": "272311",
+      "Prefecture": "大阪府",
+      "Municipality": "大阪狭山市"
+    },
+    {
+      "MuniCd": "272329",
+      "Prefecture": "大阪府",
+      "Municipality": "阪南市"
+    },
+    {
+      "MuniCd": "273015",
+      "Prefecture": "大阪府",
+      "Municipality": "島本町"
+    },
+    {
+      "MuniCd": "273210",
+      "Prefecture": "大阪府",
+      "Municipality": "豊能町"
+    },
+    {
+      "MuniCd": "273228",
+      "Prefecture": "大阪府",
+      "Municipality": "能勢町"
+    },
+    {
+      "MuniCd": "273414",
+      "Prefecture": "大阪府",
+      "Municipality": "忠岡町"
+    },
+    {
+      "MuniCd": "273619",
+      "Prefecture": "大阪府",
+      "Municipality": "熊取町"
+    },
+    {
+      "MuniCd": "273627",
+      "Prefecture": "大阪府",
+      "Municipality": "田尻町"
+    },
+    {
+      "MuniCd": "273660",
+      "Prefecture": "大阪府",
+      "Municipality": "岬町"
+    },
+    {
+      "MuniCd": "273813",
+      "Prefecture": "大阪府",
+      "Municipality": "太子町"
+    },
+    {
+      "MuniCd": "273821",
+      "Prefecture": "大阪府",
+      "Municipality": "河南町"
+    },
+    {
+      "MuniCd": "273830",
+      "Prefecture": "大阪府",
+      "Municipality": "千早赤阪村"
+    },
+    {
+      "MuniCd": "280003",
+      "Prefecture": "兵庫県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "281000",
+      "Prefecture": "兵庫県",
+      "Municipality": "神戸市"
+    },
+    {
+      "MuniCd": "282014",
+      "Prefecture": "兵庫県",
+      "Municipality": "姫路市"
+    },
+    {
+      "MuniCd": "282022",
+      "Prefecture": "兵庫県",
+      "Municipality": "尼崎市"
+    },
+    {
+      "MuniCd": "282031",
+      "Prefecture": "兵庫県",
+      "Municipality": "明石市"
+    },
+    {
+      "MuniCd": "282049",
+      "Prefecture": "兵庫県",
+      "Municipality": "西宮市"
+    },
+    {
+      "MuniCd": "282057",
+      "Prefecture": "兵庫県",
+      "Municipality": "洲本市"
+    },
+    {
+      "MuniCd": "282065",
+      "Prefecture": "兵庫県",
+      "Municipality": "芦屋市"
+    },
+    {
+      "MuniCd": "282073",
+      "Prefecture": "兵庫県",
+      "Municipality": "伊丹市"
+    },
+    {
+      "MuniCd": "282081",
+      "Prefecture": "兵庫県",
+      "Municipality": "相生市"
+    },
+    {
+      "MuniCd": "282090",
+      "Prefecture": "兵庫県",
+      "Municipality": "豊岡市"
+    },
+    {
+      "MuniCd": "282103",
+      "Prefecture": "兵庫県",
+      "Municipality": "加古川市"
+    },
+    {
+      "MuniCd": "282120",
+      "Prefecture": "兵庫県",
+      "Municipality": "赤穂市"
+    },
+    {
+      "MuniCd": "282138",
+      "Prefecture": "兵庫県",
+      "Municipality": "西脇市"
+    },
+    {
+      "MuniCd": "282146",
+      "Prefecture": "兵庫県",
+      "Municipality": "宝塚市"
+    },
+    {
+      "MuniCd": "282154",
+      "Prefecture": "兵庫県",
+      "Municipality": "三木市"
+    },
+    {
+      "MuniCd": "282162",
+      "Prefecture": "兵庫県",
+      "Municipality": "高砂市"
+    },
+    {
+      "MuniCd": "282171",
+      "Prefecture": "兵庫県",
+      "Municipality": "川西市"
+    },
+    {
+      "MuniCd": "282189",
+      "Prefecture": "兵庫県",
+      "Municipality": "小野市"
+    },
+    {
+      "MuniCd": "282197",
+      "Prefecture": "兵庫県",
+      "Municipality": "三田市"
+    },
+    {
+      "MuniCd": "282201",
+      "Prefecture": "兵庫県",
+      "Municipality": "加西市"
+    },
+    {
+      "MuniCd": "282219",
+      "Prefecture": "兵庫県",
+      "Municipality": "丹波篠山市"
+    },
+    {
+      "MuniCd": "282227",
+      "Prefecture": "兵庫県",
+      "Municipality": "養父市"
+    },
+    {
+      "MuniCd": "282235",
+      "Prefecture": "兵庫県",
+      "Municipality": "丹波市"
+    },
+    {
+      "MuniCd": "282243",
+      "Prefecture": "兵庫県",
+      "Municipality": "南あわじ市"
+    },
+    {
+      "MuniCd": "282251",
+      "Prefecture": "兵庫県",
+      "Municipality": "朝来市"
+    },
+    {
+      "MuniCd": "282260",
+      "Prefecture": "兵庫県",
+      "Municipality": "淡路市"
+    },
+    {
+      "MuniCd": "282278",
+      "Prefecture": "兵庫県",
+      "Municipality": "宍粟市"
+    },
+    {
+      "MuniCd": "282286",
+      "Prefecture": "兵庫県",
+      "Municipality": "加東市"
+    },
+    {
+      "MuniCd": "282294",
+      "Prefecture": "兵庫県",
+      "Municipality": "たつの市"
+    },
+    {
+      "MuniCd": "283011",
+      "Prefecture": "兵庫県",
+      "Municipality": "猪名川町"
+    },
+    {
+      "MuniCd": "283657",
+      "Prefecture": "兵庫県",
+      "Municipality": "多可町"
+    },
+    {
+      "MuniCd": "283819",
+      "Prefecture": "兵庫県",
+      "Municipality": "稲美町"
+    },
+    {
+      "MuniCd": "283827",
+      "Prefecture": "兵庫県",
+      "Municipality": "播磨町"
+    },
+    {
+      "MuniCd": "284424",
+      "Prefecture": "兵庫県",
+      "Municipality": "市川町"
+    },
+    {
+      "MuniCd": "284432",
+      "Prefecture": "兵庫県",
+      "Municipality": "福崎町"
+    },
+    {
+      "MuniCd": "284467",
+      "Prefecture": "兵庫県",
+      "Municipality": "神河町"
+    },
+    {
+      "MuniCd": "284645",
+      "Prefecture": "兵庫県",
+      "Municipality": "太子町"
+    },
+    {
+      "MuniCd": "284815",
+      "Prefecture": "兵庫県",
+      "Municipality": "上郡町"
+    },
+    {
+      "MuniCd": "285013",
+      "Prefecture": "兵庫県",
+      "Municipality": "佐用町"
+    },
+    {
+      "MuniCd": "285854",
+      "Prefecture": "兵庫県",
+      "Municipality": "香美町"
+    },
+    {
+      "MuniCd": "285862",
+      "Prefecture": "兵庫県",
+      "Municipality": "新温泉町"
+    },
+    {
+      "MuniCd": "290009",
+      "Prefecture": "奈良県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "292010",
+      "Prefecture": "奈良県",
+      "Municipality": "奈良市"
+    },
+    {
+      "MuniCd": "292028",
+      "Prefecture": "奈良県",
+      "Municipality": "大和高田市"
+    },
+    {
+      "MuniCd": "292036",
+      "Prefecture": "奈良県",
+      "Municipality": "大和郡山市"
+    },
+    {
+      "MuniCd": "292044",
+      "Prefecture": "奈良県",
+      "Municipality": "天理市"
+    },
+    {
+      "MuniCd": "292052",
+      "Prefecture": "奈良県",
+      "Municipality": "橿原市"
+    },
+    {
+      "MuniCd": "292061",
+      "Prefecture": "奈良県",
+      "Municipality": "桜井市"
+    },
+    {
+      "MuniCd": "292079",
+      "Prefecture": "奈良県",
+      "Municipality": "五條市"
+    },
+    {
+      "MuniCd": "292087",
+      "Prefecture": "奈良県",
+      "Municipality": "御所市"
+    },
+    {
+      "MuniCd": "292095",
+      "Prefecture": "奈良県",
+      "Municipality": "生駒市"
+    },
+    {
+      "MuniCd": "292109",
+      "Prefecture": "奈良県",
+      "Municipality": "香芝市"
+    },
+    {
+      "MuniCd": "292117",
+      "Prefecture": "奈良県",
+      "Municipality": "葛城市"
+    },
+    {
+      "MuniCd": "292125",
+      "Prefecture": "奈良県",
+      "Municipality": "宇陀市"
+    },
+    {
+      "MuniCd": "293229",
+      "Prefecture": "奈良県",
+      "Municipality": "山添村"
+    },
+    {
+      "MuniCd": "293423",
+      "Prefecture": "奈良県",
+      "Municipality": "平群町"
+    },
+    {
+      "MuniCd": "293431",
+      "Prefecture": "奈良県",
+      "Municipality": "三郷町"
+    },
+    {
+      "MuniCd": "293440",
+      "Prefecture": "奈良県",
+      "Municipality": "斑鳩町"
+    },
+    {
+      "MuniCd": "293458",
+      "Prefecture": "奈良県",
+      "Municipality": "安堵町"
+    },
+    {
+      "MuniCd": "293610",
+      "Prefecture": "奈良県",
+      "Municipality": "川西町"
+    },
+    {
+      "MuniCd": "293628",
+      "Prefecture": "奈良県",
+      "Municipality": "三宅町"
+    },
+    {
+      "MuniCd": "293636",
+      "Prefecture": "奈良県",
+      "Municipality": "田原本町"
+    },
+    {
+      "MuniCd": "293857",
+      "Prefecture": "奈良県",
+      "Municipality": "曽爾村"
+    },
+    {
+      "MuniCd": "293865",
+      "Prefecture": "奈良県",
+      "Municipality": "御杖村"
+    },
+    {
+      "MuniCd": "294012",
+      "Prefecture": "奈良県",
+      "Municipality": "高取町"
+    },
+    {
+      "MuniCd": "294021",
+      "Prefecture": "奈良県",
+      "Municipality": "明日香村"
+    },
+    {
+      "MuniCd": "294241",
+      "Prefecture": "奈良県",
+      "Municipality": "上牧町"
+    },
+    {
+      "MuniCd": "294250",
+      "Prefecture": "奈良県",
+      "Municipality": "王寺町"
+    },
+    {
+      "MuniCd": "294268",
+      "Prefecture": "奈良県",
+      "Municipality": "広陵町"
+    },
+    {
+      "MuniCd": "294276",
+      "Prefecture": "奈良県",
+      "Municipality": "河合町"
+    },
+    {
+      "MuniCd": "294411",
+      "Prefecture": "奈良県",
+      "Municipality": "吉野町"
+    },
+    {
+      "MuniCd": "294420",
+      "Prefecture": "奈良県",
+      "Municipality": "大淀町"
+    },
+    {
+      "MuniCd": "294438",
+      "Prefecture": "奈良県",
+      "Municipality": "下市町"
+    },
+    {
+      "MuniCd": "294446",
+      "Prefecture": "奈良県",
+      "Municipality": "黒滝村"
+    },
+    {
+      "MuniCd": "294462",
+      "Prefecture": "奈良県",
+      "Municipality": "天川村"
+    },
+    {
+      "MuniCd": "294471",
+      "Prefecture": "奈良県",
+      "Municipality": "野迫川村"
+    },
+    {
+      "MuniCd": "294497",
+      "Prefecture": "奈良県",
+      "Municipality": "十津川村"
+    },
+    {
+      "MuniCd": "294501",
+      "Prefecture": "奈良県",
+      "Municipality": "下北山村"
+    },
+    {
+      "MuniCd": "294519",
+      "Prefecture": "奈良県",
+      "Municipality": "上北山村"
+    },
+    {
+      "MuniCd": "294527",
+      "Prefecture": "奈良県",
+      "Municipality": "川上村"
+    },
+    {
+      "MuniCd": "294535",
+      "Prefecture": "奈良県",
+      "Municipality": "東吉野村"
+    },
+    {
+      "MuniCd": "300004",
+      "Prefecture": "和歌山県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "302015",
+      "Prefecture": "和歌山県",
+      "Municipality": "和歌山市"
+    },
+    {
+      "MuniCd": "302023",
+      "Prefecture": "和歌山県",
+      "Municipality": "海南市"
+    },
+    {
+      "MuniCd": "302031",
+      "Prefecture": "和歌山県",
+      "Municipality": "橋本市"
+    },
+    {
+      "MuniCd": "302040",
+      "Prefecture": "和歌山県",
+      "Municipality": "有田市"
+    },
+    {
+      "MuniCd": "302058",
+      "Prefecture": "和歌山県",
+      "Municipality": "御坊市"
+    },
+    {
+      "MuniCd": "302066",
+      "Prefecture": "和歌山県",
+      "Municipality": "田辺市"
+    },
+    {
+      "MuniCd": "302074",
+      "Prefecture": "和歌山県",
+      "Municipality": "新宮市"
+    },
+    {
+      "MuniCd": "302082",
+      "Prefecture": "和歌山県",
+      "Municipality": "紀の川市"
+    },
+    {
+      "MuniCd": "302091",
+      "Prefecture": "和歌山県",
+      "Municipality": "岩出市"
+    },
+    {
+      "MuniCd": "303046",
+      "Prefecture": "和歌山県",
+      "Municipality": "紀美野町"
+    },
+    {
+      "MuniCd": "303411",
+      "Prefecture": "和歌山県",
+      "Municipality": "かつらぎ町"
+    },
+    {
+      "MuniCd": "303437",
+      "Prefecture": "和歌山県",
+      "Municipality": "九度山町"
+    },
+    {
+      "MuniCd": "303445",
+      "Prefecture": "和歌山県",
+      "Municipality": "高野町"
+    },
+    {
+      "MuniCd": "303615",
+      "Prefecture": "和歌山県",
+      "Municipality": "湯浅町"
+    },
+    {
+      "MuniCd": "303623",
+      "Prefecture": "和歌山県",
+      "Municipality": "広川町"
+    },
+    {
+      "MuniCd": "303666",
+      "Prefecture": "和歌山県",
+      "Municipality": "有田川町"
+    },
+    {
+      "MuniCd": "303810",
+      "Prefecture": "和歌山県",
+      "Municipality": "美浜町"
+    },
+    {
+      "MuniCd": "303828",
+      "Prefecture": "和歌山県",
+      "Municipality": "日高町"
+    },
+    {
+      "MuniCd": "303836",
+      "Prefecture": "和歌山県",
+      "Municipality": "由良町"
+    },
+    {
+      "MuniCd": "303909",
+      "Prefecture": "和歌山県",
+      "Municipality": "印南町"
+    },
+    {
+      "MuniCd": "303917",
+      "Prefecture": "和歌山県",
+      "Municipality": "みなべ町"
+    },
+    {
+      "MuniCd": "303925",
+      "Prefecture": "和歌山県",
+      "Municipality": "日高川町"
+    },
+    {
+      "MuniCd": "304018",
+      "Prefecture": "和歌山県",
+      "Municipality": "白浜町"
+    },
+    {
+      "MuniCd": "304042",
+      "Prefecture": "和歌山県",
+      "Municipality": "上富田町"
+    },
+    {
+      "MuniCd": "304069",
+      "Prefecture": "和歌山県",
+      "Municipality": "すさみ町"
+    },
+    {
+      "MuniCd": "304212",
+      "Prefecture": "和歌山県",
+      "Municipality": "那智勝浦町"
+    },
+    {
+      "MuniCd": "304221",
+      "Prefecture": "和歌山県",
+      "Municipality": "太地町"
+    },
+    {
+      "MuniCd": "304247",
+      "Prefecture": "和歌山県",
+      "Municipality": "古座川町"
+    },
+    {
+      "MuniCd": "304271",
+      "Prefecture": "和歌山県",
+      "Municipality": "北山村"
+    },
+    {
+      "MuniCd": "304280",
+      "Prefecture": "和歌山県",
+      "Municipality": "串本町"
+    },
+    {
+      "MuniCd": "310000",
+      "Prefecture": "鳥取県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "312011",
+      "Prefecture": "鳥取県",
+      "Municipality": "鳥取市"
+    },
+    {
+      "MuniCd": "312029",
+      "Prefecture": "鳥取県",
+      "Municipality": "米子市"
+    },
+    {
+      "MuniCd": "312037",
+      "Prefecture": "鳥取県",
+      "Municipality": "倉吉市"
+    },
+    {
+      "MuniCd": "312045",
+      "Prefecture": "鳥取県",
+      "Municipality": "境港市"
+    },
+    {
+      "MuniCd": "313025",
+      "Prefecture": "鳥取県",
+      "Municipality": "岩美町"
+    },
+    {
+      "MuniCd": "313254",
+      "Prefecture": "鳥取県",
+      "Municipality": "若桜町"
+    },
+    {
+      "MuniCd": "313289",
+      "Prefecture": "鳥取県",
+      "Municipality": "智頭町"
+    },
+    {
+      "MuniCd": "313297",
+      "Prefecture": "鳥取県",
+      "Municipality": "八頭町"
+    },
+    {
+      "MuniCd": "313645",
+      "Prefecture": "鳥取県",
+      "Municipality": "三朝町"
+    },
+    {
+      "MuniCd": "313700",
+      "Prefecture": "鳥取県",
+      "Municipality": "湯梨浜町"
+    },
+    {
+      "MuniCd": "313718",
+      "Prefecture": "鳥取県",
+      "Municipality": "琴浦町"
+    },
+    {
+      "MuniCd": "313726",
+      "Prefecture": "鳥取県",
+      "Municipality": "北栄町"
+    },
+    {
+      "MuniCd": "313840",
+      "Prefecture": "鳥取県",
+      "Municipality": "日吉津村"
+    },
+    {
+      "MuniCd": "313866",
+      "Prefecture": "鳥取県",
+      "Municipality": "大山町"
+    },
+    {
+      "MuniCd": "313891",
+      "Prefecture": "鳥取県",
+      "Municipality": "南部町"
+    },
+    {
+      "MuniCd": "313904",
+      "Prefecture": "鳥取県",
+      "Municipality": "伯耆町"
+    },
+    {
+      "MuniCd": "314013",
+      "Prefecture": "鳥取県",
+      "Municipality": "日南町"
+    },
+    {
+      "MuniCd": "314021",
+      "Prefecture": "鳥取県",
+      "Municipality": "日野町"
+    },
+    {
+      "MuniCd": "314030",
+      "Prefecture": "鳥取県",
+      "Municipality": "江府町"
+    },
+    {
+      "MuniCd": "320005",
+      "Prefecture": "島根県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "322016",
+      "Prefecture": "島根県",
+      "Municipality": "松江市"
+    },
+    {
+      "MuniCd": "322024",
+      "Prefecture": "島根県",
+      "Municipality": "浜田市"
+    },
+    {
+      "MuniCd": "322032",
+      "Prefecture": "島根県",
+      "Municipality": "出雲市"
+    },
+    {
+      "MuniCd": "322041",
+      "Prefecture": "島根県",
+      "Municipality": "益田市"
+    },
+    {
+      "MuniCd": "322059",
+      "Prefecture": "島根県",
+      "Municipality": "大田市"
+    },
+    {
+      "MuniCd": "322067",
+      "Prefecture": "島根県",
+      "Municipality": "安来市"
+    },
+    {
+      "MuniCd": "322075",
+      "Prefecture": "島根県",
+      "Municipality": "江津市"
+    },
+    {
+      "MuniCd": "322091",
+      "Prefecture": "島根県",
+      "Municipality": "雲南市"
+    },
+    {
+      "MuniCd": "323438",
+      "Prefecture": "島根県",
+      "Municipality": "奥出雲町"
+    },
+    {
+      "MuniCd": "323861",
+      "Prefecture": "島根県",
+      "Municipality": "飯南町"
+    },
+    {
+      "MuniCd": "324418",
+      "Prefecture": "島根県",
+      "Municipality": "川本町"
+    },
+    {
+      "MuniCd": "324485",
+      "Prefecture": "島根県",
+      "Municipality": "美郷町"
+    },
+    {
+      "MuniCd": "324493",
+      "Prefecture": "島根県",
+      "Municipality": "邑南町"
+    },
+    {
+      "MuniCd": "325015",
+      "Prefecture": "島根県",
+      "Municipality": "津和野町"
+    },
+    {
+      "MuniCd": "325058",
+      "Prefecture": "島根県",
+      "Municipality": "吉賀町"
+    },
+    {
+      "MuniCd": "325252",
+      "Prefecture": "島根県",
+      "Municipality": "海士町"
+    },
+    {
+      "MuniCd": "325261",
+      "Prefecture": "島根県",
+      "Municipality": "西ノ島町"
+    },
+    {
+      "MuniCd": "325279",
+      "Prefecture": "島根県",
+      "Municipality": "知夫村"
+    },
+    {
+      "MuniCd": "325287",
+      "Prefecture": "島根県",
+      "Municipality": "隠岐の島町"
+    },
+    {
+      "MuniCd": "330001",
+      "Prefecture": "岡山県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "331007",
+      "Prefecture": "岡山県",
+      "Municipality": "岡山市"
+    },
+    {
+      "MuniCd": "332020",
+      "Prefecture": "岡山県",
+      "Municipality": "倉敷市"
+    },
+    {
+      "MuniCd": "332038",
+      "Prefecture": "岡山県",
+      "Municipality": "津山市"
+    },
+    {
+      "MuniCd": "332046",
+      "Prefecture": "岡山県",
+      "Municipality": "玉野市"
+    },
+    {
+      "MuniCd": "332054",
+      "Prefecture": "岡山県",
+      "Municipality": "笠岡市"
+    },
+    {
+      "MuniCd": "332071",
+      "Prefecture": "岡山県",
+      "Municipality": "井原市"
+    },
+    {
+      "MuniCd": "332089",
+      "Prefecture": "岡山県",
+      "Municipality": "総社市"
+    },
+    {
+      "MuniCd": "332097",
+      "Prefecture": "岡山県",
+      "Municipality": "高梁市"
+    },
+    {
+      "MuniCd": "332101",
+      "Prefecture": "岡山県",
+      "Municipality": "新見市"
+    },
+    {
+      "MuniCd": "332119",
+      "Prefecture": "岡山県",
+      "Municipality": "備前市"
+    },
+    {
+      "MuniCd": "332127",
+      "Prefecture": "岡山県",
+      "Municipality": "瀬戸内市"
+    },
+    {
+      "MuniCd": "332135",
+      "Prefecture": "岡山県",
+      "Municipality": "赤磐市"
+    },
+    {
+      "MuniCd": "332143",
+      "Prefecture": "岡山県",
+      "Municipality": "真庭市"
+    },
+    {
+      "MuniCd": "332151",
+      "Prefecture": "岡山県",
+      "Municipality": "美作市"
+    },
+    {
+      "MuniCd": "332160",
+      "Prefecture": "岡山県",
+      "Municipality": "浅口市"
+    },
+    {
+      "MuniCd": "333468",
+      "Prefecture": "岡山県",
+      "Municipality": "和気町"
+    },
+    {
+      "MuniCd": "334235",
+      "Prefecture": "岡山県",
+      "Municipality": "早島町"
+    },
+    {
+      "MuniCd": "334456",
+      "Prefecture": "岡山県",
+      "Municipality": "里庄町"
+    },
+    {
+      "MuniCd": "334618",
+      "Prefecture": "岡山県",
+      "Municipality": "矢掛町"
+    },
+    {
+      "MuniCd": "335860",
+      "Prefecture": "岡山県",
+      "Municipality": "新庄村"
+    },
+    {
+      "MuniCd": "336068",
+      "Prefecture": "岡山県",
+      "Municipality": "鏡野町"
+    },
+    {
+      "MuniCd": "336220",
+      "Prefecture": "岡山県",
+      "Municipality": "勝央町"
+    },
+    {
+      "MuniCd": "336238",
+      "Prefecture": "岡山県",
+      "Municipality": "奈義町"
+    },
+    {
+      "MuniCd": "336432",
+      "Prefecture": "岡山県",
+      "Municipality": "西粟倉村"
+    },
+    {
+      "MuniCd": "336637",
+      "Prefecture": "岡山県",
+      "Municipality": "久米南町"
+    },
+    {
+      "MuniCd": "336661",
+      "Prefecture": "岡山県",
+      "Municipality": "美咲町"
+    },
+    {
+      "MuniCd": "336815",
+      "Prefecture": "岡山県",
+      "Municipality": "吉備中央町"
+    },
+    {
+      "MuniCd": "340006",
+      "Prefecture": "広島県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "341002",
+      "Prefecture": "広島県",
+      "Municipality": "広島市"
+    },
+    {
+      "MuniCd": "342025",
+      "Prefecture": "広島県",
+      "Municipality": "呉市"
+    },
+    {
+      "MuniCd": "342033",
+      "Prefecture": "広島県",
+      "Municipality": "竹原市"
+    },
+    {
+      "MuniCd": "342041",
+      "Prefecture": "広島県",
+      "Municipality": "三原市"
+    },
+    {
+      "MuniCd": "342050",
+      "Prefecture": "広島県",
+      "Municipality": "尾道市"
+    },
+    {
+      "MuniCd": "342076",
+      "Prefecture": "広島県",
+      "Municipality": "福山市"
+    },
+    {
+      "MuniCd": "342084",
+      "Prefecture": "広島県",
+      "Municipality": "府中市"
+    },
+    {
+      "MuniCd": "342092",
+      "Prefecture": "広島県",
+      "Municipality": "三次市"
+    },
+    {
+      "MuniCd": "342106",
+      "Prefecture": "広島県",
+      "Municipality": "庄原市"
+    },
+    {
+      "MuniCd": "342114",
+      "Prefecture": "広島県",
+      "Municipality": "大竹市"
+    },
+    {
+      "MuniCd": "342122",
+      "Prefecture": "広島県",
+      "Municipality": "東広島市"
+    },
+    {
+      "MuniCd": "342131",
+      "Prefecture": "広島県",
+      "Municipality": "廿日市市"
+    },
+    {
+      "MuniCd": "342149",
+      "Prefecture": "広島県",
+      "Municipality": "安芸高田市"
+    },
+    {
+      "MuniCd": "342157",
+      "Prefecture": "広島県",
+      "Municipality": "江田島市"
+    },
+    {
+      "MuniCd": "343021",
+      "Prefecture": "広島県",
+      "Municipality": "府中町"
+    },
+    {
+      "MuniCd": "343048",
+      "Prefecture": "広島県",
+      "Municipality": "海田町"
+    },
+    {
+      "MuniCd": "343072",
+      "Prefecture": "広島県",
+      "Municipality": "熊野町"
+    },
+    {
+      "MuniCd": "343099",
+      "Prefecture": "広島県",
+      "Municipality": "坂町"
+    },
+    {
+      "MuniCd": "343684",
+      "Prefecture": "広島県",
+      "Municipality": "安芸太田町"
+    },
+    {
+      "MuniCd": "343692",
+      "Prefecture": "広島県",
+      "Municipality": "北広島町"
+    },
+    {
+      "MuniCd": "344311",
+      "Prefecture": "広島県",
+      "Municipality": "大崎上島町"
+    },
+    {
+      "MuniCd": "344621",
+      "Prefecture": "広島県",
+      "Municipality": "世羅町"
+    },
+    {
+      "MuniCd": "345458",
+      "Prefecture": "広島県",
+      "Municipality": "神石高原町"
+    },
+    {
+      "MuniCd": "350001",
+      "Prefecture": "山口県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "352012",
+      "Prefecture": "山口県",
+      "Municipality": "下関市"
+    },
+    {
+      "MuniCd": "352021",
+      "Prefecture": "山口県",
+      "Municipality": "宇部市"
+    },
+    {
+      "MuniCd": "352039",
+      "Prefecture": "山口県",
+      "Municipality": "山口市"
+    },
+    {
+      "MuniCd": "352047",
+      "Prefecture": "山口県",
+      "Municipality": "萩市"
+    },
+    {
+      "MuniCd": "352063",
+      "Prefecture": "山口県",
+      "Municipality": "防府市"
+    },
+    {
+      "MuniCd": "352071",
+      "Prefecture": "山口県",
+      "Municipality": "下松市"
+    },
+    {
+      "MuniCd": "352080",
+      "Prefecture": "山口県",
+      "Municipality": "岩国市"
+    },
+    {
+      "MuniCd": "352101",
+      "Prefecture": "山口県",
+      "Municipality": "光市"
+    },
+    {
+      "MuniCd": "352110",
+      "Prefecture": "山口県",
+      "Municipality": "長門市"
+    },
+    {
+      "MuniCd": "352128",
+      "Prefecture": "山口県",
+      "Municipality": "柳井市"
+    },
+    {
+      "MuniCd": "352136",
+      "Prefecture": "山口県",
+      "Municipality": "美祢市"
+    },
+    {
+      "MuniCd": "352152",
+      "Prefecture": "山口県",
+      "Municipality": "周南市"
+    },
+    {
+      "MuniCd": "352161",
+      "Prefecture": "山口県",
+      "Municipality": "山陽小野田市"
+    },
+    {
+      "MuniCd": "353051",
+      "Prefecture": "山口県",
+      "Municipality": "周防大島町"
+    },
+    {
+      "MuniCd": "353213",
+      "Prefecture": "山口県",
+      "Municipality": "和木町"
+    },
+    {
+      "MuniCd": "353418",
+      "Prefecture": "山口県",
+      "Municipality": "上関町"
+    },
+    {
+      "MuniCd": "353434",
+      "Prefecture": "山口県",
+      "Municipality": "田布施町"
+    },
+    {
+      "MuniCd": "353442",
+      "Prefecture": "山口県",
+      "Municipality": "平生町"
+    },
+    {
+      "MuniCd": "355020",
+      "Prefecture": "山口県",
+      "Municipality": "阿武町"
+    },
+    {
+      "MuniCd": "360007",
+      "Prefecture": "徳島県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "362018",
+      "Prefecture": "徳島県",
+      "Municipality": "徳島市"
+    },
+    {
+      "MuniCd": "362026",
+      "Prefecture": "徳島県",
+      "Municipality": "鳴門市"
+    },
+    {
+      "MuniCd": "362034",
+      "Prefecture": "徳島県",
+      "Municipality": "小松島市"
+    },
+    {
+      "MuniCd": "362042",
+      "Prefecture": "徳島県",
+      "Municipality": "阿南市"
+    },
+    {
+      "MuniCd": "362051",
+      "Prefecture": "徳島県",
+      "Municipality": "吉野川市"
+    },
+    {
+      "MuniCd": "362069",
+      "Prefecture": "徳島県",
+      "Municipality": "阿波市"
+    },
+    {
+      "MuniCd": "362077",
+      "Prefecture": "徳島県",
+      "Municipality": "美馬市"
+    },
+    {
+      "MuniCd": "362085",
+      "Prefecture": "徳島県",
+      "Municipality": "三好市"
+    },
+    {
+      "MuniCd": "363014",
+      "Prefecture": "徳島県",
+      "Municipality": "勝浦町"
+    },
+    {
+      "MuniCd": "363022",
+      "Prefecture": "徳島県",
+      "Municipality": "上勝町"
+    },
+    {
+      "MuniCd": "363219",
+      "Prefecture": "徳島県",
+      "Municipality": "佐那河内村"
+    },
+    {
+      "MuniCd": "363413",
+      "Prefecture": "徳島県",
+      "Municipality": "石井町"
+    },
+    {
+      "MuniCd": "363421",
+      "Prefecture": "徳島県",
+      "Municipality": "神山町"
+    },
+    {
+      "MuniCd": "363685",
+      "Prefecture": "徳島県",
+      "Municipality": "那賀町"
+    },
+    {
+      "MuniCd": "363839",
+      "Prefecture": "徳島県",
+      "Municipality": "牟岐町"
+    },
+    {
+      "MuniCd": "363871",
+      "Prefecture": "徳島県",
+      "Municipality": "美波町"
+    },
+    {
+      "MuniCd": "363880",
+      "Prefecture": "徳島県",
+      "Municipality": "海陽町"
+    },
+    {
+      "MuniCd": "364011",
+      "Prefecture": "徳島県",
+      "Municipality": "松茂町"
+    },
+    {
+      "MuniCd": "364029",
+      "Prefecture": "徳島県",
+      "Municipality": "北島町"
+    },
+    {
+      "MuniCd": "364037",
+      "Prefecture": "徳島県",
+      "Municipality": "藍住町"
+    },
+    {
+      "MuniCd": "364045",
+      "Prefecture": "徳島県",
+      "Municipality": "板野町"
+    },
+    {
+      "MuniCd": "364053",
+      "Prefecture": "徳島県",
+      "Municipality": "上板町"
+    },
+    {
+      "MuniCd": "364681",
+      "Prefecture": "徳島県",
+      "Municipality": "つるぎ町"
+    },
+    {
+      "MuniCd": "364894",
+      "Prefecture": "徳島県",
+      "Municipality": "東みよし町"
+    },
+    {
+      "MuniCd": "370002",
+      "Prefecture": "香川県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "372013",
+      "Prefecture": "香川県",
+      "Municipality": "高松市"
+    },
+    {
+      "MuniCd": "372021",
+      "Prefecture": "香川県",
+      "Municipality": "丸亀市"
+    },
+    {
+      "MuniCd": "372030",
+      "Prefecture": "香川県",
+      "Municipality": "坂出市"
+    },
+    {
+      "MuniCd": "372048",
+      "Prefecture": "香川県",
+      "Municipality": "善通寺市"
+    },
+    {
+      "MuniCd": "372056",
+      "Prefecture": "香川県",
+      "Municipality": "観音寺市"
+    },
+    {
+      "MuniCd": "372064",
+      "Prefecture": "香川県",
+      "Municipality": "さぬき市"
+    },
+    {
+      "MuniCd": "372072",
+      "Prefecture": "香川県",
+      "Municipality": "東かがわ市"
+    },
+    {
+      "MuniCd": "372081",
+      "Prefecture": "香川県",
+      "Municipality": "三豊市"
+    },
+    {
+      "MuniCd": "373222",
+      "Prefecture": "香川県",
+      "Municipality": "土庄町"
+    },
+    {
+      "MuniCd": "373249",
+      "Prefecture": "香川県",
+      "Municipality": "小豆島町"
+    },
+    {
+      "MuniCd": "373419",
+      "Prefecture": "香川県",
+      "Municipality": "三木町"
+    },
+    {
+      "MuniCd": "373648",
+      "Prefecture": "香川県",
+      "Municipality": "直島町"
+    },
+    {
+      "MuniCd": "373869",
+      "Prefecture": "香川県",
+      "Municipality": "宇多津町"
+    },
+    {
+      "MuniCd": "373877",
+      "Prefecture": "香川県",
+      "Municipality": "綾川町"
+    },
+    {
+      "MuniCd": "374032",
+      "Prefecture": "香川県",
+      "Municipality": "琴平町"
+    },
+    {
+      "MuniCd": "374041",
+      "Prefecture": "香川県",
+      "Municipality": "多度津町"
+    },
+    {
+      "MuniCd": "374067",
+      "Prefecture": "香川県",
+      "Municipality": "まんのう町"
+    },
+    {
+      "MuniCd": "380008",
+      "Prefecture": "愛媛県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "382019",
+      "Prefecture": "愛媛県",
+      "Municipality": "松山市"
+    },
+    {
+      "MuniCd": "382027",
+      "Prefecture": "愛媛県",
+      "Municipality": "今治市"
+    },
+    {
+      "MuniCd": "382035",
+      "Prefecture": "愛媛県",
+      "Municipality": "宇和島市"
+    },
+    {
+      "MuniCd": "382043",
+      "Prefecture": "愛媛県",
+      "Municipality": "八幡浜市"
+    },
+    {
+      "MuniCd": "382051",
+      "Prefecture": "愛媛県",
+      "Municipality": "新居浜市"
+    },
+    {
+      "MuniCd": "382060",
+      "Prefecture": "愛媛県",
+      "Municipality": "西条市"
+    },
+    {
+      "MuniCd": "382078",
+      "Prefecture": "愛媛県",
+      "Municipality": "大洲市"
+    },
+    {
+      "MuniCd": "382108",
+      "Prefecture": "愛媛県",
+      "Municipality": "伊予市"
+    },
+    {
+      "MuniCd": "382132",
+      "Prefecture": "愛媛県",
+      "Municipality": "四国中央市"
+    },
+    {
+      "MuniCd": "382141",
+      "Prefecture": "愛媛県",
+      "Municipality": "西予市"
+    },
+    {
+      "MuniCd": "382159",
+      "Prefecture": "愛媛県",
+      "Municipality": "東温市"
+    },
+    {
+      "MuniCd": "383562",
+      "Prefecture": "愛媛県",
+      "Municipality": "上島町"
+    },
+    {
+      "MuniCd": "383864",
+      "Prefecture": "愛媛県",
+      "Municipality": "久万高原町"
+    },
+    {
+      "MuniCd": "384011",
+      "Prefecture": "愛媛県",
+      "Municipality": "松前町"
+    },
+    {
+      "MuniCd": "384020",
+      "Prefecture": "愛媛県",
+      "Municipality": "砥部町"
+    },
+    {
+      "MuniCd": "384224",
+      "Prefecture": "愛媛県",
+      "Municipality": "内子町"
+    },
+    {
+      "MuniCd": "384429",
+      "Prefecture": "愛媛県",
+      "Municipality": "伊方町"
+    },
+    {
+      "MuniCd": "384844",
+      "Prefecture": "愛媛県",
+      "Municipality": "松野町"
+    },
+    {
+      "MuniCd": "384887",
+      "Prefecture": "愛媛県",
+      "Municipality": "鬼北町"
+    },
+    {
+      "MuniCd": "385069",
+      "Prefecture": "愛媛県",
+      "Municipality": "愛南町"
+    },
+    {
+      "MuniCd": "390003",
+      "Prefecture": "高知県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "392014",
+      "Prefecture": "高知県",
+      "Municipality": "高知市"
+    },
+    {
+      "MuniCd": "392022",
+      "Prefecture": "高知県",
+      "Municipality": "室戸市"
+    },
+    {
+      "MuniCd": "392031",
+      "Prefecture": "高知県",
+      "Municipality": "安芸市"
+    },
+    {
+      "MuniCd": "392049",
+      "Prefecture": "高知県",
+      "Municipality": "南国市"
+    },
+    {
+      "MuniCd": "392057",
+      "Prefecture": "高知県",
+      "Municipality": "土佐市"
+    },
+    {
+      "MuniCd": "392065",
+      "Prefecture": "高知県",
+      "Municipality": "須崎市"
+    },
+    {
+      "MuniCd": "392081",
+      "Prefecture": "高知県",
+      "Municipality": "宿毛市"
+    },
+    {
+      "MuniCd": "392090",
+      "Prefecture": "高知県",
+      "Municipality": "土佐清水市"
+    },
+    {
+      "MuniCd": "392103",
+      "Prefecture": "高知県",
+      "Municipality": "四万十市"
+    },
+    {
+      "MuniCd": "392111",
+      "Prefecture": "高知県",
+      "Municipality": "香南市"
+    },
+    {
+      "MuniCd": "392120",
+      "Prefecture": "高知県",
+      "Municipality": "香美市"
+    },
+    {
+      "MuniCd": "393011",
+      "Prefecture": "高知県",
+      "Municipality": "東洋町"
+    },
+    {
+      "MuniCd": "393029",
+      "Prefecture": "高知県",
+      "Municipality": "奈半利町"
+    },
+    {
+      "MuniCd": "393037",
+      "Prefecture": "高知県",
+      "Municipality": "田野町"
+    },
+    {
+      "MuniCd": "393045",
+      "Prefecture": "高知県",
+      "Municipality": "安田町"
+    },
+    {
+      "MuniCd": "393053",
+      "Prefecture": "高知県",
+      "Municipality": "北川村"
+    },
+    {
+      "MuniCd": "393061",
+      "Prefecture": "高知県",
+      "Municipality": "馬路村"
+    },
+    {
+      "MuniCd": "393070",
+      "Prefecture": "高知県",
+      "Municipality": "芸西村"
+    },
+    {
+      "MuniCd": "393410",
+      "Prefecture": "高知県",
+      "Municipality": "本山町"
+    },
+    {
+      "MuniCd": "393444",
+      "Prefecture": "高知県",
+      "Municipality": "大豊町"
+    },
+    {
+      "MuniCd": "393631",
+      "Prefecture": "高知県",
+      "Municipality": "土佐町"
+    },
+    {
+      "MuniCd": "393649",
+      "Prefecture": "高知県",
+      "Municipality": "大川村"
+    },
+    {
+      "MuniCd": "393860",
+      "Prefecture": "高知県",
+      "Municipality": "いの町"
+    },
+    {
+      "MuniCd": "393878",
+      "Prefecture": "高知県",
+      "Municipality": "仁淀川町"
+    },
+    {
+      "MuniCd": "394017",
+      "Prefecture": "高知県",
+      "Municipality": "中土佐町"
+    },
+    {
+      "MuniCd": "394025",
+      "Prefecture": "高知県",
+      "Municipality": "佐川町"
+    },
+    {
+      "MuniCd": "394033",
+      "Prefecture": "高知県",
+      "Municipality": "越知町"
+    },
+    {
+      "MuniCd": "394050",
+      "Prefecture": "高知県",
+      "Municipality": "梼原町"
+    },
+    {
+      "MuniCd": "394106",
+      "Prefecture": "高知県",
+      "Municipality": "日高村"
+    },
+    {
+      "MuniCd": "394114",
+      "Prefecture": "高知県",
+      "Municipality": "津野町"
+    },
+    {
+      "MuniCd": "394122",
+      "Prefecture": "高知県",
+      "Municipality": "四万十町"
+    },
+    {
+      "MuniCd": "394246",
+      "Prefecture": "高知県",
+      "Municipality": "大月町"
+    },
+    {
+      "MuniCd": "394271",
+      "Prefecture": "高知県",
+      "Municipality": "三原村"
+    },
+    {
+      "MuniCd": "394289",
+      "Prefecture": "高知県",
+      "Municipality": "黒潮町"
+    },
+    {
+      "MuniCd": "400009",
+      "Prefecture": "福岡県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "401005",
+      "Prefecture": "福岡県",
+      "Municipality": "北九州市"
+    },
+    {
+      "MuniCd": "401307",
+      "Prefecture": "福岡県",
+      "Municipality": "福岡市"
+    },
+    {
+      "MuniCd": "402028",
+      "Prefecture": "福岡県",
+      "Municipality": "大牟田市"
+    },
+    {
+      "MuniCd": "402036",
+      "Prefecture": "福岡県",
+      "Municipality": "久留米市"
+    },
+    {
+      "MuniCd": "402044",
+      "Prefecture": "福岡県",
+      "Municipality": "直方市"
+    },
+    {
+      "MuniCd": "402052",
+      "Prefecture": "福岡県",
+      "Municipality": "飯塚市"
+    },
+    {
+      "MuniCd": "402061",
+      "Prefecture": "福岡県",
+      "Municipality": "田川市"
+    },
+    {
+      "MuniCd": "402079",
+      "Prefecture": "福岡県",
+      "Municipality": "柳川市"
+    },
+    {
+      "MuniCd": "402109",
+      "Prefecture": "福岡県",
+      "Municipality": "八女市"
+    },
+    {
+      "MuniCd": "402117",
+      "Prefecture": "福岡県",
+      "Municipality": "筑後市"
+    },
+    {
+      "MuniCd": "402125",
+      "Prefecture": "福岡県",
+      "Municipality": "大川市"
+    },
+    {
+      "MuniCd": "402133",
+      "Prefecture": "福岡県",
+      "Municipality": "行橋市"
+    },
+    {
+      "MuniCd": "402141",
+      "Prefecture": "福岡県",
+      "Municipality": "豊前市"
+    },
+    {
+      "MuniCd": "402150",
+      "Prefecture": "福岡県",
+      "Municipality": "中間市"
+    },
+    {
+      "MuniCd": "402168",
+      "Prefecture": "福岡県",
+      "Municipality": "小郡市"
+    },
+    {
+      "MuniCd": "402176",
+      "Prefecture": "福岡県",
+      "Municipality": "筑紫野市"
+    },
+    {
+      "MuniCd": "402184",
+      "Prefecture": "福岡県",
+      "Municipality": "春日市"
+    },
+    {
+      "MuniCd": "402192",
+      "Prefecture": "福岡県",
+      "Municipality": "大野城市"
+    },
+    {
+      "MuniCd": "402206",
+      "Prefecture": "福岡県",
+      "Municipality": "宗像市"
+    },
+    {
+      "MuniCd": "402214",
+      "Prefecture": "福岡県",
+      "Municipality": "太宰府市"
+    },
+    {
+      "MuniCd": "402231",
+      "Prefecture": "福岡県",
+      "Municipality": "古賀市"
+    },
+    {
+      "MuniCd": "402249",
+      "Prefecture": "福岡県",
+      "Municipality": "福津市"
+    },
+    {
+      "MuniCd": "402257",
+      "Prefecture": "福岡県",
+      "Municipality": "うきは市"
+    },
+    {
+      "MuniCd": "402265",
+      "Prefecture": "福岡県",
+      "Municipality": "宮若市"
+    },
+    {
+      "MuniCd": "402273",
+      "Prefecture": "福岡県",
+      "Municipality": "嘉麻市"
+    },
+    {
+      "MuniCd": "402281",
+      "Prefecture": "福岡県",
+      "Municipality": "朝倉市"
+    },
+    {
+      "MuniCd": "402290",
+      "Prefecture": "福岡県",
+      "Municipality": "みやま市"
+    },
+    {
+      "MuniCd": "402303",
+      "Prefecture": "福岡県",
+      "Municipality": "糸島市"
+    },
+    {
+      "MuniCd": "402311",
+      "Prefecture": "福岡県",
+      "Municipality": "那珂川市"
+    },
+    {
+      "MuniCd": "403415",
+      "Prefecture": "福岡県",
+      "Municipality": "宇美町"
+    },
+    {
+      "MuniCd": "403423",
+      "Prefecture": "福岡県",
+      "Municipality": "篠栗町"
+    },
+    {
+      "MuniCd": "403431",
+      "Prefecture": "福岡県",
+      "Municipality": "志免町"
+    },
+    {
+      "MuniCd": "403440",
+      "Prefecture": "福岡県",
+      "Municipality": "須恵町"
+    },
+    {
+      "MuniCd": "403458",
+      "Prefecture": "福岡県",
+      "Municipality": "新宮町"
+    },
+    {
+      "MuniCd": "403482",
+      "Prefecture": "福岡県",
+      "Municipality": "久山町"
+    },
+    {
+      "MuniCd": "403491",
+      "Prefecture": "福岡県",
+      "Municipality": "粕屋町"
+    },
+    {
+      "MuniCd": "403814",
+      "Prefecture": "福岡県",
+      "Municipality": "芦屋町"
+    },
+    {
+      "MuniCd": "403822",
+      "Prefecture": "福岡県",
+      "Municipality": "水巻町"
+    },
+    {
+      "MuniCd": "403831",
+      "Prefecture": "福岡県",
+      "Municipality": "岡垣町"
+    },
+    {
+      "MuniCd": "403849",
+      "Prefecture": "福岡県",
+      "Municipality": "遠賀町"
+    },
+    {
+      "MuniCd": "404012",
+      "Prefecture": "福岡県",
+      "Municipality": "小竹町"
+    },
+    {
+      "MuniCd": "404021",
+      "Prefecture": "福岡県",
+      "Municipality": "鞍手町"
+    },
+    {
+      "MuniCd": "404217",
+      "Prefecture": "福岡県",
+      "Municipality": "桂川町"
+    },
+    {
+      "MuniCd": "404471",
+      "Prefecture": "福岡県",
+      "Municipality": "筑前町"
+    },
+    {
+      "MuniCd": "404489",
+      "Prefecture": "福岡県",
+      "Municipality": "東峰村"
+    },
+    {
+      "MuniCd": "405035",
+      "Prefecture": "福岡県",
+      "Municipality": "大刀洗町"
+    },
+    {
+      "MuniCd": "405221",
+      "Prefecture": "福岡県",
+      "Municipality": "大木町"
+    },
+    {
+      "MuniCd": "405442",
+      "Prefecture": "福岡県",
+      "Municipality": "広川町"
+    },
+    {
+      "MuniCd": "406015",
+      "Prefecture": "福岡県",
+      "Municipality": "香春町"
+    },
+    {
+      "MuniCd": "406023",
+      "Prefecture": "福岡県",
+      "Municipality": "添田町"
+    },
+    {
+      "MuniCd": "406040",
+      "Prefecture": "福岡県",
+      "Municipality": "糸田町"
+    },
+    {
+      "MuniCd": "406058",
+      "Prefecture": "福岡県",
+      "Municipality": "川崎町"
+    },
+    {
+      "MuniCd": "406082",
+      "Prefecture": "福岡県",
+      "Municipality": "大任町"
+    },
+    {
+      "MuniCd": "406091",
+      "Prefecture": "福岡県",
+      "Municipality": "赤村"
+    },
+    {
+      "MuniCd": "406104",
+      "Prefecture": "福岡県",
+      "Municipality": "福智町"
+    },
+    {
+      "MuniCd": "406210",
+      "Prefecture": "福岡県",
+      "Municipality": "苅田町"
+    },
+    {
+      "MuniCd": "406252",
+      "Prefecture": "福岡県",
+      "Municipality": "みやこ町"
+    },
+    {
+      "MuniCd": "406422",
+      "Prefecture": "福岡県",
+      "Municipality": "吉富町"
+    },
+    {
+      "MuniCd": "406465",
+      "Prefecture": "福岡県",
+      "Municipality": "上毛町"
+    },
+    {
+      "MuniCd": "406473",
+      "Prefecture": "福岡県",
+      "Municipality": "築上町"
+    },
+    {
+      "MuniCd": "410004",
+      "Prefecture": "佐賀県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "412015",
+      "Prefecture": "佐賀県",
+      "Municipality": "佐賀市"
+    },
+    {
+      "MuniCd": "412023",
+      "Prefecture": "佐賀県",
+      "Municipality": "唐津市"
+    },
+    {
+      "MuniCd": "412031",
+      "Prefecture": "佐賀県",
+      "Municipality": "鳥栖市"
+    },
+    {
+      "MuniCd": "412040",
+      "Prefecture": "佐賀県",
+      "Municipality": "多久市"
+    },
+    {
+      "MuniCd": "412058",
+      "Prefecture": "佐賀県",
+      "Municipality": "伊万里市"
+    },
+    {
+      "MuniCd": "412066",
+      "Prefecture": "佐賀県",
+      "Municipality": "武雄市"
+    },
+    {
+      "MuniCd": "412074",
+      "Prefecture": "佐賀県",
+      "Municipality": "鹿島市"
+    },
+    {
+      "MuniCd": "412082",
+      "Prefecture": "佐賀県",
+      "Municipality": "小城市"
+    },
+    {
+      "MuniCd": "412091",
+      "Prefecture": "佐賀県",
+      "Municipality": "嬉野市"
+    },
+    {
+      "MuniCd": "412104",
+      "Prefecture": "佐賀県",
+      "Municipality": "神埼市"
+    },
+    {
+      "MuniCd": "413275",
+      "Prefecture": "佐賀県",
+      "Municipality": "吉野ヶ里町"
+    },
+    {
+      "MuniCd": "413411",
+      "Prefecture": "佐賀県",
+      "Municipality": "基山町"
+    },
+    {
+      "MuniCd": "413453",
+      "Prefecture": "佐賀県",
+      "Municipality": "上峰町"
+    },
+    {
+      "MuniCd": "413461",
+      "Prefecture": "佐賀県",
+      "Municipality": "みやき町"
+    },
+    {
+      "MuniCd": "413879",
+      "Prefecture": "佐賀県",
+      "Municipality": "玄海町"
+    },
+    {
+      "MuniCd": "414018",
+      "Prefecture": "佐賀県",
+      "Municipality": "有田町"
+    },
+    {
+      "MuniCd": "414239",
+      "Prefecture": "佐賀県",
+      "Municipality": "大町町"
+    },
+    {
+      "MuniCd": "414247",
+      "Prefecture": "佐賀県",
+      "Municipality": "江北町"
+    },
+    {
+      "MuniCd": "414255",
+      "Prefecture": "佐賀県",
+      "Municipality": "白石町"
+    },
+    {
+      "MuniCd": "414417",
+      "Prefecture": "佐賀県",
+      "Municipality": "太良町"
+    },
+    {
+      "MuniCd": "420000",
+      "Prefecture": "長崎県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "422011",
+      "Prefecture": "長崎県",
+      "Municipality": "長崎市"
+    },
+    {
+      "MuniCd": "422029",
+      "Prefecture": "長崎県",
+      "Municipality": "佐世保市"
+    },
+    {
+      "MuniCd": "422037",
+      "Prefecture": "長崎県",
+      "Municipality": "島原市"
+    },
+    {
+      "MuniCd": "422045",
+      "Prefecture": "長崎県",
+      "Municipality": "諫早市"
+    },
+    {
+      "MuniCd": "422053",
+      "Prefecture": "長崎県",
+      "Municipality": "大村市"
+    },
+    {
+      "MuniCd": "422070",
+      "Prefecture": "長崎県",
+      "Municipality": "平戸市"
+    },
+    {
+      "MuniCd": "422088",
+      "Prefecture": "長崎県",
+      "Municipality": "松浦市"
+    },
+    {
+      "MuniCd": "422096",
+      "Prefecture": "長崎県",
+      "Municipality": "対馬市"
+    },
+    {
+      "MuniCd": "422100",
+      "Prefecture": "長崎県",
+      "Municipality": "壱岐市"
+    },
+    {
+      "MuniCd": "422118",
+      "Prefecture": "長崎県",
+      "Municipality": "五島市"
+    },
+    {
+      "MuniCd": "422126",
+      "Prefecture": "長崎県",
+      "Municipality": "西海市"
+    },
+    {
+      "MuniCd": "422134",
+      "Prefecture": "長崎県",
+      "Municipality": "雲仙市"
+    },
+    {
+      "MuniCd": "422142",
+      "Prefecture": "長崎県",
+      "Municipality": "南島原市"
+    },
+    {
+      "MuniCd": "423076",
+      "Prefecture": "長崎県",
+      "Municipality": "長与町"
+    },
+    {
+      "MuniCd": "423084",
+      "Prefecture": "長崎県",
+      "Municipality": "時津町"
+    },
+    {
+      "MuniCd": "423211",
+      "Prefecture": "長崎県",
+      "Municipality": "東彼杵町"
+    },
+    {
+      "MuniCd": "423220",
+      "Prefecture": "長崎県",
+      "Municipality": "川棚町"
+    },
+    {
+      "MuniCd": "423238",
+      "Prefecture": "長崎県",
+      "Municipality": "波佐見町"
+    },
+    {
+      "MuniCd": "423831",
+      "Prefecture": "長崎県",
+      "Municipality": "小値賀町"
+    },
+    {
+      "MuniCd": "423912",
+      "Prefecture": "長崎県",
+      "Municipality": "佐々町"
+    },
+    {
+      "MuniCd": "424111",
+      "Prefecture": "長崎県",
+      "Municipality": "新上五島町"
+    },
+    {
+      "MuniCd": "430005",
+      "Prefecture": "熊本県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "431001",
+      "Prefecture": "熊本県",
+      "Municipality": "熊本市"
+    },
+    {
+      "MuniCd": "432024",
+      "Prefecture": "熊本県",
+      "Municipality": "八代市"
+    },
+    {
+      "MuniCd": "432032",
+      "Prefecture": "熊本県",
+      "Municipality": "人吉市"
+    },
+    {
+      "MuniCd": "432041",
+      "Prefecture": "熊本県",
+      "Municipality": "荒尾市"
+    },
+    {
+      "MuniCd": "432059",
+      "Prefecture": "熊本県",
+      "Municipality": "水俣市"
+    },
+    {
+      "MuniCd": "432067",
+      "Prefecture": "熊本県",
+      "Municipality": "玉名市"
+    },
+    {
+      "MuniCd": "432083",
+      "Prefecture": "熊本県",
+      "Municipality": "山鹿市"
+    },
+    {
+      "MuniCd": "432105",
+      "Prefecture": "熊本県",
+      "Municipality": "菊池市"
+    },
+    {
+      "MuniCd": "432113",
+      "Prefecture": "熊本県",
+      "Municipality": "宇土市"
+    },
+    {
+      "MuniCd": "432121",
+      "Prefecture": "熊本県",
+      "Municipality": "上天草市"
+    },
+    {
+      "MuniCd": "432130",
+      "Prefecture": "熊本県",
+      "Municipality": "宇城市"
+    },
+    {
+      "MuniCd": "432148",
+      "Prefecture": "熊本県",
+      "Municipality": "阿蘇市"
+    },
+    {
+      "MuniCd": "432156",
+      "Prefecture": "熊本県",
+      "Municipality": "天草市"
+    },
+    {
+      "MuniCd": "432164",
+      "Prefecture": "熊本県",
+      "Municipality": "合志市"
+    },
+    {
+      "MuniCd": "433489",
+      "Prefecture": "熊本県",
+      "Municipality": "美里町"
+    },
+    {
+      "MuniCd": "433641",
+      "Prefecture": "熊本県",
+      "Municipality": "玉東町"
+    },
+    {
+      "MuniCd": "433675",
+      "Prefecture": "熊本県",
+      "Municipality": "南関町"
+    },
+    {
+      "MuniCd": "433683",
+      "Prefecture": "熊本県",
+      "Municipality": "長洲町"
+    },
+    {
+      "MuniCd": "433691",
+      "Prefecture": "熊本県",
+      "Municipality": "和水町"
+    },
+    {
+      "MuniCd": "434035",
+      "Prefecture": "熊本県",
+      "Municipality": "大津町"
+    },
+    {
+      "MuniCd": "434043",
+      "Prefecture": "熊本県",
+      "Municipality": "菊陽町"
+    },
+    {
+      "MuniCd": "434230",
+      "Prefecture": "熊本県",
+      "Municipality": "南小国町"
+    },
+    {
+      "MuniCd": "434248",
+      "Prefecture": "熊本県",
+      "Municipality": "小国町"
+    },
+    {
+      "MuniCd": "434256",
+      "Prefecture": "熊本県",
+      "Municipality": "産山村"
+    },
+    {
+      "MuniCd": "434281",
+      "Prefecture": "熊本県",
+      "Municipality": "高森町"
+    },
+    {
+      "MuniCd": "434329",
+      "Prefecture": "熊本県",
+      "Municipality": "西原村"
+    },
+    {
+      "MuniCd": "434337",
+      "Prefecture": "熊本県",
+      "Municipality": "南阿蘇村"
+    },
+    {
+      "MuniCd": "434418",
+      "Prefecture": "熊本県",
+      "Municipality": "御船町"
+    },
+    {
+      "MuniCd": "434426",
+      "Prefecture": "熊本県",
+      "Municipality": "嘉島町"
+    },
+    {
+      "MuniCd": "434434",
+      "Prefecture": "熊本県",
+      "Municipality": "益城町"
+    },
+    {
+      "MuniCd": "434442",
+      "Prefecture": "熊本県",
+      "Municipality": "甲佐町"
+    },
+    {
+      "MuniCd": "434477",
+      "Prefecture": "熊本県",
+      "Municipality": "山都町"
+    },
+    {
+      "MuniCd": "434680",
+      "Prefecture": "熊本県",
+      "Municipality": "氷川町"
+    },
+    {
+      "MuniCd": "434825",
+      "Prefecture": "熊本県",
+      "Municipality": "芦北町"
+    },
+    {
+      "MuniCd": "434841",
+      "Prefecture": "熊本県",
+      "Municipality": "津奈木町"
+    },
+    {
+      "MuniCd": "435015",
+      "Prefecture": "熊本県",
+      "Municipality": "錦町"
+    },
+    {
+      "MuniCd": "435058",
+      "Prefecture": "熊本県",
+      "Municipality": "多良木町"
+    },
+    {
+      "MuniCd": "435066",
+      "Prefecture": "熊本県",
+      "Municipality": "湯前町"
+    },
+    {
+      "MuniCd": "435074",
+      "Prefecture": "熊本県",
+      "Municipality": "水上村"
+    },
+    {
+      "MuniCd": "435104",
+      "Prefecture": "熊本県",
+      "Municipality": "相良村"
+    },
+    {
+      "MuniCd": "435112",
+      "Prefecture": "熊本県",
+      "Municipality": "五木村"
+    },
+    {
+      "MuniCd": "435121",
+      "Prefecture": "熊本県",
+      "Municipality": "山江村"
+    },
+    {
+      "MuniCd": "435139",
+      "Prefecture": "熊本県",
+      "Municipality": "球磨村"
+    },
+    {
+      "MuniCd": "435147",
+      "Prefecture": "熊本県",
+      "Municipality": "あさぎり町"
+    },
+    {
+      "MuniCd": "435317",
+      "Prefecture": "熊本県",
+      "Municipality": "苓北町"
+    },
+    {
+      "MuniCd": "440001",
+      "Prefecture": "大分県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "442011",
+      "Prefecture": "大分県",
+      "Municipality": "大分市"
+    },
+    {
+      "MuniCd": "442020",
+      "Prefecture": "大分県",
+      "Municipality": "別府市"
+    },
+    {
+      "MuniCd": "442038",
+      "Prefecture": "大分県",
+      "Municipality": "中津市"
+    },
+    {
+      "MuniCd": "442046",
+      "Prefecture": "大分県",
+      "Municipality": "日田市"
+    },
+    {
+      "MuniCd": "442054",
+      "Prefecture": "大分県",
+      "Municipality": "佐伯市"
+    },
+    {
+      "MuniCd": "442062",
+      "Prefecture": "大分県",
+      "Municipality": "臼杵市"
+    },
+    {
+      "MuniCd": "442071",
+      "Prefecture": "大分県",
+      "Municipality": "津久見市"
+    },
+    {
+      "MuniCd": "442089",
+      "Prefecture": "大分県",
+      "Municipality": "竹田市"
+    },
+    {
+      "MuniCd": "442097",
+      "Prefecture": "大分県",
+      "Municipality": "豊後高田市"
+    },
+    {
+      "MuniCd": "442101",
+      "Prefecture": "大分県",
+      "Municipality": "杵築市"
+    },
+    {
+      "MuniCd": "442119",
+      "Prefecture": "大分県",
+      "Municipality": "宇佐市"
+    },
+    {
+      "MuniCd": "442127",
+      "Prefecture": "大分県",
+      "Municipality": "豊後大野市"
+    },
+    {
+      "MuniCd": "442135",
+      "Prefecture": "大分県",
+      "Municipality": "由布市"
+    },
+    {
+      "MuniCd": "442143",
+      "Prefecture": "大分県",
+      "Municipality": "国東市"
+    },
+    {
+      "MuniCd": "443221",
+      "Prefecture": "大分県",
+      "Municipality": "姫島村"
+    },
+    {
+      "MuniCd": "443417",
+      "Prefecture": "大分県",
+      "Municipality": "日出町"
+    },
+    {
+      "MuniCd": "444618",
+      "Prefecture": "大分県",
+      "Municipality": "九重町"
+    },
+    {
+      "MuniCd": "444626",
+      "Prefecture": "大分県",
+      "Municipality": "玖珠町"
+    },
+    {
+      "MuniCd": "450006",
+      "Prefecture": "宮崎県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "452017",
+      "Prefecture": "宮崎県",
+      "Municipality": "宮崎市"
+    },
+    {
+      "MuniCd": "452025",
+      "Prefecture": "宮崎県",
+      "Municipality": "都城市"
+    },
+    {
+      "MuniCd": "452033",
+      "Prefecture": "宮崎県",
+      "Municipality": "延岡市"
+    },
+    {
+      "MuniCd": "452041",
+      "Prefecture": "宮崎県",
+      "Municipality": "日南市"
+    },
+    {
+      "MuniCd": "452050",
+      "Prefecture": "宮崎県",
+      "Municipality": "小林市"
+    },
+    {
+      "MuniCd": "452068",
+      "Prefecture": "宮崎県",
+      "Municipality": "日向市"
+    },
+    {
+      "MuniCd": "452076",
+      "Prefecture": "宮崎県",
+      "Municipality": "串間市"
+    },
+    {
+      "MuniCd": "452084",
+      "Prefecture": "宮崎県",
+      "Municipality": "西都市"
+    },
+    {
+      "MuniCd": "452092",
+      "Prefecture": "宮崎県",
+      "Municipality": "えびの市"
+    },
+    {
+      "MuniCd": "453412",
+      "Prefecture": "宮崎県",
+      "Municipality": "三股町"
+    },
+    {
+      "MuniCd": "453617",
+      "Prefecture": "宮崎県",
+      "Municipality": "高原町"
+    },
+    {
+      "MuniCd": "453820",
+      "Prefecture": "宮崎県",
+      "Municipality": "国富町"
+    },
+    {
+      "MuniCd": "453838",
+      "Prefecture": "宮崎県",
+      "Municipality": "綾町"
+    },
+    {
+      "MuniCd": "454010",
+      "Prefecture": "宮崎県",
+      "Municipality": "高鍋町"
+    },
+    {
+      "MuniCd": "454028",
+      "Prefecture": "宮崎県",
+      "Municipality": "新富町"
+    },
+    {
+      "MuniCd": "454036",
+      "Prefecture": "宮崎県",
+      "Municipality": "西米良村"
+    },
+    {
+      "MuniCd": "454044",
+      "Prefecture": "宮崎県",
+      "Municipality": "木城町"
+    },
+    {
+      "MuniCd": "454052",
+      "Prefecture": "宮崎県",
+      "Municipality": "川南町"
+    },
+    {
+      "MuniCd": "454061",
+      "Prefecture": "宮崎県",
+      "Municipality": "都農町"
+    },
+    {
+      "MuniCd": "454214",
+      "Prefecture": "宮崎県",
+      "Municipality": "門川町"
+    },
+    {
+      "MuniCd": "454290",
+      "Prefecture": "宮崎県",
+      "Municipality": "諸塚村"
+    },
+    {
+      "MuniCd": "454303",
+      "Prefecture": "宮崎県",
+      "Municipality": "椎葉村"
+    },
+    {
+      "MuniCd": "454311",
+      "Prefecture": "宮崎県",
+      "Municipality": "美郷町"
+    },
+    {
+      "MuniCd": "454419",
+      "Prefecture": "宮崎県",
+      "Municipality": "高千穂町"
+    },
+    {
+      "MuniCd": "454427",
+      "Prefecture": "宮崎県",
+      "Municipality": "日之影町"
+    },
+    {
+      "MuniCd": "454435",
+      "Prefecture": "宮崎県",
+      "Municipality": "五ヶ瀬町"
+    },
+    {
+      "MuniCd": "460001",
+      "Prefecture": "鹿児島県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "462012",
+      "Prefecture": "鹿児島県",
+      "Municipality": "鹿児島市"
+    },
+    {
+      "MuniCd": "462039",
+      "Prefecture": "鹿児島県",
+      "Municipality": "鹿屋市"
+    },
+    {
+      "MuniCd": "462047",
+      "Prefecture": "鹿児島県",
+      "Municipality": "枕崎市"
+    },
+    {
+      "MuniCd": "462063",
+      "Prefecture": "鹿児島県",
+      "Municipality": "阿久根市"
+    },
+    {
+      "MuniCd": "462080",
+      "Prefecture": "鹿児島県",
+      "Municipality": "出水市"
+    },
+    {
+      "MuniCd": "462101",
+      "Prefecture": "鹿児島県",
+      "Municipality": "指宿市"
+    },
+    {
+      "MuniCd": "462136",
+      "Prefecture": "鹿児島県",
+      "Municipality": "西之表市"
+    },
+    {
+      "MuniCd": "462144",
+      "Prefecture": "鹿児島県",
+      "Municipality": "垂水市"
+    },
+    {
+      "MuniCd": "462152",
+      "Prefecture": "鹿児島県",
+      "Municipality": "薩摩川内市"
+    },
+    {
+      "MuniCd": "462161",
+      "Prefecture": "鹿児島県",
+      "Municipality": "日置市"
+    },
+    {
+      "MuniCd": "462179",
+      "Prefecture": "鹿児島県",
+      "Municipality": "曽於市"
+    },
+    {
+      "MuniCd": "462187",
+      "Prefecture": "鹿児島県",
+      "Municipality": "霧島市"
+    },
+    {
+      "MuniCd": "462195",
+      "Prefecture": "鹿児島県",
+      "Municipality": "いちき串木野市"
+    },
+    {
+      "MuniCd": "462209",
+      "Prefecture": "鹿児島県",
+      "Municipality": "南さつま市"
+    },
+    {
+      "MuniCd": "462217",
+      "Prefecture": "鹿児島県",
+      "Municipality": "志布志市"
+    },
+    {
+      "MuniCd": "462225",
+      "Prefecture": "鹿児島県",
+      "Municipality": "奄美市"
+    },
+    {
+      "MuniCd": "462233",
+      "Prefecture": "鹿児島県",
+      "Municipality": "南九州市"
+    },
+    {
+      "MuniCd": "462241",
+      "Prefecture": "鹿児島県",
+      "Municipality": "伊佐市"
+    },
+    {
+      "MuniCd": "462250",
+      "Prefecture": "鹿児島県",
+      "Municipality": "姶良市"
+    },
+    {
+      "MuniCd": "463035",
+      "Prefecture": "鹿児島県",
+      "Municipality": "三島村"
+    },
+    {
+      "MuniCd": "463043",
+      "Prefecture": "鹿児島県",
+      "Municipality": "十島村"
+    },
+    {
+      "MuniCd": "463922",
+      "Prefecture": "鹿児島県",
+      "Municipality": "さつま町"
+    },
+    {
+      "MuniCd": "464040",
+      "Prefecture": "鹿児島県",
+      "Municipality": "長島町"
+    },
+    {
+      "MuniCd": "464520",
+      "Prefecture": "鹿児島県",
+      "Municipality": "湧水町"
+    },
+    {
+      "MuniCd": "464686",
+      "Prefecture": "鹿児島県",
+      "Municipality": "大崎町"
+    },
+    {
+      "MuniCd": "464821",
+      "Prefecture": "鹿児島県",
+      "Municipality": "東串良町"
+    },
+    {
+      "MuniCd": "464902",
+      "Prefecture": "鹿児島県",
+      "Municipality": "錦江町"
+    },
+    {
+      "MuniCd": "464911",
+      "Prefecture": "鹿児島県",
+      "Municipality": "南大隅町"
+    },
+    {
+      "MuniCd": "464929",
+      "Prefecture": "鹿児島県",
+      "Municipality": "肝付町"
+    },
+    {
+      "MuniCd": "465011",
+      "Prefecture": "鹿児島県",
+      "Municipality": "中種子町"
+    },
+    {
+      "MuniCd": "465020",
+      "Prefecture": "鹿児島県",
+      "Municipality": "南種子町"
+    },
+    {
+      "MuniCd": "465054",
+      "Prefecture": "鹿児島県",
+      "Municipality": "屋久島町"
+    },
+    {
+      "MuniCd": "465232",
+      "Prefecture": "鹿児島県",
+      "Municipality": "大和村"
+    },
+    {
+      "MuniCd": "465241",
+      "Prefecture": "鹿児島県",
+      "Municipality": "宇検村"
+    },
+    {
+      "MuniCd": "465259",
+      "Prefecture": "鹿児島県",
+      "Municipality": "瀬戸内町"
+    },
+    {
+      "MuniCd": "465275",
+      "Prefecture": "鹿児島県",
+      "Municipality": "龍郷町"
+    },
+    {
+      "MuniCd": "465291",
+      "Prefecture": "鹿児島県",
+      "Municipality": "喜界町"
+    },
+    {
+      "MuniCd": "465305",
+      "Prefecture": "鹿児島県",
+      "Municipality": "徳之島町"
+    },
+    {
+      "MuniCd": "465313",
+      "Prefecture": "鹿児島県",
+      "Municipality": "天城町"
+    },
+    {
+      "MuniCd": "465321",
+      "Prefecture": "鹿児島県",
+      "Municipality": "伊仙町"
+    },
+    {
+      "MuniCd": "465330",
+      "Prefecture": "鹿児島県",
+      "Municipality": "和泊町"
+    },
+    {
+      "MuniCd": "465348",
+      "Prefecture": "鹿児島県",
+      "Municipality": "知名町"
+    },
+    {
+      "MuniCd": "465356",
+      "Prefecture": "鹿児島県",
+      "Municipality": "与論町"
+    },
+    {
+      "MuniCd": "470007",
+      "Prefecture": "沖縄県",
+      "Municipality": ""
+    },
+    {
+      "MuniCd": "472018",
+      "Prefecture": "沖縄県",
+      "Municipality": "那覇市"
+    },
+    {
+      "MuniCd": "472051",
+      "Prefecture": "沖縄県",
+      "Municipality": "宜野湾市"
+    },
+    {
+      "MuniCd": "472077",
+      "Prefecture": "沖縄県",
+      "Municipality": "石垣市"
+    },
+    {
+      "MuniCd": "472085",
+      "Prefecture": "沖縄県",
+      "Municipality": "浦添市"
+    },
+    {
+      "MuniCd": "472093",
+      "Prefecture": "沖縄県",
+      "Municipality": "名護市"
+    },
+    {
+      "MuniCd": "472107",
+      "Prefecture": "沖縄県",
+      "Municipality": "糸満市"
+    },
+    {
+      "MuniCd": "472115",
+      "Prefecture": "沖縄県",
+      "Municipality": "沖縄市"
+    },
+    {
+      "MuniCd": "472123",
+      "Prefecture": "沖縄県",
+      "Municipality": "豊見城市"
+    },
+    {
+      "MuniCd": "472131",
+      "Prefecture": "沖縄県",
+      "Municipality": "うるま市"
+    },
+    {
+      "MuniCd": "472140",
+      "Prefecture": "沖縄県",
+      "Municipality": "宮古島市"
+    },
+    {
+      "MuniCd": "472158",
+      "Prefecture": "沖縄県",
+      "Municipality": "南城市"
+    },
+    {
+      "MuniCd": "473014",
+      "Prefecture": "沖縄県",
+      "Municipality": "国頭村"
+    },
+    {
+      "MuniCd": "473022",
+      "Prefecture": "沖縄県",
+      "Municipality": "大宜味村"
+    },
+    {
+      "MuniCd": "473031",
+      "Prefecture": "沖縄県",
+      "Municipality": "東村"
+    },
+    {
+      "MuniCd": "473065",
+      "Prefecture": "沖縄県",
+      "Municipality": "今帰仁村"
+    },
+    {
+      "MuniCd": "473081",
+      "Prefecture": "沖縄県",
+      "Municipality": "本部町"
+    },
+    {
+      "MuniCd": "473111",
+      "Prefecture": "沖縄県",
+      "Municipality": "恩納村"
+    },
+    {
+      "MuniCd": "473138",
+      "Prefecture": "沖縄県",
+      "Municipality": "宜野座村"
+    },
+    {
+      "MuniCd": "473146",
+      "Prefecture": "沖縄県",
+      "Municipality": "金武町"
+    },
+    {
+      "MuniCd": "473154",
+      "Prefecture": "沖縄県",
+      "Municipality": "伊江村"
+    },
+    {
+      "MuniCd": "473243",
+      "Prefecture": "沖縄県",
+      "Municipality": "読谷村"
+    },
+    {
+      "MuniCd": "473251",
+      "Prefecture": "沖縄県",
+      "Municipality": "嘉手納町"
+    },
+    {
+      "MuniCd": "473260",
+      "Prefecture": "沖縄県",
+      "Municipality": "北谷町"
+    },
+    {
+      "MuniCd": "473278",
+      "Prefecture": "沖縄県",
+      "Municipality": "北中城村"
+    },
+    {
+      "MuniCd": "473286",
+      "Prefecture": "沖縄県",
+      "Municipality": "中城村"
+    },
+    {
+      "MuniCd": "473294",
+      "Prefecture": "沖縄県",
+      "Municipality": "西原町"
+    },
+    {
+      "MuniCd": "473481",
+      "Prefecture": "沖縄県",
+      "Municipality": "与那原町"
+    },
+    {
+      "MuniCd": "473502",
+      "Prefecture": "沖縄県",
+      "Municipality": "南風原町"
+    },
+    {
+      "MuniCd": "473537",
+      "Prefecture": "沖縄県",
+      "Municipality": "渡嘉敷村"
+    },
+    {
+      "MuniCd": "473545",
+      "Prefecture": "沖縄県",
+      "Municipality": "座間味村"
+    },
+    {
+      "MuniCd": "473553",
+      "Prefecture": "沖縄県",
+      "Municipality": "粟国村"
+    },
+    {
+      "MuniCd": "473561",
+      "Prefecture": "沖縄県",
+      "Municipality": "渡名喜村"
+    },
+    {
+      "MuniCd": "473570",
+      "Prefecture": "沖縄県",
+      "Municipality": "南大東村"
+    },
+    {
+      "MuniCd": "473588",
+      "Prefecture": "沖縄県",
+      "Municipality": "北大東村"
+    },
+    {
+      "MuniCd": "473596",
+      "Prefecture": "沖縄県",
+      "Municipality": "伊平屋村"
+    },
+    {
+      "MuniCd": "473600",
+      "Prefecture": "沖縄県",
+      "Municipality": "伊是名村"
+    },
+    {
+      "MuniCd": "473618",
+      "Prefecture": "沖縄県",
+      "Municipality": "久米島町"
+    },
+    {
+      "MuniCd": "473626",
+      "Prefecture": "沖縄県",
+      "Municipality": "八重瀬町"
+    },
+    {
+      "MuniCd": "473758",
+      "Prefecture": "沖縄県",
+      "Municipality": "多良間村"
+    },
+    {
+      "MuniCd": "473812",
+      "Prefecture": "沖縄県",
+      "Municipality": "竹富町"
+    },
+    {
+      "MuniCd": "473821",
+      "Prefecture": "沖縄県",
+      "Municipality": "与那国町"
+    }
+  ]
+}
