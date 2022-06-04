@@ -1,87 +1,44 @@
-﻿using System;
-using System.Linq;
-using Cysharp.Threading.Tasks;
-using UnityEngine;
-using UnityEngine.Networking;
+﻿using Cysharp.Threading.Tasks;
+using GsiApiClient.Runtime.Requests;
 
 namespace GsiApiClient.Runtime
 {
     /// <summary>
     /// 国土地理院(Geospatial Information Authority)のAPIクライアント
+    /// 同一IPアドレスからのリクエストは､ 10秒間で10回(ただしTKY2JGDとPatchJGDは負荷が大きいため10秒間で3回)まで
     /// </summary>
-    public class GsiClient
+    public static class GsiClient
     {
-        private static string LonLat2AddressUrl(double latitude, double longitude) =>
-            $"https://mreversegeocoder.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat={latitude}&lon={longitude}";
-
-        private static string GeoidHeightUrl(double latitude, double longitude) =>
-            $"https://vldb.gsi.go.jp/sokuchi/surveycalc/geoid/calcgh/cgi/geoidcalc.pl?outputType=json&latitude={latitude}&longitude={longitude}";
-
-        private static string DistanceBaseUrl() => "https://vldb.gsi.go.jp/sokuchi/surveycalc/surveycalc/bl2st_calc.pl";
-
-        public static async UniTask<Address> RequestLonLat2AddressAsync(double latitude, double longitude)
-        {
-            return await RequestGetAsync(LonLat2AddressUrl(latitude, longitude))
-                .ContinueWith(json =>
-                {
-                    var addressResults = JsonUtility.FromJson<LonLat2Address>(json).results;
-                    var municdJson = Resources.Load<TextAsset>("municd").ToString();
-                    var addressData = JsonUtility
-                        .FromJson<MunicdJson>(municdJson)
-                        .array
-                        .FirstOrDefault(x => addressResults.muniCd == x.muniCd);
-                    return new Address
-                    {
-                        Prefecture = addressData.prefecture,
-                        City = addressData.city,
-                        Lv01Nm = addressResults.lv01Nm
-                    };
-                });
-        }
+        /// <summary>
+        /// 指定した地点の住所を取得する
+        /// </summary>
+        /// <param name="latitude">緯度</param>
+        /// <param name="longitude">経度</param>
+        /// <returns>住所</returns>
+        public static async UniTask<Address> RequestLonLat2AddressAsync(double latitude, double longitude) =>
+            await AddressRequest.GetAsync(latitude, longitude);
 
         /// <summary>
         /// 指定した地点のジオイド高を取得する｡
-        /// リクエストは10秒に10回までの制限あり
         /// </summary>
         /// <param name="latitude"></param>
         /// <param name="longitude"></param>
         /// <returns></returns>
-        public static async UniTask<double> RequestGeoidHeight(double latitude, double longitude)
-        {
-            return await RequestGetAsync(GeoidHeightUrl(latitude, longitude))
-                .ContinueWith(json =>
-                {
-                    var result = JsonUtility.FromJson<GeoidHeightJson>(json);
-                    return result.OutputData.geoidHeight;
-                });
-        }
+        public static async UniTask<double> RequestGeoidHeight(double latitude, double longitude) =>
+            await GeoidRequest.GetAsync(latitude, longitude);
 
-        public static async UniTask<DistanceOutputData> RequestDistanceAsync(
-            double fromLat, double fromLgt,
-            double toLat, double toLgt,
-            Ellipsoid ellipsoid = Ellipsoid.Grs80)
-        {
-            var reqParams = new RequestDistanceParams(OutputType.Json, ellipsoid, fromLat, fromLgt, toLat, toLgt);
-            var url = $"{DistanceBaseUrl()}{reqParams.ToQuery()}";
-            var json = await RequestGetAsync(url);
-            var distance = JsonUtility.FromJson<DistanceJson>(json);
-            return distance.OutputData;
-        }
-
-
-        public static async UniTask<string> RequestGetAsync(string url)
-        {
-            var request = UnityWebRequest.Get(url);
-            try
-            {
-                var result = await request.SendWebRequest();
-                return result.downloadHandler.text;
-            }
-            catch (Exception e)
-            {
-                Debug.LogError($"{e}");
-                return request.error;
-            }
-        }
+        /// <summary>
+        /// 2点間の距離(meter)を求める
+        /// </summary>
+        /// <param name="fromLat"></param>
+        /// <param name="fromLgt"></param>
+        /// <param name="toLat"></param>
+        /// <param name="toLgt"></param>
+        /// <param name="ellipsoid"></param>
+        /// <returns></returns>
+        public static async UniTask<DistanceResponse> RequestDistanceAsync(
+            double fromLat, double fromLgt, double toLat, double toLgt,
+            Ellipsoid ellipsoid = Ellipsoid.Grs80) =>
+            await DistanceRequest.GetAsync(fromLat, fromLgt, toLat, toLgt);
     }
 }

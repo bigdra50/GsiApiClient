@@ -2,7 +2,50 @@
 
 namespace GsiApiClient.Runtime
 {
-    public readonly struct RequestDistanceParams
+    /// <summary>
+    /// 楕円体
+    /// </summary>
+    public enum Ellipsoid
+    {
+        Grs80,
+        Bessel,
+    }
+
+    public enum OutputType
+    {
+        Json,
+        Xml,
+    }
+
+    internal readonly struct RequestGeoidParams
+    {
+        private readonly OutputType _outputType;
+        private readonly double _latitude;
+        private readonly double _longitude;
+
+        public RequestGeoidParams(
+            OutputType outputType,
+            double latitude,
+            double longitude)
+        {
+            _outputType = outputType;
+            _latitude = latitude;
+            _longitude = longitude;
+        }
+
+        public string ToQuery()
+        {
+            var outputType = _outputType switch
+            {
+                OutputType.Json => "json",
+                OutputType.Xml => "xml",
+                _ => throw new ArgumentOutOfRangeException()
+            };
+            return $"?outputType={outputType}&latitude={_latitude}&longitude={_longitude}";
+        }
+    }
+
+    internal readonly struct RequestDistanceParams
     {
         private readonly OutputType _outputType;
         private readonly Ellipsoid _ellipsoid;
@@ -44,18 +87,17 @@ namespace GsiApiClient.Runtime
         }
     }
 
-    /// <summary>
-    /// 楕円体
-    /// </summary>
-    public enum Ellipsoid
+    internal readonly struct RequestAddressParams
     {
-        Grs80,
-        Bessel,
-    }
+        private readonly double _latitude;
+        private readonly double _longitude;
 
-    public enum OutputType
-    {
-        Json,
-        Xml,
+        public RequestAddressParams(double latitude, double longitude)
+        {
+            _latitude = latitude;
+            _longitude = longitude;
+        }
+
+        public string ToQuery() => $"?lat={_latitude}&lon={_longitude}";
     }
 }
