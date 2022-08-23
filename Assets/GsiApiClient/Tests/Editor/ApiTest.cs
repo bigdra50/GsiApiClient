@@ -22,25 +22,28 @@ namespace GsiApiClient.Tests.Editor
         public IEnumerator RequestGeoidTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
-                var actualGeoid = await GsiClient.RequestGeoidHeight(value.lat, value.lgt);
+                var actualGeoid = await GsiClient.Instance.RequestGeoidHeight(value.lat, value.lgt);
+                Assert.IsTrue(actualGeoid.ok);
                 var delta = .00001d;
-                Assert.AreEqual(value.geoid, actualGeoid, delta);
+                Assert.AreEqual(value.geoid, actualGeoid.value, delta);
             });
 
         [UnityTest]
         public IEnumerator RequestAddressTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
-                var result = await GsiClient.RequestLonLat2AddressAsync(value.lat, value.lgt);
-                Debug.Log($"{result.Prefecture},{result.City},{result.Lv01Nm}");
+                var result = await GsiClient.Instance.RequestLonLat2AddressAsync(value.lat, value.lgt);
+                Assert.IsTrue(result.ok);
+                Debug.Log($"{result.value.Prefecture},{result.value.City},{result.value.Lv01Nm}");
             });
 
         [UnityTest]
         public IEnumerator RequestDistanceTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
-                var result = await GsiClient.RequestDistanceAsync(value.lat, value.lgt, 35.658584, 139.7454316);
-                Debug.Log($"{result.azimuth1},{result.azimuth2}, {result.geoLength}");
+                var request = await GsiClient.Instance.RequestDistanceAsync(value.lat, value.lgt, 35.658584, 139.7454316);
+                Assert.IsTrue(request.ok);
+                Debug.Log($"{request.response.azimuth1},{request.response.azimuth2}, {request.response.geoLength}");
             });
     }
 }

@@ -4,19 +4,31 @@ using UnityEngine;
 
 namespace GsiApiClient.Runtime.Requests
 {
-    public class GeoidRequest : RequestBase
+    internal class GeoidRequest : RequestBase
     {
         private const string BaseUrl = "https://vldb.gsi.go.jp/sokuchi/surveycalc/geoid/calcgh/cgi/geoidcalc.pl";
+        private const int RequestCapacity = 10;
+        private const int RequestInterval = 10;
 
-        public static async UniTask<double> GetAsync(double latitude, double longitude) =>
-            await RequestGetAsync(
-                    $"{BaseUrl}{new RequestGeoidParams(OutputType.Json, latitude, longitude).ToQuery()}"
-                )
-                .ContinueWith(json =>
-                {
-                    var result = JsonUtility.FromJson<ResponseRoot>(json);
-                    return result.OutputData.geoidHeight;
-                });
+        internal GeoidRequest() : base(RequestCapacity, RequestInterval)
+        {
+        }
+
+        internal async UniTask<(bool ok, double value)> GetAsync(double latitude, double longitude)
+        {
+            try
+            {
+                var requestParams = new RequestGeoidParams(OutputType.Json, latitude, longitude).ToQuery();
+                var request = await RequestGetAsync($"{BaseUrl}{requestParams}");
+                if (!request.ok) return (false, default);
+                var response = JsonUtility.FromJson<ResponseRoot>(request.json);
+                return (true, response.OutputData.geoidHeight);
+            }
+            catch (Exception)
+            {
+                return (false, default);
+            }
+        }
 
         [Serializable]
         private struct ResponseRoot

@@ -7,16 +7,30 @@ namespace GsiApiClient.Runtime.Requests
     internal class DistanceRequest : RequestBase
     {
         private const string BaseUrl = "https://vldb.gsi.go.jp/sokuchi/surveycalc/surveycalc/bl2st_calc.pl";
+        private const int RequestCapacity = 10;
+        private const int RequestInterval = 10;
 
-        public static async UniTask<DistanceResponse> GetAsync(
+        internal DistanceRequest() : base(RequestCapacity, RequestInterval)
+        {
+        }
+
+        public async UniTask<(bool ok, DistanceResponse value)> GetAsync(
             double fromLat, double fromLgt,
             double toLat, double toLgt,
             Ellipsoid ellipsoid = Ellipsoid.Grs80)
         {
-            var reqParams = new RequestDistanceParams(OutputType.Json, ellipsoid, fromLat, fromLgt, toLat, toLgt);
-            var json = await RequestGetAsync($"{BaseUrl}{reqParams.ToQuery()}");
-            var distance = JsonUtility.FromJson<ResponseRoot>(json);
-            return distance.OutputData;
+            try
+            {
+                var requestParams = new RequestDistanceParams(OutputType.Json, ellipsoid, fromLat, fromLgt, toLat, toLgt);
+                var request = await RequestGetAsync($"{BaseUrl}{requestParams.ToQuery()}");
+                if (!request.ok) return (false, default);
+                var distance = JsonUtility.FromJson<ResponseRoot>(request.json);
+                return (true, distance.OutputData);
+            }
+            catch (Exception)
+            {
+                return (false, default);
+            }
         }
 
         [Serializable]
