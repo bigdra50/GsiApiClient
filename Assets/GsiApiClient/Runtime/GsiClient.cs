@@ -1,4 +1,5 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using System.Threading;
+using Cysharp.Threading.Tasks;
 using GsiApiClient.Runtime.Requests;
 
 namespace GsiApiClient.Runtime
@@ -14,6 +15,7 @@ namespace GsiApiClient.Runtime
         private readonly GeoidRequest _geoidRequest = new();
         private readonly AddressRequest _addressRequest = new();
         private readonly DistanceRequest _distanceRequest = new();
+        private readonly ElevationRequest _elevationRequest = new();
 
         /// <summary>
         /// 指定した地点の住所を取得する
@@ -45,5 +47,15 @@ namespace GsiApiClient.Runtime
         public async UniTask<(bool ok, DistanceResponse response)> RequestDistanceAsync(
             double fromLat, double fromLgt, double toLat, double toLgt, Ellipsoid ellipsoid = Ellipsoid.Grs80) =>
             await _distanceRequest.GetAsync(fromLat, fromLgt, toLat, toLgt);
+
+        /// <summary>
+        /// 指定した地点の標高を求める
+        /// </summary>
+        /// <param name="lat"></param>
+        /// <param name="lng"></param>
+        /// <param name="ct"></param>
+        /// <returns></returns>
+        public async UniTask<(bool ok, double value)> RequestElevationAsync(double lat, double lng, CancellationToken ct) =>
+            await _elevationRequest.GetAsync(lat, lng, ct);
     }
 }

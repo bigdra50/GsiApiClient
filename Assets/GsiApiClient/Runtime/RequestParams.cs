@@ -100,4 +100,29 @@ namespace GsiApiClient.Runtime
 
         public string ToQuery() => $"?lat={_latitude}&lon={_longitude}";
     }
+
+    internal readonly struct RequestElevationParams
+    {
+        private readonly double _latitude;
+        private readonly double _longitude;
+        private readonly OutputType _outputType;
+
+        public RequestElevationParams(OutputType outputType,double latitude, double longitude)
+        {
+            _outputType = outputType;
+            _latitude = latitude;
+            _longitude = longitude;
+        }
+
+        public string ToQuery()
+        {
+            var outputType = _outputType switch
+            {
+                OutputType.Json => "JSON",
+                OutputType.Xml => "XML",
+                _ => throw new ArgumentOutOfRangeException()
+            };
+            return $"?outtype={outputType}&lat={_latitude}&lon={_longitude}";
+        }
+    }
 }

@@ -45,5 +45,14 @@ namespace GsiApiClient.Tests.Editor
                 Assert.IsTrue(request.ok);
                 Debug.Log($"{request.response.azimuth1},{request.response.azimuth2}, {request.response.geoLength}");
             });
+
+        [UnityTest]
+        public IEnumerator RequestElevationTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
+            UniTask.ToCoroutine(async () =>
+            {
+                var request = await GsiClient.Instance.RequestElevationAsync(value.lat, value.lgt, default);
+                Assert.IsTrue(request.ok);
+                Debug.Log($"{value.lat},{value.lgt},{request.value}");
+            });
     }
 }
