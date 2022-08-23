@@ -43,7 +43,7 @@ namespace GsiApiClient.Runtime.Requests
                 {
                     if (e.ResponseCode == 503L)
                     {
-                        Debug.Log($"Retry Elevation Request {i + 1}");
+                        Debug.Log($"Retry Request {i + 1}");
                         await UniTask.Delay(TimeSpan.FromSeconds(retryInterval), cancellationToken: ct);
                     }
                 }
