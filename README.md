@@ -12,7 +12,5 @@
 
 ## Getting started
 
-1. `PackageManager`の`Add package from git URL`へ以下を入力する｡
-   `https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask`
-2. `PackageManager`の`Add package from git URL` へ以下を入力する｡
+ `PackageManager`の`Add package from git URL` へ以下を入力する｡
    `https://github.com/bigdra50/GsiApiClient.git?path=Assets/GsiApiClient`
