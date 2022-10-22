@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -17,12 +18,13 @@ namespace GsiApiClient.Runtime.Requests
         public async UniTask<(bool ok, DistanceResponse value)> GetAsync(
             double fromLat, double fromLgt,
             double toLat, double toLgt,
-            Ellipsoid ellipsoid = Ellipsoid.Grs80)
+            Ellipsoid ellipsoid = Ellipsoid.Grs80,
+            CancellationToken ct = default)
         {
             try
             {
                 var requestParams = new RequestDistanceParams(OutputType.Json, ellipsoid, fromLat, fromLgt, toLat, toLgt);
-                var request = await RequestGetAsync($"{BaseUrl}{requestParams.ToQuery()}");
+                var request = await RequestGetAsync($"{BaseUrl}{requestParams.ToQuery()}", ct: ct);
                 if (!request.ok) return (false, default);
                 var distance = JsonUtility.FromJson<ResponseRoot>(request.json);
                 return (true, distance.OutputData);

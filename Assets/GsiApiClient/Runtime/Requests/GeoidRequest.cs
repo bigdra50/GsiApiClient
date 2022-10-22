@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -14,12 +15,12 @@ namespace GsiApiClient.Runtime.Requests
         {
         }
 
-        internal async UniTask<(bool ok, double value)> GetAsync(double latitude, double longitude)
+        internal async UniTask<(bool ok, double value)> GetAsync(double latitude, double longitude, CancellationToken ct = default)
         {
             try
             {
                 var requestParams = new RequestGeoidParams(OutputType.Json, latitude, longitude).ToQuery();
-                var request = await RequestGetAsync($"{BaseUrl}{requestParams}");
+                var request = await RequestGetAsync($"{BaseUrl}{requestParams}", ct: ct);
                 if (!request.ok) return (false, default);
                 var response = JsonUtility.FromJson<ResponseRoot>(request.json);
                 return (true, response.OutputData.geoidHeight);
