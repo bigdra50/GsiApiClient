@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
@@ -9,35 +11,39 @@ namespace GsiApiClient.Runtime.Requests
     internal class AddressRequest : RequestBase
     {
         private const string BaseUrl = "https://mreversegeocoder.gsi.go.jp/reverse-geocoder/LonLatToAddress";
-        private const int RequestCapacity = 10;
-        private const int RequestInterval = 10;
         private string _municdJson;
         private AddressJsonData[] _municdData;
 
-        internal AddressRequest() : base(RequestCapacity, RequestInterval)
-        {
-        }
-
-        internal async UniTask<(bool ok, Address value)> GetAsync(double latitude, double longitude,CancellationToken ct = default)
+        internal async UniTask<(bool ok, Address value)> GetAsync(double latitude, double longitude, CancellationToken ct = default)
         {
             try
             {
-                var requestParams = new RequestAddressParams(latitude, longitude).ToQuery();
-                var request = await RequestGetAsync($"{BaseUrl}{requestParams}", ct: ct);
-                if (!request.ok) return (false, default);
-                var addressResults = JsonUtility.FromJson<ResponseRoot>(request.json).results;
+                using var http = new HttpClient();
+                var parameters = new Dictionary<string, string>
+                {
+                    { "lat", latitude.ToString() },
+                    { "lon", longitude.ToString() },
+                };
+                var paramAsString = await new FormUrlEncodedContent(parameters).ReadAsStringAsync();
+                var url = $"{BaseUrl}?{paramAsString}";
+                var response = await http.GetAsync(url, ct);
+                var json = await response.Content.ReadAsStringAsync();
+                var addressResults = JsonUtility.FromJson<ResponseRoot>(json).results;
+                var cityCode = addressResults.muniCd;
+                var lv01Nm = addressResults.lv01Nm;
                 if (string.IsNullOrEmpty(_municdJson))
                 {
                     _municdJson = Resources.Load<TextAsset>("municd").ToString();
                     _municdData = JsonUtility.FromJson<MunicdJson>(_municdJson).array;
                 }
 
-                var addressData = _municdData.FirstOrDefault(x => addressResults.muniCd == x.muniCd);
+                var addressData = _municdData.FirstOrDefault(x => cityCode == x.muniCd);
                 return (true, new Address
                 {
+                    CityCode = cityCode,
                     Prefecture = addressData.prefecture,
                     City = addressData.city,
-                    Lv01Nm = addressResults.lv01Nm
+                    Lv01Nm = lv01Nm
                 });
             }
             catch (Exception)

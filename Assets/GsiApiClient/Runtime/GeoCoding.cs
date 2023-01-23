@@ -26,6 +26,7 @@ namespace GsiApiClient.Runtime
     [Serializable]
     public struct Address
     {
+        public int CityCode;
         public string Prefecture;
         public string City;
         public string Lv01Nm;
