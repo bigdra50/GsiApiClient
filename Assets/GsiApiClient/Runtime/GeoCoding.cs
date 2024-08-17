@@ -2,11 +2,6 @@
 
 namespace GsiApiClient.Runtime
 {
-    public class GeoCoding
-    {
-        
-    }
-
     [Serializable]
     public struct MunicdJson
     {

@@ -1,0 +1,1439 @@
+openapi: 3.0.2
+info:
+  description: 国土地理院が提供する測量計算のためのREST API
+  title: 国土地理院測量計算API
+  version: 1.0.0
+servers:
+- url: https://vldb.gsi.go.jp/sokuchi/surveycalc
+paths:
+  /surveycalc/trans.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: cnv_type
+        required: true
+        schema:
+          description: "0 - 地心直交座標を求める, 1 - 緯度・経度・楕円体高を求める"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: altitude
+        required: false
+        schema:
+          $ref: '#/components/schemas/Altitude'
+        style: form
+      - explode: true
+        in: query
+        name: geoidHeight
+        required: false
+        schema:
+          $ref: '#/components/schemas/GeoidHeight'
+        style: form
+      - explode: true
+        in: query
+        name: geocentricX
+        required: false
+        schema:
+          $ref: '#/components/schemas/GeocentricCoordinate'
+        style: form
+      - explode: true
+        in: query
+        name: geocentricY
+        required: false
+        schema:
+          $ref: '#/components/schemas/GeocentricCoordinate'
+        style: form
+      - explode: true
+        in: query
+        name: geocentricZ
+        required: false
+        schema:
+          $ref: '#/components/schemas/GeocentricCoordinate'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_200_response'
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: 緯度・経度と地心直交座標の相互換算
+      tags:
+      - surveyCalc
+  /surveycalc/bl2st_calc.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: ellipsoid
+        required: true
+        schema:
+          enum:
+          - GRS80
+          - bessel
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: latitude1
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude1
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: latitude2
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude2
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_bl2st_calc_pl_get_200_response'
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: 距離と方位角の計算
+      tags:
+      - surveyCalc
+  /surveycalc/xy2st.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: refFrame
+        required: true
+        schema:
+          description: "1 - 日本測地系, 2 - 世界測地系"
+          enum:
+          - 1
+          - 2
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: publicX1
+        required: true
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY1
+        required: true
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicX2
+        required: true
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY2
+        required: true
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_xy2st_pl_get_200_response'
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: 距離と方向角の計算
+      tags:
+      - surveyCalc
+  /surveycalc/bl2xy.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: refFrame
+        required: true
+        schema:
+          description: "1 - 日本測地系, 2 - 世界測地系"
+          enum:
+          - 1
+          - 2
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_bl2xy_pl_get_200_response'
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: 平面直角座標への換算
+      tags:
+      - surveyCalc
+  /surveycalc/xy2bl.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: refFrame
+        required: true
+        schema:
+          description: "1 - 日本測地系, 2 - 世界測地系"
+          enum:
+          - 1
+          - 2
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: publicX
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_xy2bl_pl_get_200_response'
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: 緯度・経度への換算
+      tags:
+      - surveyCalc
+  /tky2jgd/tky2jgd.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: sokuti
+        required: true
+        schema:
+          description: "1 - 日本測地系→世界測地系, 2 - 世界測地系→日本測地系"
+          enum:
+          - 1
+          - 2
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: Place
+        required: true
+        schema:
+          description: "1 - 緯度・経度で変換する, 2 - 平面直角座標で変換する"
+          enum:
+          - 1
+          - 2
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: publicX
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                type: object
+            application/json:
+              schema:
+                type: object
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: 世界測地系座標変換（TKY2JGD）
+      tags:
+      - tky2jgd
+  /patchjgd/patchjgd.php:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: chiiki
+        required: true
+        schema:
+          description: 補正パラメータファイル名(*.par)
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: sokuchi
+        required: true
+        schema:
+          description: "0 - 順方向の補正, 1 - 逆方向の補正"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: Place
+        required: true
+        schema:
+          description: "0 - 緯度・経度で補正する, 1 - 平面直角座標で補正する"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: publicX
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                type: object
+            application/json:
+              schema:
+                type: object
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: PatchJGD
+      tags:
+      - patchjgd
+  /patchjgd_h/patchjgd.php:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: chiiki
+        required: true
+        schema:
+          description: 補正パラメータファイル名(*.par)
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: sokuchi
+        required: true
+        schema:
+          description: "0 - 順方向の補正, 1 - 逆方向の補正"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: Place
+        required: true
+        schema:
+          description: "0 - 緯度・経度で補正する, 1 - 平面直角座標で補正する"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: altitude1
+        required: false
+        schema:
+          $ref: '#/components/schemas/Altitude'
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: publicX
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: altitude2
+        required: false
+        schema:
+          $ref: '#/components/schemas/Altitude'
+        style: form
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                type: object
+            application/json:
+              schema:
+                type: object
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: PatchJGD（標高版）
+      tags:
+      - patchjgd
+  /semidyna/web/semidyna_r.php:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: chiiki
+        required: true
+        schema:
+          description: 補正パラメータファイル名(*.par)
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: sokuchi
+        required: true
+        schema:
+          description: "0 - 元期→今期, 1 - 今期→元期"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: Place
+        required: true
+        schema:
+          description: "0 - 緯度・経度, 1 - 平面直角座標系"
+          enum:
+          - 0
+          - 1
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: Hosei_J
+        required: true
+        schema:
+          description: "2 - 二次元補正, 3 - 三次元補正"
+          enum:
+          - 2
+          - 3
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: altitude1
+        required: false
+        schema:
+          $ref: '#/components/schemas/Altitude'
+        style: form
+      - explode: true
+        in: query
+        name: zone
+        required: false
+        schema:
+          $ref: '#/components/schemas/Zone'
+        style: form
+      - explode: true
+        in: query
+        name: publicX
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: publicY
+        required: false
+        schema:
+          $ref: '#/components/schemas/Coordinate'
+        style: form
+      - explode: true
+        in: query
+        name: altitude2
+        required: false
+        schema:
+          $ref: '#/components/schemas/Altitude'
+        style: form
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                type: object
+            application/json:
+              schema:
+                type: object
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: SemiDynaEXE
+      tags:
+      - semidyna
+  /geoid/calcgh/cgi/geoidcalc.pl:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: outputType
+        required: true
+        schema:
+          enum:
+          - xml
+          - json
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: latitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: longitude
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_geoid_calcgh_cgi_geoidcalc_pl_get_200_response'
+          description: 成功
+        "400":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: リクエストパラメータが不正
+        "500":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+          description: サーバー内部エラー
+      summary: ジオイド高
+      tags:
+      - geoid
+  /gsigra/calc/api/gravityCalculation:
+    get:
+      parameters:
+      - explode: true
+        in: query
+        name: unit
+        required: true
+        schema:
+          description: "DMS - 度分秒, decimal - 十進度"
+          enum:
+          - DMS
+          - decimal
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: lat
+        required: true
+        schema:
+          $ref: '#/components/schemas/Latitude'
+        style: form
+      - explode: true
+        in: query
+        name: lon
+        required: true
+        schema:
+          $ref: '#/components/schemas/Longitude'
+        style: form
+      - explode: true
+        in: query
+        name: dH
+        required: true
+        schema:
+          description: 地表からの高さ(m)
+          format: float
+          type: number
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_gsigra_calc_api_gravityCalculation_get_200_response'
+          description: 成功
+      summary: 重力値推定計算
+      tags:
+      - gravity
+components:
+  parameters:
+    outputType:
+      explode: true
+      in: query
+      name: outputType
+      required: true
+      schema:
+        enum:
+        - xml
+        - json
+        type: string
+      style: form
+    refFrame:
+      explode: true
+      in: query
+      name: refFrame
+      required: true
+      schema:
+        description: "1 - 日本測地系, 2 - 世界測地系"
+        enum:
+        - 1
+        - 2
+        type: integer
+      style: form
+    zone:
+      explode: true
+      in: query
+      name: zone
+      required: false
+      schema:
+        $ref: '#/components/schemas/Zone'
+      style: form
+    latitude:
+      explode: true
+      in: query
+      name: latitude
+      required: true
+      schema:
+        $ref: '#/components/schemas/Latitude'
+      style: form
+    longitude:
+      explode: true
+      in: query
+      name: longitude
+      required: true
+      schema:
+        $ref: '#/components/schemas/Longitude'
+      style: form
+    altitude:
+      explode: true
+      in: query
+      name: altitude
+      required: false
+      schema:
+        $ref: '#/components/schemas/Altitude'
+      style: form
+    geoidHeight:
+      explode: true
+      in: query
+      name: geoidHeight
+      required: false
+      schema:
+        $ref: '#/components/schemas/GeoidHeight'
+      style: form
+    geocentricX:
+      explode: true
+      in: query
+      name: geocentricX
+      required: false
+      schema:
+        $ref: '#/components/schemas/GeocentricCoordinate'
+      style: form
+    geocentricY:
+      explode: true
+      in: query
+      name: geocentricY
+      required: false
+      schema:
+        $ref: '#/components/schemas/GeocentricCoordinate'
+      style: form
+    geocentricZ:
+      explode: true
+      in: query
+      name: geocentricZ
+      required: false
+      schema:
+        $ref: '#/components/schemas/GeocentricCoordinate'
+      style: form
+    publicX:
+      explode: true
+      in: query
+      name: publicX
+      required: false
+      schema:
+        $ref: '#/components/schemas/Coordinate'
+      style: form
+    publicY:
+      explode: true
+      in: query
+      name: publicY
+      required: false
+      schema:
+        $ref: '#/components/schemas/Coordinate'
+      style: form
+  responses:
+    SuccessResponse:
+      content:
+        application/xml:
+          schema:
+            type: object
+        application/json:
+          schema:
+            type: object
+      description: 成功
+    BadRequestResponse:
+      content:
+        application/xml:
+          schema:
+            $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+        application/json:
+          schema:
+            $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+      description: リクエストパラメータが不正
+    InternalServerErrorResponse:
+      content:
+        application/xml:
+          schema:
+            $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+        application/json:
+          schema:
+            $ref: '#/components/schemas/_surveycalc_trans_pl_get_400_response'
+      description: サーバー内部エラー
+  schemas:
+    Latitude:
+      description: 緯度(degree)
+      format: double
+      maximum: 90
+      minimum: -90
+      type: number
+    Longitude:
+      description: 経度(degree)
+      format: double
+      maximum: 180
+      minimum: -180
+      type: number
+    Coordinate:
+      description: 平面直角座標系の座標(m)
+      format: double
+      type: number
+    Zone:
+      description: 平面直角座標系の系番号(1〜19)
+      maximum: 19
+      minimum: 1
+      type: integer
+    Altitude:
+      description: 標高(m)
+      format: float
+      type: number
+    GeoidHeight:
+      description: ジオイド高(m)
+      format: float
+      type: number
+    GeocentricCoordinate:
+      description: 地心直角座標系の座標(m)
+      format: double
+      type: number
+    Azimuth:
+      description: 方位角(degree)
+      format: float
+      maximum: 360
+      minimum: 0
+      type: number
+    GridBearing:
+      description: 方向角(degree)
+      format: float
+      maximum: 360
+      minimum: 0
+      type: number
+    GeoLength:
+      description: 測地線長(m)
+      format: double
+      minimum: 0
+      type: number
+    ScaleFactor:
+      description: 縮尺係数
+      format: float
+      type: number
+    _surveycalc_trans_pl_get_200_response_OutputData:
+      example:
+        geocentricX: geocentricX
+        geocentricY: geocentricY
+        geocentricZ: geocentricZ
+      properties:
+        geocentricX:
+          format: double
+          type: string
+        geocentricY:
+          format: double
+          type: string
+        geocentricZ:
+          format: double
+          type: string
+      type: object
+    _surveycalc_trans_pl_get_200_response:
+      example:
+        OutputData:
+          geocentricX: geocentricX
+          geocentricY: geocentricY
+          geocentricZ: geocentricZ
+      properties:
+        OutputData:
+          $ref: '#/components/schemas/_surveycalc_trans_pl_get_200_response_OutputData'
+      type: object
+    _surveycalc_trans_pl_get_400_response:
+      example:
+        error: error
+      properties:
+        error:
+          type: string
+      type: object
+    _surveycalc_bl2st_calc_pl_get_200_response_OutputData:
+      example:
+        geoLength: 0.8008281904610115
+        azimuth2: 1.4658129805029452
+        azimuth1: 6.027456183070403
+      properties:
+        geoLength:
+          format: double
+          type: number
+        azimuth1:
+          format: double
+          type: number
+        azimuth2:
+          format: double
+          type: number
+      type: object
+    _surveycalc_bl2st_calc_pl_get_200_response:
+      example:
+        OutputData:
+          geoLength: 0.8008281904610115
+          azimuth2: 1.4658129805029452
+          azimuth1: 6.027456183070403
+      properties:
+        OutputData:
+          $ref: '#/components/schemas/_surveycalc_bl2st_calc_pl_get_200_response_OutputData'
+      type: object
+    _surveycalc_xy2st_pl_get_200_response_OutputData:
+      example:
+        geoLength: geoLength
+        gridBearing1: gridBearing1
+        gridBearing2: gridBearing2
+      properties:
+        geoLength:
+          format: double
+          type: string
+        gridBearing1:
+          format: double
+          type: string
+        gridBearing2:
+          format: double
+          type: string
+      type: object
+    _surveycalc_xy2st_pl_get_200_response:
+      example:
+        OutputData:
+          geoLength: geoLength
+          gridBearing1: gridBearing1
+          gridBearing2: gridBearing2
+      properties:
+        OutputData:
+          $ref: '#/components/schemas/_surveycalc_xy2st_pl_get_200_response_OutputData'
+      type: object
+    _surveycalc_bl2xy_pl_get_200_response_OutputData:
+      example:
+        publicX: publicX
+        gridConv: gridConv
+        scaleFactor: scaleFactor
+        publicY: publicY
+      properties:
+        publicX:
+          format: double
+          type: string
+        publicY:
+          format: double
+          type: string
+        gridConv:
+          format: decimal
+          type: string
+        scaleFactor:
+          format: decimal
+          type: string
+      type: object
+    _surveycalc_bl2xy_pl_get_200_response:
+      example:
+        OutputData:
+          publicX: publicX
+          gridConv: gridConv
+          scaleFactor: scaleFactor
+          publicY: publicY
+      properties:
+        OutputData:
+          $ref: '#/components/schemas/_surveycalc_bl2xy_pl_get_200_response_OutputData'
+      type: object
+    _surveycalc_xy2bl_pl_get_200_response_OutputData:
+      example:
+        latitude: latitude
+        gridConv: gridConv
+        scaleFactor: scaleFactor
+        longitude: longitude
+      properties:
+        latitude:
+          format: double
+          type: string
+        longitude:
+          format: double
+          type: string
+        gridConv:
+          format: decimal
+          type: string
+        scaleFactor:
+          format: decimal
+          type: string
+      type: object
+    _surveycalc_xy2bl_pl_get_200_response:
+      example:
+        OutputData:
+          latitude: latitude
+          gridConv: gridConv
+          scaleFactor: scaleFactor
+          longitude: longitude
+      properties:
+        OutputData:
+          $ref: '#/components/schemas/_surveycalc_xy2bl_pl_get_200_response_OutputData'
+      type: object
+    _geoid_calcgh_cgi_geoidcalc_pl_get_200_response_OutputData:
+      example:
+        geoidHeight: 1.4658129
+        latitude: 0.8008281904610115
+        longitude: 6.027456183070403
+      properties:
+        latitude:
+          format: double
+          type: number
+        longitude:
+          format: double
+          type: number
+        geoidHeight:
+          format: float
+          type: number
+      type: object
+    _geoid_calcgh_cgi_geoidcalc_pl_get_200_response:
+      example:
+        OutputData:
+          geoidHeight: 1.4658129
+          latitude: 0.8008281904610115
+          longitude: 6.027456183070403
+      properties:
+        OutputData:
+          $ref: '#/components/schemas/_geoid_calcgh_cgi_geoidcalc_pl_get_200_response_OutputData'
+      type: object
+    _gsigra_calc_api_gravityCalculation_get_200_response_CalcResult_Lat_dms:
+      example:
+        Sec: 2.302136
+        Min: 5
+        Deg: 5
+      properties:
+        Deg:
+          type: integer
+        Min:
+          type: integer
+        Sec:
+          format: float
+          type: number
+      type: object
+    _gsigra_calc_api_gravityCalculation_get_200_response_CalcResult:
+      example:
+        Program: Program
+        DataVer: DataVer
+        dH: 9.301444
+        Lat_dms:
+          Sec: 2.302136
+          Min: 5
+          Deg: 5
+        H: 6.0274563
+        Lon_dms:
+          Sec: 2.302136
+          Min: 5
+          Deg: 5
+        Lat_deg: 1.4658129
+        GravityData: GravityData
+        Lon_deg: 7.0614014
+        Gravity: 0.8008282
+      properties:
+        DataVer:
+          type: string
+        Gravity:
+          format: float
+          type: number
+        GravityData:
+          type: string
+        H:
+          format: float
+          type: number
+        Lat_deg:
+          format: float
+          type: number
+        Lat_dms:
+          $ref: '#/components/schemas/_gsigra_calc_api_gravityCalculation_get_200_response_CalcResult_Lat_dms'
+        Lon_deg:
+          format: float
+          type: number
+        Lon_dms:
+          $ref: '#/components/schemas/_gsigra_calc_api_gravityCalculation_get_200_response_CalcResult_Lat_dms'
+        Program:
+          type: string
+        dH:
+          format: float
+          type: number
+      type: object
+    _gsigra_calc_api_gravityCalculation_get_200_response:
+      example:
+        CalcResult:
+          Program: Program
+          DataVer: DataVer
+          dH: 9.301444
+          Lat_dms:
+            Sec: 2.302136
+            Min: 5
+            Deg: 5
+          H: 6.0274563
+          Lon_dms:
+            Sec: 2.302136
+            Min: 5
+            Deg: 5
+          Lat_deg: 1.4658129
+          GravityData: GravityData
+          Lon_deg: 7.0614014
+          Gravity: 0.8008282
+        Result: Success
+      properties:
+        CalcResult:
+          $ref: '#/components/schemas/_gsigra_calc_api_gravityCalculation_get_200_response_CalcResult'
+        Result:
+          enum:
+          - Success
+          type: string
+      type: object
+

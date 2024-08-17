@@ -1,0 +1,88 @@
+openapi: 3.0.0
+info:
+  contact:
+    name: 国土地理院
+    url: https://www.gsi.go.jp/
+  description: |
+    指定した緯度経度の位置の標高値を取得するAPIです。
+    2013年3月14日より試験公開されています。
+
+    ## リクエストレート制限
+    サーバに過度の負担を与えないでください。過度の負担を与えると判断したアクセスについて、
+    国土地理院は予告なく遮断を行う場合があります。具体的な制限値は公開されていませんが、
+    アプリケーションの設計時には適切なレート制限を実装することを強く推奨します。
+  title: 国土地理院標高API
+  version: 1.0.0
+servers:
+- url: https://cyberjapandata2.gsi.go.jp/general/dem/scripts
+paths:
+  /getelevation.php:
+    get:
+      description: 指定した緯度経度の位置の標高値を取得します。
+      parameters:
+      - description: 経度（度の10進法）
+        explode: true
+        in: query
+        name: lon
+        required: true
+        schema:
+          format: double
+          type: number
+        style: form
+      - description: 緯度（度の10進法）
+        explode: true
+        in: query
+        name: lat
+        required: true
+        schema:
+          format: double
+          type: number
+        style: form
+      - description: アウトプットの形式
+        explode: true
+        in: query
+        name: outtype
+        required: false
+        schema:
+          enum:
+          - JSON
+          type: string
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_getelevation_php_get_200_response'
+            application/javascript:
+              schema:
+                description: JSONPレスポンス
+                type: string
+          description: 正常なレスポンス
+        "400":
+          description: 不正なリクエスト
+        "429":
+          description: リクエスト数が多すぎます。しばらく時間をおいてから再試行してください。
+        "500":
+          description: サーバーエラー
+      summary: 標高値を取得
+      tags:
+      - elevation
+      x-rate-limit:
+        description: 具体的な制限値は公開されていませんが、過度の負荷とみなされた場合はアクセスが遮断される可能性があります。
+components:
+  schemas:
+    _getelevation_php_get_200_response:
+      example:
+        elevation: 0.8008282
+        hsrc: hsrc
+      properties:
+        elevation:
+          description: 標高値（メートル）
+          format: float
+          type: number
+        hsrc:
+          description: 標高データのデータソース
+          type: string
+      type: object
+

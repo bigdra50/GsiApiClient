@@ -1,0 +1,698 @@
+openapi: 3.0.2
+info:
+  title: 国土地理院測量計算API
+  version: 1.0.0
+  description: 国土地理院が提供する測量計算のためのREST API
+servers:
+  - url: https://vldb.gsi.go.jp/sokuchi/surveycalc
+paths:
+  /surveycalc/trans.pl:
+    get:
+      tags:
+        - "surveyCalc"
+      summary: 緯度・経度と地心直交座標の相互換算
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - name: cnv_type
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 地心直交座標を求める, 1 - 緯度・経度・楕円体高を求める
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+        - $ref: "#/components/parameters/altitude"
+        - $ref: "#/components/parameters/geoidHeight"
+        - $ref: "#/components/parameters/geocentricX"
+        - $ref: "#/components/parameters/geocentricY"
+        - $ref: "#/components/parameters/geocentricZ"
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  OutputData:
+                    type: object
+                    properties:
+                      geocentricX:
+                        type: string
+                        format: double
+                      geocentricY:
+                        type: string
+                        format: double
+                      geocentricZ:
+                        type: string
+                        format: double
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /surveycalc/bl2st_calc.pl:
+    get:
+      tags:
+        - "surveyCalc"
+      summary: 距離と方位角の計算
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - name: ellipsoid
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: 
+              - 'GRS80'
+              - bessel
+        - name: latitude1
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Latitude"
+        - name: longitude1
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Longitude"
+        - name: latitude2
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Latitude"
+        - name: longitude2
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Longitude"
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  OutputData:
+                    type: object
+                    properties:
+                      geoLength:
+                        type: number
+                        format: double
+                      azimuth1:
+                        type: number
+                        format: double
+                      azimuth2:
+                        type: number
+                        format: double
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /surveycalc/xy2st.pl:
+    get:
+      tags:
+        - "surveyCalc"
+      summary: 距離と方向角の計算
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - $ref: "#/components/parameters/refFrame"
+        - $ref: "#/components/parameters/zone"
+        - name: publicX1
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Coordinate"
+        - name: publicY1
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Coordinate"
+        - name: publicX2
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Coordinate"
+        - name: publicY2
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Coordinate"
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  OutputData:
+                    type: object
+                    properties:
+                      geoLength:
+                        type: string
+                        format: double
+                      gridBearing1:
+                        type: string
+                        format: double
+                      gridBearing2:
+                        type: string
+                        format: double
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /surveycalc/bl2xy.pl:
+    get:
+      tags:
+        - "surveyCalc"
+      summary: 平面直角座標への換算
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - $ref: "#/components/parameters/refFrame"
+        - $ref: "#/components/parameters/zone"
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  OutputData:
+                    type: object
+                    properties:
+                      publicX:
+                        type: string
+                        format: double
+                      publicY:
+                        type: string
+                        format: double
+                      gridConv:
+                        type: string
+                        format: decimal
+                      scaleFactor:
+                        type: string
+                        format: decimal
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /surveycalc/xy2bl.pl:
+    get:
+      tags:
+        - "surveyCalc"
+      summary: 緯度・経度への換算
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - $ref: "#/components/parameters/refFrame"
+        - $ref: "#/components/parameters/zone"
+        - $ref: "#/components/parameters/publicX"
+        - $ref: "#/components/parameters/publicY"
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  OutputData:
+                    type: object
+                    properties:
+                      latitude:
+                        type: string
+                        format: double
+                      longitude:
+                        type: string
+                        format: double
+                      gridConv:
+                        type: string
+                        format: decimal
+                      scaleFactor:
+                        type: string
+                        format: decimal
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /tky2jgd/tky2jgd.pl:
+    get:
+      tags:
+        - "tky2jgd"
+      summary: 世界測地系座標変換（TKY2JGD）
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - name: sokuti
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [1, 2]
+            description: 1 - 日本測地系→世界測地系, 2 - 世界測地系→日本測地系
+        - name: Place
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [1, 2]
+            description: 1 - 緯度・経度で変換する, 2 - 平面直角座標で変換する
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+        - $ref: "#/components/parameters/zone"
+        - $ref: "#/components/parameters/publicX"
+        - $ref: "#/components/parameters/publicY"
+      responses:
+        "200":
+          $ref: "#/components/responses/SuccessResponse"
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /patchjgd/patchjgd.php:
+    get:
+      tags:
+        - "patchjgd"
+      summary: PatchJGD
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - name: chiiki
+          in: query
+          required: true
+          schema:
+            type: string
+            description: 補正パラメータファイル名(*.par)
+        - name: sokuchi
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 順方向の補正, 1 - 逆方向の補正
+        - name: Place
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 緯度・経度で補正する, 1 - 平面直角座標で補正する
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+        - $ref: "#/components/parameters/zone"
+        - $ref: "#/components/parameters/publicX"
+        - $ref: "#/components/parameters/publicY"
+      responses:
+        "200":
+          $ref: "#/components/responses/SuccessResponse"
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /patchjgd_h/patchjgd.php:
+    get:
+      tags:
+        - "patchjgd"
+      summary: PatchJGD（標高版）
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - name: chiiki
+          in: query
+          required: true
+          schema:
+            type: string
+            description: 補正パラメータファイル名(*.par)
+        - name: sokuchi
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 順方向の補正, 1 - 逆方向の補正
+        - name: Place
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 緯度・経度で補正する, 1 - 平面直角座標で補正する
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+        - name: altitude1
+          in: query
+          schema:
+            $ref: "#/components/schemas/Altitude"
+        - $ref: "#/components/parameters/zone"
+        - $ref: "#/components/parameters/publicX"
+        - $ref: "#/components/parameters/publicY"
+        - name: altitude2
+          in: query
+          schema:
+            $ref: "#/components/schemas/Altitude"
+      responses:
+        "200":
+          $ref: "#/components/responses/SuccessResponse"
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /semidyna/web/semidyna_r.php:
+    get:
+      tags:
+        - "semidyna"
+      summary: SemiDynaEXE
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - name: chiiki
+          in: query
+          required: true
+          schema:
+            type: string
+            description: 補正パラメータファイル名(*.par)
+        - name: sokuchi
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 元期→今期, 1 - 今期→元期
+        - name: Place
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [0, 1]
+            description: 0 - 緯度・経度, 1 - 平面直角座標系
+        - name: Hosei_J
+          in: query
+          required: true
+          schema:
+            type: integer
+            enum: [2, 3]
+            description: 2 - 二次元補正, 3 - 三次元補正
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+        - name: altitude1
+          in: query
+          schema:
+            $ref: "#/components/schemas/Altitude"
+        - $ref: "#/components/parameters/zone"
+        - $ref: "#/components/parameters/publicX"
+        - $ref: "#/components/parameters/publicY"
+        - name: altitude2
+          in: query
+          schema:
+            $ref: "#/components/schemas/Altitude"
+      responses:
+        "200":
+          $ref: "#/components/responses/SuccessResponse"
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /geoid/calcgh/cgi/geoidcalc.pl:
+    get:
+      tags:
+        - "geoid"
+      summary: ジオイド高
+      parameters:
+        - $ref: "#/components/parameters/outputType"
+        - $ref: "#/components/parameters/latitude"
+        - $ref: "#/components/parameters/longitude"
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  OutputData:
+                    type: object
+                    properties:
+                      latitude:
+                        type: number
+                        format: double
+                      longitude:
+                        type: number
+                        format: double
+                      geoidHeight:
+                        type: number
+                        format: float
+        "400":
+          $ref: "#/components/responses/BadRequestResponse"
+        "500":
+          $ref: "#/components/responses/InternalServerErrorResponse"
+  /gsigra/calc/api/gravityCalculation:
+    get:
+      tags:
+        - "gravity"
+      summary: 重力値推定計算
+      parameters:
+        - name: unit
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [DMS, decimal]
+            description: DMS - 度分秒, decimal - 十進度
+        - name: lat
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Latitude"
+        - name: lon
+          in: query
+          required: true
+          schema:
+            $ref: "#/components/schemas/Longitude"
+        - name: dH
+          in: query
+          required: true
+          schema:
+            type: number
+            format: float
+            description: 地表からの高さ(m)
+      responses:
+        "200":
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  CalcResult:
+                    type: object
+                    properties:
+                      DataVer:
+                        type: string
+                      Gravity:
+                        type: number
+                        format: float
+                      GravityData:
+                        type: string
+                      H:
+                        type: number
+                        format: float
+                      Lat_deg:
+                        type: number
+                        format: float
+                      Lat_dms:
+                        type: object
+                        properties:
+                          Deg:
+                            type: integer
+                          Min:
+                            type: integer
+                          Sec:
+                            type: number
+                            format: float
+                      Lon_deg:
+                        type: number
+                        format: float
+                      Lon_dms:
+                        type: object
+                        properties:
+                          Deg:
+                            type: integer
+                          Min:
+                            type: integer
+                          Sec:
+                            type: number
+                            format: float
+                      Program:
+                        type: string
+                      dH:
+                        type: number
+                        format: float
+                  Result:
+                    type: string
+                    enum: [Success]
+components:
+  parameters:
+    outputType:
+      name: outputType
+      in: query
+      required: true
+      schema:
+        type: string
+        enum:
+          - 'xml'
+          - json
+    refFrame:
+      name: refFrame
+      in: query
+      required: true
+      schema:
+        type: integer
+        enum: [1, 2]
+        description: 1 - 日本測地系, 2 - 世界測地系
+    zone:
+      name: zone
+      in: query
+      schema:
+        $ref: "#/components/schemas/Zone"
+    latitude:
+      name: latitude
+      in: query
+      required: true
+      schema:
+        $ref: "#/components/schemas/Latitude"
+    longitude:
+      name: longitude
+      in: query
+      required: true
+      schema:
+        $ref: "#/components/schemas/Longitude"
+    altitude:
+      name: altitude
+      in: query
+      schema:
+        $ref: "#/components/schemas/Altitude"
+    geoidHeight:
+      name: geoidHeight
+      in: query
+      schema:
+        $ref: "#/components/schemas/GeoidHeight"
+    geocentricX:
+      name: geocentricX
+      in: query
+      schema:
+        $ref: "#/components/schemas/GeocentricCoordinate"
+    geocentricY:
+      name: geocentricY
+      in: query
+      schema:
+        $ref: "#/components/schemas/GeocentricCoordinate"
+    geocentricZ:
+      name: geocentricZ
+      in: query
+      schema:
+        $ref: "#/components/schemas/GeocentricCoordinate"
+    publicX:
+      name: publicX
+      in: query
+      schema:
+        $ref: "#/components/schemas/Coordinate"
+    publicY:
+      name: publicY
+      in: query
+      schema:
+        $ref: "#/components/schemas/Coordinate"
+  schemas:
+    Latitude:
+      type: number
+      format: double
+      minimum: -90
+      maximum: 90
+      description: 緯度(degree)
+    Longitude:
+      type: number
+      format: double
+      minimum: -180
+      maximum: 180
+      description: 経度(degree)
+    Coordinate:
+      type: number
+      format: double
+      description: 平面直角座標系の座標(m)
+    Zone:
+      type: integer
+      minimum: 1
+      maximum: 19
+      description: 平面直角座標系の系番号(1〜19)
+    Altitude:
+      type: number
+      format: float
+      description: 標高(m)
+    GeoidHeight:
+      type: number
+      format: float
+      description: ジオイド高(m)
+    GeocentricCoordinate:
+      type: number
+      format: double
+      description: 地心直角座標系の座標(m)
+    Azimuth:
+      type: number
+      format: float
+      minimum: 0
+      maximum: 360
+      description: 方位角(degree)
+    GridBearing:
+      type: number
+      format: float
+      minimum: 0
+      maximum: 360
+      description: 方向角(degree)
+    GeoLength:
+      type: number
+      format: double
+      minimum: 0
+      description: 測地線長(m)
+    ScaleFactor:
+      type: number
+      format: float
+      description: 縮尺係数
+  responses:
+    SuccessResponse:
+      description: 成功
+      content:
+        application/xml:
+          schema:
+            type: object
+        application/json:
+          schema:
+            type: object
+    BadRequestResponse:
+      description: リクエストパラメータが不正
+      content:
+        application/xml:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+    InternalServerErrorResponse:
+      description: サーバー内部エラー
+      content:
+        application/xml:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string

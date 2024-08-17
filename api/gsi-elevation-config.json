@@ -1,0 +1,8 @@
+{
+  "packageName": "GsiElevationApi",
+  "optionalAssemblyInfo": false,
+  "optionalProjectFile": false,
+  "targetFramework": "netstandard2.1",
+  "library": "restsharp",
+  "validatable": false
+}

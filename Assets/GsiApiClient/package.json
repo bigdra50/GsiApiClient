@@ -1,8 +1,8 @@
 {
   "name": "dev.bigdra.gsi-api-client",
   "displayName": "GSI API Client",
-  "version": "0.2.1",
-  "unity": "2021.3",
+  "version": "0.3.0",
+  "unity": "2022.3",
   "description": "API Client for Geospatial Information Authority",
   "author": {
     "name": "bigdra",
@@ -10,6 +10,5 @@
   },
   "keywords": [],
   "dependencies": {
-
   }
 }

@@ -1,6 +1,9 @@
 using System.Collections;
+using System.Net;
 using Cysharp.Threading.Tasks;
+using GsiApi.Api;
 using GsiApiClient.Runtime;
+using GsiElevationApi.Api;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -9,7 +12,11 @@ namespace GsiApiClient.Tests.Editor
 {
     public class ApiTest
     {
-        private static (double lat, double lgt, double geoid)[] _values =
+        private IElevationApi _elevationApi = new ElevationApi();
+        private ISurveyCalcApiAsync _surveyCalcApi = new SurveyCalcApi();
+
+
+        internal static (double lat, double lgt, double geoid)[] Values =
         {
             (43.06417, 141.34694, 31.9865), // 北海道札幌市
             (35.68944, 139.69167, 37.0044), // 東京都新宿区
@@ -19,17 +26,22 @@ namespace GsiApiClient.Tests.Editor
         };
 
         [UnityTest]
-        public IEnumerator RequestGeoidTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
+        public IEnumerator
+            RequestGeoidTest(
+                [ValueSource(nameof(Values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
-                var actualGeoid = await GsiClient.Instance.RequestGeoidHeight(value.lat, value.lgt);
-                Assert.IsTrue(actualGeoid.ok);
+                var geoidApi = new GeoidApi();
+                var actualGeoid =
+                    await geoidApi.GeoidCalcghCgiGeoidcalcPlGetWithHttpInfoAsync("json", value.lat, value.lgt);
+                Assert.IsTrue(actualGeoid.StatusCode == HttpStatusCode.OK, $"{actualGeoid.StatusCode}");
                 var delta = .00001d;
-                Assert.AreEqual(value.geoid, actualGeoid.value, delta);
+                Assert.AreEqual(value.geoid, actualGeoid.Data.OutputData.GeoidHeight, delta);
             });
 
         [UnityTest]
-        public IEnumerator RequestAddressTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
+        public IEnumerator RequestAddressTest(
+            [ValueSource(nameof(Values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
                 var result = await GsiClient.Instance.RequestLonLat2AddressAsync(value.lat, value.lgt);
@@ -38,21 +50,28 @@ namespace GsiApiClient.Tests.Editor
             });
 
         [UnityTest]
-        public IEnumerator RequestDistanceTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
+        public IEnumerator RequestDistanceTest(
+            [ValueSource(nameof(Values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
-                var request = await GsiClient.Instance.RequestDistanceAsync(value.lat, value.lgt, 35.658584, 139.7454316);
-                Assert.IsTrue(request.ok);
-                Debug.Log($"{request.response.azimuth1},{request.response.azimuth2}, {request.response.geoLength}");
+                var request = await _surveyCalcApi.SurveycalcBl2stCalcPlGetWithHttpInfoAsync("json", "GRS80", value.lat,
+                    value.lgt, 35.658584,
+                    139.7454316);
+                Assert.IsTrue(request.StatusCode == HttpStatusCode.OK, $"{request.StatusCode}");
+                var response = request.Data;
+                Debug.Log(
+                    $"{response.OutputData.Azimuth1},{response.OutputData.Azimuth2}, {response.OutputData.GeoLength}");
             });
 
         [UnityTest]
-        public IEnumerator RequestElevationTest([ValueSource(nameof(_values))] (double lat, double lgt, double geoid) value) =>
+        public IEnumerator RequestElevationTest(
+            [ValueSource(nameof(Values))] (double lat, double lgt, double geoid) value) =>
             UniTask.ToCoroutine(async () =>
             {
-                var request = await GsiClient.Instance.RequestElevationAsync(value.lat, value.lgt, default);
-                Assert.IsTrue(request.ok);
-                Debug.Log($"{value.lat},{value.lgt},{request.value}");
+                var request = await _elevationApi.GetelevationPhpGetWithHttpInfoAsync(value.lgt, value.lat);
+                Assert.IsTrue(request.StatusCode == HttpStatusCode.OK, $"{request.StatusCode}");
+                Assert.NotNull(request.Data, "request.Data != null");
+                Debug.Log($"{value.lat},{value.lgt},{request.Data?.Elevation}");
             });
     }
 }

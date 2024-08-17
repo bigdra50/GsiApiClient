@@ -1,0 +1,79 @@
+openapi: 3.0.2
+info:
+  title: 国土地理院標高API
+  description: |
+    指定した緯度経度の位置の標高値を取得するAPIです。
+    2013年3月14日より試験公開されています。
+
+    ## リクエストレート制限
+    サーバに過度の負担を与えないでください。過度の負担を与えると判断したアクセスについて、
+    国土地理院は予告なく遮断を行う場合があります。具体的な制限値は公開されていませんが、
+    アプリケーションの設計時には適切なレート制限を実装することを強く推奨します。
+  version: 1.0.0
+  contact:
+    name: 国土地理院
+    url: https://www.gsi.go.jp/
+
+servers:
+  - url: https://cyberjapandata2.gsi.go.jp/general/dem/scripts
+
+paths:
+  /getelevation.php:
+    get:
+      tags:
+        - elevation
+      summary: 標高値を取得
+      description: 指定した緯度経度の位置の標高値を取得します。
+      parameters:
+        - name: lat
+          in: query
+          required: true
+          description: 緯度（度の10進法）
+          schema:
+            type: number
+            format: double
+        - name: lon
+          in: query
+          required: true
+          description: 経度（度の10進法）
+          schema:
+            type: number
+            format: double
+        - name: outtype
+          in: query
+          required: false
+          description: アウトプットの形式
+          schema:
+            type: string
+            enum: 
+              - 'JSON'
+      responses:
+        "200":
+          description: 正常なレスポンス
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  elevation:
+                    type: number
+                    format: float
+                    description: 標高値（メートル）
+                  hsrc:
+                    type: string
+                    description: 標高データのデータソース
+            application/javascript:
+              schema:
+                type: string
+                description: JSONPレスポンス
+        "400":
+          description: 不正なリクエスト
+        "429":
+          description: リクエスト数が多すぎます。しばらく時間をおいてから再試行してください。
+        "500":
+          description: サーバーエラー
+      x-rate-limit:
+        description: 具体的な制限値は公開されていませんが、過度の負荷とみなされた場合はアクセスが遮断される可能性があります。
+
+components:
+  schemas: {}

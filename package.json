@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "openupm-cli": "^1.15.4"
+    "@openapitools/openapi-generator-cli": "^2.13.4",
+    "@redocly/cli": "^1.19.0",
+    "openupm-cli": "^1.15.4",
+    "redoc-cli": "^0.13.21"
   }
 }

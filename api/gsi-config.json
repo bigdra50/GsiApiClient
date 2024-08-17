@@ -1,0 +1,10 @@
+{
+  "packageName": "GsiApi",
+  "optionalAssemblyInfo": false,
+  "optionalProjectFile": false,
+  "targetFramework": "net8.0",
+  "library": "restsharp",
+  "validatable": false,
+  "nullableReferenceTypes": true,
+  "useNullableReferenceTypes": true
+}
